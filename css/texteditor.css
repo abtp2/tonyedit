@@ -1,0 +1,15 @@
+@import url("icon.css");
+
+:root{
+--wtext: #f8fffe;
+--wbg: #dbdcde;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+user-select: none;
+}
+img{
+pointer-events: none;
+}
