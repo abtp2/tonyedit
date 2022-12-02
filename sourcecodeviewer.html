@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="css/sourcecodeviewer.css">
+				<title>TonyEdit</title>
+</head>
+<body>
+
+<!-- first section -->
+<section id="first">
+ <img src="img/sourcecodeviewerbg.png">
+ <h1>Get source code</h1>
+</section>				
+ <p id="para">Type in a url and tap on the 'GO' button to get the source code used for a website. Once completed, you can view it right away or save it as a new project.</p>
+ 
+<!-- input -->
+<form>
+<div id="input">
+<p>URL :</p>
+<input type="url" placeholder="https://" id="code-input" required>
+<input type="submit" value="GO">
+</div>
+</form>
+
+
+
+
+
+<!-- result div -->
+<div id="result-div">
+  <div id="result-nav">
+  <i class="rc-icon" id="close-result">close</i>
+  <div>
+  <p>Page Source</p>
+  <p id="result-link">https://tonyedit.netlify.app</p>
+  </div>
+  <i class="rc-icon" id="copy">content_copy</i>
+  </div>		
+    
+  <textarea id="result-code" readonly></textarea>		
+</div>
+
+
+<script src="js/sourcecodeviewer.js"></script>			
+</body>
+</html>
