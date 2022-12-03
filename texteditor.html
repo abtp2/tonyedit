@@ -9,6 +9,82 @@
 </head>
 <body>
 
-				
+<!-- navbar -->
+<div id="nav">
+<i id="nav_home_icon" class="rc-icon" onclick="window.location='index.html'">home</i>		
+
+<div id="nav_files">
+	 <div id="nav_html" class="nav_bars">
+	 <img src="img/htmlicon.jpg">
+	 <p>index.html</p>
+	 <i class="rc-icon">close</i>
+	 </div>
+	 
+	 <div id="nav_css" class="nav_bars">
+	 <img src="img/cssicon.jpg">
+	 <p>style.css</p>
+	 <i class="rc-icon">close</i>
+	 </div>
+	 
+	 <div id="nav_js" class="nav_bars">
+	 <img src="img/jsicon.jpg">
+	 <p>script.js</p>
+	 <i class="rc-icon">close</i>
+	 </div>
+</div>	
+</div>
+
+
+
+
+
+<!-- first section -->
+<div id="first">
+ <i class="rc-icon" onclick="window.location='index.html'">arrow_back</i>
+ <p>/tonyedit/emulated/0/text</p>	
+ <i class="rc-icon main_icons">search</i>
+ <i class="rc-icon main_icons" id="savecode">save</i>
+ <i class="rc-icon main_icons" id="runcode">play_arrow</i>
+ <i class="rc-icon main_icons">more_horiz</i>
+</div>
+
+
+
+
+<!-- divs -->
+<div id="html_code" class="textarea"></div>
+<div id="css_code" class="textarea"></div>
+<div id="js_code" class="textarea"></div>
+
+
+
+
+
+
+
+
+<!-- code run div -->
+<div id="result-div">
+  <div id="result-nav">
+  <i class="rc-icon" id="close-result">arrow_back</i>
+  <div>
+  <p>Page title</p>
+  <p id="result-link">/tonyedit/emulated/0/text</p>
+  </div>
+  <i class="rc-icon" id="copy">computer</i>
+  </div>		
+    
+  <iframe id="result-code"></iframe>		
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ace.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ext-language_tools.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/theme-chrome.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/mode-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/worker-javascript.min.js"></script>
+<script src="js/texteditor.js"></script>
 </body>
 </html>
