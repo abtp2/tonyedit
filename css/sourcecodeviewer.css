@@ -91,6 +91,7 @@ outline: none;
 background: transparent;
 margin: 0 0 0 auto;
 font-size: 15px;
+font-weight: 700;
 }
 #input p{
 font-size: 15px;
@@ -140,6 +141,11 @@ font-weight: 401;
 }
 #result-nav div p:nth-of-type(2){
 font-size: 13.5px;
+}
+#result-link{
+text-overflow: ellipsis; 
+overflow: hidden;
+width: 250px;
 }
 #result-code{
 width: 100%;
