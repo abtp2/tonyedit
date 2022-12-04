@@ -2,7 +2,7 @@ window.onload = function(){
 var x = localStorage.getItem("html_code_inner");	
 var y = localStorage.getItem("css_code_inner");	
 var z = localStorage.getItem("js_code_inner");	
-
+document.getElementById("helper_toggle").click();
 
 if(x !== null && y !== null && z !== null){
 acehtml.setValue(x ,1);	
@@ -162,3 +162,117 @@ localStorage.setItem("html_code_inner", html_div_one);
 localStorage.setItem("css_code_inner", css_div); 
 localStorage.setItem("js_code_inner", js_div); 
 }
+
+
+
+
+
+
+
+
+
+/* helper div */
+document.getElementById("helper_toggle").onclick = function(){
+var x = document.getElementById("main_helper");
+if(x.style.marginLeft =="120%"){
+x.style.marginLeft ="0"	;
+document.getElementById("helper_toggle_i").innerHTML ="chevron_right";				
+}
+else{
+x.style.marginLeft ="120%"	;
+document.getElementById("helper_toggle_i").innerHTML ="chevron_left";
+}
+}
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementById('helper');
+if(!x.contains(e.target)){
+document.getElementById("main_helper").style.marginLeft ="120%";	
+document.getElementById("helper_toggle_i").innerHTML ="chevron_left";
+}
+});		
+/* helper div */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all the main functions started 😁😁*/
+var main_func = acehtml;
+var html_main_func = document.getElementById("html_code");
+var css_main_func = document.getElementById("css_code");
+var js_main_func = document.getElementById("js_code");
+
+function mainfunc(){
+if(html_main_func.style.display =="block"){
+main_func = acehtml;	
+}
+if(css_main_func.style.display =="block"){
+main_func = acecss;	
+}
+if(js_main_func.style.display =="block"){
+main_func = acejs;	
+}
+}
+
+
+
+
+
+
+/* for undo and redo */
+document.getElementById("undo_edit").onclick = function(){
+mainfunc();
+main_func.undo();
+}
+document.getElementById("redo_edit").onclick = function(){
+mainfunc();
+main_func.redo();
+}
+/* undo redo ended */
+
+
+
+
+
+/* for search and replace */
+document.getElementById("replacer_close").onclick = function(){
+document.getElementById("replacer").style.display ="none";				
+}
+document.getElementById("replacecode").onclick = function(){
+document.getElementById("replacer").style.display ="flex";				
+}
+
