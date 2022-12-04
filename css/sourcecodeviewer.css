@@ -35,6 +35,13 @@ height: 180px;
 display: flex; 
 flex-direction: column;
 }
+#first i{
+position: absolute;
+font-size: 23px;
+left: 15px;
+top: 14px;
+color: var(--wtext);
+}
 #first img{
 width: 320px;
 margin: -4rem auto 0 auto;
