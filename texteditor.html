@@ -42,7 +42,7 @@
 <div id="first">
  <i class="rc-icon" onclick="window.location='index.html'">arrow_back</i>
  <p>/tonyedit/emulated/0/text</p>	
- <i class="rc-icon main_icons">search</i>
+ <i class="rc-icon main_icons" id="replacecode">search</i>
  <i class="rc-icon main_icons" id="savecode">save</i>
  <i class="rc-icon main_icons" id="runcode">play_arrow</i>
  <i class="rc-icon main_icons">more_horiz</i>
@@ -76,6 +76,57 @@
     
   <iframe id="result-code"></iframe>		
 </div>
+
+
+
+
+
+<!-- helper div -->
+<div id="helper">
+ <div id="main_helper">
+   	 <div>
+   	 	<img src="img/color_picker.jpg">
+   	 	<p>Picker</p>
+   	 </div>		
+   	 	<div>
+   	 	<i class="rc-icon" id="undo_edit">undo</i>
+   	 	<p>Undo</p>
+   	 </div> 
+   	 <div>
+   	 	<i class="rc-icon" id="redo_edit">redo</i>
+   	 	<p>Redo</p>
+   	 </div>
+ </div>				
+ 
+
+ <div id="helper_toggle">
+ 	<i class="rc-icon" id="helper_toggle_i">chevron_left</i>	
+ </div>
+</div>
+
+
+
+
+
+<!-- replacer div -->
+<div id="replacer">
+  <div id="replacer_close">
+  <i class="rc-icon">close</i>  				
+  </div>
+  
+  <div id="replacer_input">
+  <input type="text" placeholder="Find" id="find_code_value">
+  <input type="text" placeholder="Replace" id="replace_code_value">
+  </div>
+  	
+  <div id="replacer_result">
+  <p><i class="rc-icon">find_replace</i> All</p>
+  <p><i class="rc-icon">find_replace</i> 1|1</p>
+  </div>			
+</div>
+
+
+
 
 
 
