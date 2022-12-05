@@ -271,8 +271,44 @@ main_func.redo();
 /* for search and replace */
 document.getElementById("replacer_close").onclick = function(){
 document.getElementById("replacer").style.display ="none";				
+document.getElementById("replacer").style.transform ="none";
 }
 document.getElementById("replacecode").onclick = function(){
 document.getElementById("replacer").style.display ="flex";				
+document.getElementById("replacer").style.transform ="translateX(-50%)";
+document.getElementById("replacer").style.left ="50%";
+document.getElementById("replacer").style.top ="80px";
 }
+
+
+
+
+
+
+document.getElementById("find_code_value").onkeyup = function(){
+var x = document.getElementById("find_code_value").value;
+mainfunc();
+main_func.find(x);							
+}
+
+
+function repall(){
+var x = document.getElementById("find_code_value").value;
+var y = document.getElementById("replace_code_value").value;
+mainfunc();
+main_func.find(x);					
+main_func.replaceAll(y);	
+}
+function repone(){
+var x = document.getElementById("find_code_value").value;
+var y = document.getElementById("replace_code_value").value;
+mainfunc();
+main_func.find(x);					
+main_func.replace(y);	
+}
+
+/* search and replace ended */
+
+
+
 
