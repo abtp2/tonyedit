@@ -7,7 +7,7 @@
 				<meta name="theme-color" content="#535763">
 				<title>TonyEdit</title>
 </head>
-<body>
+<body id="body">
 
 <!-- navbar -->
 <div id="nav">
@@ -109,6 +109,7 @@
 
 
 <!-- replacer div -->
+<center>
 <div id="replacer">
   <div id="replacer_close">
   <i class="rc-icon">close</i>  				
@@ -120,10 +121,11 @@
   </div>
   	
   <div id="replacer_result">
-  <p><i class="rc-icon">find_replace</i> All</p>
-  <p><i class="rc-icon">find_replace</i> 1|1</p>
+  <p onclick="repall()"><i class="rc-icon">find_replace</i> All</p>
+  <p onclick="repone()"><i class="rc-icon">find_replace</i> 1|1</p>
   </div>			
 </div>
+</center>
 
 
 
@@ -137,5 +139,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/mode-javascript.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/worker-javascript.min.js"></script>
 <script src="js/texteditor.js"></script>
+<script src="js/texteditor2.js"></script>
 </body>
 </html>
