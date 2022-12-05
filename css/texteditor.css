@@ -297,11 +297,11 @@ color: #000;
 width: 95%;
 border-radius: 5px;
 background: #353e4d;
-position: fixed;
+position: absolute;
 transform: translateX(-50%);
 left: 50%;
 top: 80px;
-z-index: 9;
+z-index: 5;
 display: none; 
 flex-direction: row;
 }
@@ -323,7 +323,7 @@ opacity: 0.6;
 #replacer_input{
 display: flex; 
 flex-direction: column;			
-padding: 1.5rem 0 1.5rem 1rem;
+margin: 1.5rem 0 1.5rem 1rem;
 }
 #replacer_input input{
 background: #7b8698;
