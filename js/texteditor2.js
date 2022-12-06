@@ -64,3 +64,44 @@ function setTranslate(xPos, yPos, el) {
 }
 
 // setTranslate(-250, -260, dragItem)
+
+
+
+
+
+
+
+/* color picked */
+var colorPicker = new iro.ColorPicker("#picker", {  
+width: 260, 
+color: "#fff"
+});
+
+colorPicker.on('color:change', function(color){ 
+var hex = colorPicker.color.hexString;
+var rgb = colorPicker.color.rgbString;
+document.getElementById("picker-hex").innerHTML = hex;
+document.getElementById("picker-rgb").innerHTML = rgb;
+});
+
+
+
+document.getElementById("picker-open").onclick = function(){
+var x = document.getElementById("picker");
+if(x.style.display =="block"){
+x.style.display ="none";				
+document.body.classList.remove("picker-blur");
+}				
+else{
+x.style.display ="block";		
+document.getElementById("helper_toggle").click();
+document.body.classList.add("picker-blur");
+}
+}
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementById('picker');
+if(!x.contains(e.target)){
+x.style.display ="none";				
+document.body.classList.remove("picker-blur");
+}
+});		
