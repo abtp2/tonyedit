@@ -26,6 +26,10 @@ font-family: Arial;
 opacity: 0.9;
 filter: brightness(90%) blur(2px);
 }
+.dev-blur > *:not(#dev) { 
+visibility: hidden;
+}
+
 
 
 
@@ -236,4 +240,106 @@ opacity: 0.85;
 font-weight: 401;
 margin-right: 1rem;
 }
+
+
+
+
+
+
+
+
+/* dev card div */
+#dev{
+width: 90%;
+background: #293f54;
+border-radius: 6px;
+display: none; 
+flex-direction: column;
+justify-content: center;
+padding: 1.2rem 1.5rem;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+z-index: 88;
+box-shadow: 0px 2px 4px #171717;
+}
+#dev-head{
+width: 100%;
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#dev-head img{
+width: 120px;
+height: 120px;
+border-radius: 100%;	
+border: 5px double #000;	
+margin: 0 auto;
+}
+#dev-head h1{
+font-size: 22px;
+color: var(--wtext);
+margin-bottom: 0.2rem;
+}
+#dev-head h2{
+font-size: 14px;
+color: var(--wtext);
+opacity: 0.6;
+font-weight: 400;
+}
+
+
+
+#dev p{
+margin-top: 1.5rem;
+color: var(--wtext);
+opacity: 0.5;
+font-size: 15.5px;
+line-height: 1.42;
+}
+#dev p span{
+opacity: 1 !important;
+font-weight: 600 !important;
+color: #00ffff !important;
+}
+
+
+#dev-foot{
+margin-top: 1.5rem;
+display: flex; 
+flex-direction: column;
+}
+#dev-foot span{
+color: var(--wtext);
+margin-bottom: 0.4rem;
+}
+#dev-foot a{
+text-decoration: none;
+margin: 0.2rem 0;
+color: #000000;
+font-weight: 401;
+display: flex; 
+align-items: center;
+opacity: 0.6;
+}
+#dev-foot a i{
+color: #fff !important;
+margin-right: 0.4rem;
+}
+
+
+#dev-close{
+font-size: 26px;
+padding: 5px;
+border-radius: 100%;
+border: 2px solid var(--wtext);
+color: var(--wtext);
+position: absolute;
+top: 10px;
+right: 10px;
+opacity: 0.7;
+}
+
 
