@@ -73,7 +73,7 @@ function setTranslate(xPos, yPos, el) {
 
 /* color picked */
 var colorPicker = new iro.ColorPicker("#picker", {  
-width: 260, 
+width: 240, 
 color: "#fff"
 });
 
@@ -105,3 +105,15 @@ x.style.display ="none";
 document.body.classList.remove("picker-blur");
 }
 });		
+
+
+
+/* copying picker values */
+document.getElementById("copy-picker-hex").onclick = function(){
+var x = document.getElementById("picker-hex").innerText;		navigator.clipboard.writeText(x);		
+}
+document.getElementById("copy-picker-rgb").onclick = function(){
+var x = document.getElementById("picker-rgb").innerText;		navigator.clipboard.writeText(x);		
+}
+
+

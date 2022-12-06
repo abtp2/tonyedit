@@ -42,3 +42,27 @@ $("#menu-button").click(function(){
  }
 });
 
+
+
+
+/* dev toggler */
+$("#dev-toggle").click(function(){
+var x = $("#dev");
+if(x.is(':hidden')){
+x.css("display","flex");				
+$("body").addClass("dev-blur");
+}				
+else{
+x.css("display","none");				
+$("body").removeClass("dev-blur");
+}				
+});
+
+
+
+/* dev closer */
+$("#dev-close").click(function(){
+var x = $("#dev");
+x.css("display","none");				
+$("body").removeClass("dev-blur");
+});
