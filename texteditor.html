@@ -84,7 +84,7 @@
 <!-- helper div -->
 <div id="helper">
  <div id="main_helper">
-   	 <div>
+   	 <div id="picker-open">
    	 	<img src="img/color_picker.jpg">
    	 	<p>Picker</p>
    	 </div>		
@@ -109,7 +109,6 @@
 
 
 <!-- replacer div -->
-<center>
 <div id="replacer">
   <div id="replacer_close">
   <i class="rc-icon">close</i>  				
@@ -125,11 +124,19 @@
   <p onclick="repone()"><i class="rc-icon">find_replace</i> 1|1</p>
   </div>			
 </div>
-</center>
 
 
 
 
+
+
+
+
+<!-- color picker -->
+<div id="picker">				
+<p>HEX: <span id="picker-hex">#ffffff</span></p>
+<p>RGB: <span id="picker-rgb">rgb(255,255,255)</span></p>
+</div>
 
 
 
@@ -138,6 +145,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/theme-chrome.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/mode-javascript.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/worker-javascript.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
 <script src="js/texteditor.js"></script>
 <script src="js/texteditor2.js"></script>
 </body>
