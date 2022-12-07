@@ -149,6 +149,7 @@ code_div.open();
 code_div.write(html_div + "<style>" + css_div + "</style>" + "<script>" + js_div + "</script>" + "</body> </html>"); 
 code_div.close(); 
 document.getElementById("result-div").style.display ="block"; 
+document.getElementById("savecode").click();
 }
 
 
@@ -195,8 +196,11 @@ document.getElementById("helper_toggle_i").innerHTML ="chevron_left";
 
 
 
-
-
+/* emulator open icon */
+document.getElementById("emulator_open").onclick = function(){
+document.getElementById("savecode").click();
+window.location ="emulator.html";				
+}
 
 
 

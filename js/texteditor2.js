@@ -117,3 +117,25 @@ var x = document.getElementById("picker-rgb").innerText;		navigator.clipboard.wr
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
