@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">				
+				<link rel="stylesheet" href="css/emulator.css">
+				<title>TonyEdit</title>
+</head>
+<body>
+<!-- emulator -->
+<div id="e-head">
+ <i class="rc-icon" onclick="window.location='texteditor.html'">close</i>		
+ <h1>Device Emulator</h1>	
+ 
+ <div>
+ 	<input type="number" id="i-width" value="1140"><p>×</p>
+ 	<input type="number" id="i-height" value="680">
+ 	<i class="rc-icon" id="i-play">play_arrow</i>
+ </div>	
+</div>
+
+<div id="i-main">
+ <div id="iframe_container">
+  <iframe id="iframe" allowusermedia allow="camera *;microphone *"></iframe>
+  <div class="handle" id="right_handle"></div>
+  <div class="handle" id="bottom_handle"></div>
+  <div class="handle" id="corner_handle"></div>
+ </div>				
+</div>
+
+
+
+
+
+<div id="i-helper">
+	<div data-val="320" onclick="val(this)"><i class="rc-icon">phone_android</i>320px</div>
+	<div data-val="375" onclick="val(this)"><i class="rc-icon">phone_android</i>375px</div>
+	<div data-val="435" onclick="val(this)"><i class="rc-icon">phone_android</i>435px</div>			
+	<div data-val="768" onclick="val(this)"><i class="rc-icon">phone_android</i>768px</div>
+	<div data-val="1024" onclick="val(this)"><i class="rc-icon">laptop_windows</i>1024px</div>
+	<div data-val="1140" onclick="val(this)"><i class="rc-icon">laptop_windows</i>1140px</div>
+	<div data-val="1440" onclick="val(this)"><i class="rc-icon">laptop_windows</i>1440px</div>
+	<div data-val="2500" onclick="val(this)"><i class="rc-icon">4k</i>2500px</div>
+</div>
+
+
+
+ 
+<script src="js/hammer_min.js"></script>
+<script>
+/* emulator */
+var iFrame = document.getElementById("iframe");
+var iFrameContainer = document.getElementById("iframe_container");
+var rightHandle = document.getElementById("right_handle");
+var bottomHandle = document.getElementById("bottom_handle");
+var cornerHandle = document.getElementById("corner_handle");
+const MIN_FRAME_WIDTH = 100;
+const MIN_FRAME_HEIGHT = 100;
+const IFRAME_SCROLLBAR_WIDTH = 12;
+
+var isResizeEnabled = true;
+
+
+document.addEventListener('DOMContentLoaded', function (event) {
+    if (isResizeObserverSupported()) {
+        try {
+            var resizer = new ResizeObserver(onResize);
+            resizer.observe(iFrame);
+        } catch (error) {
+            //ResizerObserver is not supported, initialize mutation observer
+            initMutationObserver();
+        }
+    } else {
+        //ResizerObserver is not supported, initialize mutation observer
+        initMutationObserver();
+    }
+});
+
+function isResizeObserverSupported() {
+    return typeof ResizeObserver != "undefined";
+}
+
+var startWidth, startHeight;
+//right handle
+var rightHandleHammer = new Hammer.Manager(rightHandle);
+rightHandleHammer.add(new Hammer.Pan({ threshold: 0, pointers: 0 }));
+rightHandleHammer.on('panstart', function (e) {
+    startWidth = iFrameContainer.clientWidth;
+/*  notifyAndroidOfResizeStarted(); */
+});
+rightHandleHammer.on('panmove', function (e) {
+    if (!isResizeEnabled) {
+    /* notifyAndroidOfResizeOnDisabled(); */
+        return;
+    }
+    setFrameWidth(startWidth + e.deltaX);
+})
+
+
+//bottomHandle
+var bottomHandleHammer = new Hammer.Manager(bottomHandle);
+bottomHandleHammer.add(new Hammer.Pan({ direction: Hammer.DIRECTION_VERTICAL }));
+bottomHandleHammer.add(new Hammer.Tap({ event: 'doubletap', taps: 2 }));
+
+// bottomHandleHammer.get('pan').recognizeWith('doubletap');
+
+bottomHandleHammer.on('panstart', function (e) {
+    startHeight = iFrameContainer.clientHeight;
+  /* notifyAndroidOfResizeStarted(); */
+});
+bottomHandleHammer.on('panmove', function (e) {
+    if (!isResizeEnabled) {
+        notifyAndroidOfResizeOnDisabled();
+        return;
+    }
+    setFrameHeight(startHeight + e.deltaY);
+})
+//double clickListener
+bottomHandleHammer.on("doubletap", setFrameHeightToMatchViewportHeight);
+
+
+//cornerHandle
+var cornerHandleHammer = new Hammer.Manager(cornerHandle);
+cornerHandleHammer.add(new Hammer.Pan({ threshold: 0, pointers: 0 }));
+cornerHandleHammer.on('panstart', function (e) {
+    startHeight = iFrameContainer.clientHeight;
+    startWidth = iFrameContainer.clientWidth;
+    notifyAndroidOfResizeStarted();
+
+});
+cornerHandleHammer.on('panmove', function (e) {
+    if (!isResizeEnabled) {
+        notifyAndroidOfResizeOnDisabled();
+        return;
+    }
+    setFrameHeight(startHeight + e.deltaY);
+    setFrameWidth(startWidth + e.deltaX);
+})
+
+
+function onResize(entries) {
+    var iframeRect = entries[0].contentRect;
+
+    var width = Math.round(iframeRect.width).toString();
+    var height = Math.round(iframeRect.height).toString();
+
+    /* notifyAndroidOfDimenChanges(width, height); */
+}
+
+function setFrameUrl(url) {
+    iFrame.src = url;
+}
+
+function setWindowZoom(zoom) {
+    document.body.style.zoom = zoom + "%";
+}
+
+function setFrameWidth(width) {
+    var width_float = parseFloat(width);
+    if (width_float < MIN_FRAME_WIDTH) {
+        setFrameWidth(MIN_FRAME_WIDTH);
+        return;
+    }
+    iFrameContainer.style.width = width + "px";
+}
+
+function setFrameHeight(height) {
+    var height_float = parseFloat(height);
+    if (height_float < MIN_FRAME_HEIGHT) {
+        setFrameHeight(MIN_FRAME_HEIGHT);
+        return;
+    }
+    iFrameContainer.style.height = `${height}px`;
+}
+
+function setFrameDimens(width, height) {
+    setFrameWidth(width);
+    setFrameHeight(height);
+}
+
+function setIsResizeEnabled(isEnabled) {
+    isResizeEnabled = isEnabled;
+}
+
+
+/* function notifyAndroidOfResizeStarted() {
+    Android.onResizeStarted();
+}
+
+function notifyAndroidOfDimenChanges(width, height) {
+    Android.setDimens(width, height);
+}
+
+function notifyAndroidOfResizeOnDisabled() {
+    Android.onResizeWhenDisabled();
+}
+  */
+function setFrameHeightToMatchViewportHeight() {
+    if (!isResizeEnabled) {
+        notifyAndroidOfResizeOnDisabled();
+        return;
+    }
+    iFrameContainer.style.height = (window.innerHeight - 120) + "px";
+
+}
+
+function initMutationObserver() {
+    var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+
+    var list = document.getElementById("iframe_container");
+
+    var config = {
+        attributes: true,
+        childList: false,
+        characterData: false,
+        subtree: false,
+    };
+    var observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+            if (mutation.type === "attributes") {
+
+                notifyAndroidOfDimenChanges(parseInt(list.style.width), parseInt(list.style.height));
+            }
+        });
+    });
+    observer.observe(list, config);
+}
+</script>
+<script src="js/emulator.js"></script>
+</body>
+</html>
