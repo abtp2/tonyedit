@@ -364,12 +364,19 @@ mainfunc();
 var x = main_func.getSession().getValue();
 var fileNameInput = prompt("Enter File Name : \nDon't write extensions for ex-: .html, .css etc.");
 
+
+
+if(fileNameInput == null){
+return;				
+}
+else{
 const blob = new Blob([x], {type: main_func_type});
 const fileUrl = URL.createObjectURL(blob);
 const link = document.createElement("a");
 link.download = fileNameInput;
 link.href = fileUrl;
 link.click();				
+}
 }
 
 
