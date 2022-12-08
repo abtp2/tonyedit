@@ -205,6 +205,27 @@ window.location ="emulator.html";
 
 
 
+/* download menu div */
+document.getElementById("savecode2").onclick = function(){
+document.getElementById("savecode").click();				
+}
+
+/* to open down menu */
+document.getElementById("down_open").onclick = function(){
+document.getElementById("down_menu").style.display ="flex";				
+}
+
+
+/* to close down menu*/
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementById('down_menu');
+if(!x.contains(e.target)){
+document.getElementById("down_menu").style.display ="none";
+document.getElementById("line_input").value ="";
+}
+});		
+
+
 
 
 
@@ -236,6 +257,7 @@ window.location ="emulator.html";
 
 /* all the main functions started 😁😁*/
 var main_func = acehtml;
+var main_func_type = "text/html";
 var html_main_func = document.getElementById("html_code");
 var css_main_func = document.getElementById("css_code");
 var js_main_func = document.getElementById("js_code");
@@ -243,12 +265,15 @@ var js_main_func = document.getElementById("js_code");
 function mainfunc(){
 if(html_main_func.style.display =="block"){
 main_func = acehtml;	
+main_func_type = "text/html";
 }
 if(css_main_func.style.display =="block"){
 main_func = acecss;	
+main_func_type = "text/css";
 }
 if(js_main_func.style.display =="block"){
 main_func = acejs;	
+main_func_type = "application/javascript";
 }
 }
 
@@ -315,4 +340,47 @@ main_func.replace(y);
 
 
 
+
+
+
+
+/* go to line */
+document.getElementById("line_submit").onclick = function(){
+var x = document.getElementById("line_input").value;
+mainfunc();
+main_func.gotoLine(x);			
+}
+
+
+
+
+
+
+
+
+/* download file */
+document.getElementById("downcode").onclick = function(){
+mainfunc();
+var x = main_func.getSession().getValue();
+var fileNameInput = prompt("Enter File Name : \nDon't write extensions for ex-: .html, .css etc.");
+
+const blob = new Blob([x], {type: main_func_type});
+const fileUrl = URL.createObjectURL(blob);
+const link = document.createElement("a");
+link.download = fileNameInput;
+link.href = fileUrl;
+link.click();				
+}
+
+
+
+
+
+/* sharing file */
+document.getElementById("sharecode").onclick = function(){
+navigator.share({ 
+title: 'TonyEdit', 
+url: 'https://tonyedit.netlify.app' 
+});
+}
 
