@@ -59,8 +59,17 @@ margin: -7.5rem 0 0 1rem;
 font-size: 14.5px;
 opacity: 0.7;
 margin: 15px 12px;
+line-height: 1.44;
 }
 
+@media(min-width: 600px){
+#para{
+text-align: center;
+margin: 30px auto;
+padding: 0 25%;
+font-size: 16px;
+}				
+}
 
 
 
@@ -104,6 +113,31 @@ font-weight: 700;
 font-size: 15px;
 margin: 0 0 0 auto;
 }
+
+
+
+@media(min-width: 600px){
+#input{
+width: 70%;
+}				
+}
+@media(min-width: 768px){
+#input{
+width: 60%;
+}				
+}
+@media(min-width: 800px){
+#input{
+width: 50%;
+}				
+}
+@media(min-width: 900px){
+#input{
+width: 40%;
+}				
+}
+
+
 
 
 
