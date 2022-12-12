@@ -3,8 +3,11 @@
 <head>
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes"/>
-				<link rel="stylesheet" href="css/texteditor.css">
+				<link rel="stylesheet" href="css/texteditor-py.css">
 				<link rel="icon" type="image/png" href="img/logo(rel).png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script> 
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/255806/skulpt.min.js" type="text/javascript"></script> 
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/255806/skulpt-stdlib.js" type="text/javascript"></script>  
 				<meta name="theme-color" content="#535763">
 				<title>TonyEdit</title>
 </head>
@@ -16,20 +19,8 @@
 
 <div id="nav_files">
 	 <div id="nav_html" class="nav_bars">
-	 <img src="img/htmlicon.jpg">
-	 <p>index.html</p>
-	 <i class="rc-icon">close</i>
-	 </div>
-	 
-	 <div id="nav_css" class="nav_bars">
-	 <img src="img/cssicon.jpg">
-	 <p>style.css</p>
-	 <i class="rc-icon">close</i>
-	 </div>
-	 
-	 <div id="nav_js" class="nav_bars">
-	 <img src="img/jsicon.jpg">
-	 <p>script.js</p>
+	 <img src="img/pyicon.png">
+	 <p>index.py</p>
 	 <i class="rc-icon">close</i>
 	 </div>
 </div>	
@@ -54,8 +45,7 @@
 
 <!-- divs -->
 <div id="html_code" class="textarea"></div>
-<div id="css_code" class="textarea"></div>
-<div id="js_code" class="textarea"></div>
+
 
 
 
@@ -69,13 +59,13 @@
   <div id="result-nav">
   <i class="rc-icon" id="close-result">arrow_back</i>
   <div>
-  <p id="code_run_title">Page title</p>
+  <p id="code_run_title">index.py</p>
   <p id="result-link">/tonyedit/emulated/0/text</p>
   </div>
-  <i class="rc-icon" id="emulator_open">computer</i>
   </div>		
     
-  <iframe id="result-code"></iframe>		
+  <div id="result-code"></div>		
+  <canvas id="mycanvas"></canvas>
 </div>
 
 
@@ -165,7 +155,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/mode-javascript.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/worker-javascript.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
-<script src="js/texteditor.js"></script>
+
+
+
+<script src="js/texteditor-py.js"></script>
+<script src="js/texteditor-py2.js"></script>
 <script src="js/texteditor2.js"></script>
 </body>
 </html>
