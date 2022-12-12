@@ -31,6 +31,9 @@ filter: brightness(90%) blur(2px);
 .dev-blur > *:not(#dev) { 
 visibility: hidden;
 }
+.edit-blur > *:not(#editor_select) { 
+visibility: hidden;
+}
 
 
 
@@ -143,6 +146,10 @@ width: 100%;
 margin-top: 1.3rem;
 padding: 0 1rem;
 }
+#row_row{
+display: flex;
+overflow: scroll;
+}
 #first h1{
 color: var(--wtext);
 font-weight: 401;
@@ -210,7 +217,6 @@ padding: 0 1rem;
 #menu-items{
 display: none; 
 flex-direction: column;
-transition: all 0.3s;
 }
 .row-two-card{
 width: 250px;
@@ -372,5 +378,66 @@ top: 10px;
 right: 10px;
 opacity: 0.7;
 }
+
+
+
+
+
+
+/* editor selector */
+#editor_select{
+width: 260px;
+background: #293f54;
+border-radius: 6px;
+padding: 1.2rem 1.5rem 0.5rem 1.5rem;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+z-index: 88;
+box-shadow: 0px 2px 4px #171717;
+display: none; 
+flex-direction: column;
+}
+#editor_select_row{
+display: flex; 
+flex-direction: row !important;
+width: 100%;
+justify-content: space-between !important;
+align-items: center;
+background: transparent !important;
+}
+#editor_select h1{
+font-size: 18px;
+color: var(--wtext);
+margin-bottom: 1.2rem;
+text-align: center;
+}
+#editor_select div{
+display: flex; 
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 10px 15px;
+border-radius: 5px;
+background: rgba(0,0,0,0.18);
+transition: all 0.1s;
+}
+#editor_select div:hover{
+background: rgba(0,0,0,0.4);
+}
+
+#editor_select div img{
+width: 50px;
+height: 50px;
+border-radius: 100%;
+}
+#editor_select div p{
+font-size: 16px;
+color: var(--wtext);
+opacity: 0.5;
+margin-top: 6px;
+}
+
 
 
