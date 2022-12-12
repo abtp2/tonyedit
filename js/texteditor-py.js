@@ -1,31 +1,14 @@
 window.onload = function(){
-var x = localStorage.getItem("html_code_inner");	
-var y = localStorage.getItem("css_code_inner");	
-var z = localStorage.getItem("js_code_inner");	
+var x = localStorage.getItem("py_code_inner");	
 document.getElementById("helper_toggle").click();
 
-if(x !== null && y !== null && z !== null){
+
+if(x !== null){
 acehtml.setValue(x ,1);	
-acecss.setValue(y ,1);	
-acejs.setValue(z ,1);	
 }
 
-if(x == null && y == null && z == null){
-acehtml.setValue(`<!DOCTYPE html> 
-<html lang="en">
-<head> 
-	<title>Page title</title>
-</head> 
-<body>
-				
-</body> 
-</html>` ,1);
-acecss.setValue(`*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}` ,1);
-acejs.setValue(`// write javascript here` ,1);
+if(x == null){
+acehtml.setValue("# write python code here" ,1);
 }
 }
 
@@ -41,37 +24,12 @@ enableLiveAutocompletion: true,
 fontSize: "100%" 
 });
 acehtml.setTheme("ace/theme/twilight");
-acehtml.getSession().setMode("ace/mode/html"); 
+acehtml.getSession().setMode("ace/mode/python"); 
 // acehtml.setValue(acehtml_value);
 // acehtml.getSession().getValue();
 
 
 
-// for css 
-var acecss = window.ace.edit("css_code");
-acecss.setOptions({
-enableBasicAutocompletion: true,
-enableLiveAutocompletion: true,
-fontSize: "100%" 
-});
-acecss.setTheme("ace/theme/twilight");
-acecss.getSession().setMode("ace/mode/css");
-// acecss.setValue(acecss_value);
-// acecss.getSession().getValue();
-
-
-
-// for js
-var acejs = window.ace.edit("js_code");
-acejs.setOptions({
-enableBasicAutocompletion: false,
-enableLiveAutocompletion: false,
-fontSize: "100%" 
-});
-acejs.setTheme("ace/theme/twilight");
-acejs.getSession().setMode("ace/mode/javascript");
-// acejs.setValue(acejs_value);
-// acejs.getSession().getValue();
 
 
 
@@ -85,44 +43,6 @@ acejs.getSession().setMode("ace/mode/javascript");
 
 
 
-
-
-
-/* to toggle the textareas */
-var html_code_content = document.getElementById("html_code");
-var css_code_content = document.getElementById("css_code");
-var js_code_content = document.getElementById("js_code");
-
-
-
-document.getElementById("nav_html").onclick = function(){
-html_code_content.style.display ="block";
-css_code_content.style.display ="none";
-js_code_content.style.display ="none";
-
-document.getElementById("nav_html").style.borderBottom ="2px solid #fff";
-document.getElementById("nav_css").style.borderBottom ="0px solid #fff";
-document.getElementById("nav_js").style.borderBottom ="0px solid #fff";
-}
-document.getElementById("nav_css").onclick = function(){
-css_code_content.style.display ="block";
-html_code_content.style.display ="none";
-js_code_content.style.display ="none";
-
-document.getElementById("nav_css").style.borderBottom ="2px solid #fff";
-document.getElementById("nav_html").style.borderBottom ="0px solid #fff";
-document.getElementById("nav_js").style.borderBottom ="0px solid #fff";
-}
-document.getElementById("nav_js").onclick = function(){
-js_code_content.style.display ="block";
-css_code_content.style.display ="none";
-html_code_content.style.display ="none";
-
-document.getElementById("nav_js").style.borderBottom ="2px solid #fff";
-document.getElementById("nav_css").style.borderBottom ="0px solid #fff";
-document.getElementById("nav_html").style.borderBottom ="0px solid #fff";
-}
-/* toggling ended */
 
 /* close result div */
 document.getElementById("close-result").onclick = function(){
@@ -137,17 +57,7 @@ document.getElementById("result-div").style.display ="none";
 
 /* compile function */
 document.getElementById("runcode").onclick = function(){ 
-var html_div_one = acehtml.getSession().getValue();
-var html_div_two = html_div_one.replace("</body>", "");
-var html_div = html_div_two.replace("</html>", "");
-
-
-var css_div = acecss.getSession().getValue();
-var js_div = acejs.getSession().getValue();
-var code_div = document.getElementById("result-code").contentWindow.document;
-code_div.open(); 
-code_div.write(html_div + "<style>" + css_div + "</style>" + "<script>" + js_div + "</script>" + "</body> </html>"); 
-code_div.close(); 
+runit();
 document.getElementById("result-div").style.display ="block"; 
 document.getElementById("savecode").click();
 }
@@ -155,19 +65,31 @@ document.getElementById("savecode").click();
 
 
 
+
+/* savecode */
 document.getElementById("savecode").onclick = function(){ 
 var html_div_one = acehtml.getSession().getValue();
-var css_div = acecss.getSession().getValue();
-var js_div = acejs.getSession().getValue();
-localStorage.setItem("html_code_inner", html_div_one); 
-localStorage.setItem("css_code_inner", css_div); 
-localStorage.setItem("js_code_inner", js_div); 
+localStorage.setItem("py_code_inner", html_div_one); 
 }
 
 
 
 
 
+/* checking if code has turtle */
+setInterval(function getttt(){
+var x = acehtml.getSession().getValue();
+var fcr = document.getElementById("result-code");
+var scr = document.getElementById("mycanvas"); 
+if(x.includes("turtle")){
+fcr.style.display ="none";
+scr.style.display ="block";
+}		
+else{
+fcr.style.display ="block";
+scr.style.display ="none";
+}
+},100);
 
 
 
@@ -195,12 +117,6 @@ document.getElementById("helper_toggle_i").innerHTML ="chevron_left";
 /* helper div */
 
 
-
-/* emulator open icon */
-document.getElementById("emulator_open").onclick = function(){
-document.getElementById("savecode").click();
-window.location ="emulator.html";				
-}
 
 
 
@@ -259,24 +175,6 @@ document.getElementById("line_input").value ="";
 var main_func = acehtml;
 var main_func_type = "text/html";
 var html_main_func = document.getElementById("html_code");
-var css_main_func = document.getElementById("css_code");
-var js_main_func = document.getElementById("js_code");
-
-function mainfunc(){
-if(html_main_func.style.display =="block"){
-main_func = acehtml;	
-main_func_type = "text/html";
-}
-if(css_main_func.style.display =="block"){
-main_func = acecss;	
-main_func_type = "text/css";
-}
-if(js_main_func.style.display =="block"){
-main_func = acejs;	
-main_func_type = "application/javascript";
-}
-}
-
 
 
 
@@ -284,11 +182,9 @@ main_func_type = "application/javascript";
 
 /* for undo and redo */
 document.getElementById("undo_edit").onclick = function(){
-mainfunc();
 main_func.undo();
 }
 document.getElementById("redo_edit").onclick = function(){
-mainfunc();
 main_func.redo();
 }
 /* undo redo ended */
@@ -316,7 +212,6 @@ document.getElementById("replacer").style.top ="80px";
 
 document.getElementById("find_code_value").onkeyup = function(){
 var x = document.getElementById("find_code_value").value;
-mainfunc();
 main_func.find(x);							
 }
 
@@ -324,14 +219,12 @@ main_func.find(x);
 function repall(){
 var x = document.getElementById("find_code_value").value;
 var y = document.getElementById("replace_code_value").value;
-mainfunc();
 main_func.find(x);					
 main_func.replaceAll(y);	
 }
 function repone(){
 var x = document.getElementById("find_code_value").value;
 var y = document.getElementById("replace_code_value").value;
-mainfunc();
 main_func.find(x);					
 main_func.replace(y);	
 }
@@ -347,7 +240,6 @@ main_func.replace(y);
 /* go to line */
 document.getElementById("line_submit").onclick = function(){
 var x = document.getElementById("line_input").value;
-mainfunc();
 main_func.gotoLine(x);			
 }
 

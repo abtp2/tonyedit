@@ -70,3 +70,37 @@ var x = $("#dev");
 x.css("display","none");				
 $("body").removeClass("dev-blur");
 });
+$(document).mouseup(function(e){
+var container = $("#dev");
+if(!container.is(e.target) && container.has(e.target).length === 0){
+$("#dev").css("display","none");				
+$("body").removeClass("dev-blur");
+}
+});
+
+
+
+
+
+
+
+/* choose editor */
+function choose(){
+var x = $("#editor_select");
+if(x.is(':hidden')){
+x.css("display","flex");				
+$("body").addClass("edit-blur");
+}				
+else{
+x.css("display","none");				
+$("body").removeClass("edit-blur");
+}					
+}
+
+$(document).mouseup(function(e){
+var container = $("#editor_select");
+if(!container.is(e.target) && container.has(e.target).length === 0){
+$("#editor_select").css("display","none");				
+$("body").removeClass("edit-blur");
+}
+});
