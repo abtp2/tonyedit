@@ -378,6 +378,21 @@ top: 10px;
 right: 10px;
 opacity: 0.7;
 }
+@media(min-width: 600px){
+#dev{
+width: 70%;
+}				
+}
+@media(min-width: 700px){
+#dev{
+width: 60%;
+}				
+}
+@media(min-width: 800px){
+#dev{
+width: 50%;
+}				
+}
 
 
 
