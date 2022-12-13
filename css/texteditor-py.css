@@ -244,6 +244,8 @@ height: calc(100vh - 60px);
 color: #000;
 padding: 5px 8px;
 user-select: none;
+word-break: break-all;
+overflow: scroll;
 }
 #mycanvas{
 width: 100%;
@@ -251,6 +253,7 @@ outline: none;
 border: none;
 overflow: scroll;
 user-select: none;
+word-break: break-all;
 }
 #eval_py{
 opacity: 0;				
@@ -429,7 +432,11 @@ transform: scale(0.95);
 color: var(--wtext);
 opacity: 0.7;
 }
-
+@media(min-width: 450px){
+#replacer{
+width: 400px;
+}				
+}
 
 
 

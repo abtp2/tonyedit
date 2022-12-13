@@ -417,6 +417,12 @@ opacity: 0.7;
 }
 
 
+@media(min-width: 450px){
+#replacer{
+width: 400px;
+}				
+}
+
 
 
 
