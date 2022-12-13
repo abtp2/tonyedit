@@ -139,3 +139,45 @@ var x = document.getElementById("picker-rgb").innerText;		navigator.clipboard.wr
 
 
 
+
+
+
+
+/* for keyboard inputs */
+document.onkeydown = function (e){ 
+var alt = e.altKey ? e.altKey : ((e.key === 18) ? true : false); 
+var ctrl = e.ctrlKey ? e.ctrlKey : ((e.key === 17) ? true : false); 
+
+/*  if (e.keyCode === 13) {
+alert('Enter is pressed!');
+}
+if (e.keyCode === 67 && alt) { 
+alert("alt+C is pressed."); 
+}
+ */ 
+ 
+ 
+ 
+ 
+if (e.keyCode === 80 && alt) {/* p */
+document.getElementById("picker-open").click();
+}
+if (e.keyCode === 72 && alt) {/* h */
+window.location ="index.html";
+}
+if (e.keyCode === 70 && alt) {/* f */
+document.getElementById("replacecode").click();
+}
+if (e.keyCode === 82 && alt) {/* r */
+document.getElementById("runcode").click();
+}
+if (e.keyCode === 116) {/* f5 */
+document.getElementById("runcode").click();
+}
+if (e.keyCode === 83 && ctrl) {/* s */
+document.getElementById("savecode").click();
+}
+if (e.keyCode === 77 && alt) {/* m */
+document.getElementById("down_open").click();
+}
+};
