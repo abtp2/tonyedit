@@ -14,10 +14,14 @@ font-family: Arial;
 img{
 pointer-events: none;
 }
+html{
+height: -webkit-fill-available;	
+}
 body{
 width: 100%;
 background: #535763;
-overflow: hidden !important;
+height: 100vh;
+height: -webkit-fill-available;
 }
 .picker-blur > *:not(#picker) { 
 filter: blur(2px) brightness(50%);

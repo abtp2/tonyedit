@@ -14,9 +14,14 @@ font-family: Arial;
 img{
 pointer-events: none;
 }
+html{
+height: -webkit-fill-available;		
+}
 body{
 width: 100%;
-background: #f9fafc;				
+background: #f9fafc;	
+height: 100vh;
+height: -webkit-fill-available;			
 }
 
 

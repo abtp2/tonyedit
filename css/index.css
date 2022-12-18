@@ -332,11 +332,10 @@ font-weight: 400;
 #dev p{
 margin-top: 1.5rem;
 color: var(--wtext);
-opacity: 0.5;
 font-size: 15.5px;
 line-height: 1.42;
 }
-#dev p span{
+#dev-span{
 opacity: 1 !important;
 font-weight: 600 !important;
 color: #00ffff !important;
