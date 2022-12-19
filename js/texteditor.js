@@ -14,82 +14,13 @@ if(x == null && y == null && z == null){
 acehtml.setValue(`<!DOCTYPE html>
 <html lang="en">
 <head>
-				<meta charset="UTF-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
-				<meta name="theme-color" content="#11151f">
-				<link rel="stylesheet" href="gallery.css">
-				<link rel="stylesheet" href="roller(module).css">
-      <title>Delhi Tours</title>
+ <meta charset="UTF-8">
+ <title>Page title</title>
 </head>
 <body>
-				
-<!-- navbar -->
-<nav class="side-nav side-nav-down-blur">	 
-<div class="side-nav-head"> 	 
-	<div class="side-nav-brand"> 		  
- <h1 class="rc-icon">travel_explore</h1>
-	</div> 	 
-	<i class="side-nav-toggler rc-icon">menu</i>
-</div> 		 
-<div class="side-nav-foot" nav-width="260px"> 
-	<i class="rc-icon side-nav-closer">close</i> 	
-	<a href="index.html">Home</a>	 	 
-  <a href="gallery.html" class="active">Gallery</a>	 	
-  <a href="contact.html">Contact</a>	 	 
-	<a href="">Developer</a> 	 
-	<button>Sign Up</button> 
-</div>					
-</nav>		
 
-<!-- first section -->
-<section id="first">
-<h3>DELHI TOURS - BY VASHU</h3>
-<h1>Gallery Photos of Delhi Tours & Travels</h1>	
-<div id="first-buts">
-	<a href="index.html"><button>Go to home</button></a>
-	<button><span class="rc-icon">auto_stories</span>View images</button>
-</div>
-
-<div class="sec-drop" id="sec-drops1"></div>
-<div class="sec-drop" id="sec-drops2"></div>	
-</section>
-
-<!-- second section -->
-<section id="second">
-<div id="second-row">
-  <img src=" gallery-img-1.jpg">	
-  <img src=" gallery-img-2.jpg">
-  <img src=" gallery-img-3.jpg">	
-  <img src=" gallery-img-4.jpg">	
-  <img src=" gallery-img-5.jpg">	
-  <img src=" gallery-img-6.jpg">
-  <img src=" gallery-img-7.jpg">	
-  <img src=" gallery-img-8.jpg">	
-  <img src=" gallery-img-9.jpg">				
-  <img src=" gallery-img-4.jpg">
-  <img src=" gallery-img-1.jpg">
-  <img src=" gallery-img-6.jpg">
-  <img src=" gallery-img-3.jpg">
-  <img src=" gallery-img-2.jpg">
-  <img src=" gallery-img-7.jpg">
-  <img src=" gallery-img-5.jpg">
-</div>
-</section>
-
-<!-- footer -->
-<footer>
-<h1>Created by Vashu Shrivastava. All rights reserved</h1>
-<div>
-	 <i class="rc-icon">facebook</i>
-	 <i class="rc-icon">whatsapp</i>
-	 <i class="rc-icon">email</i>
-	 <i class="rc-icon">whatsapp</i>
-</div>
-</footer>
-<script src="roller(module).js"></script>				
 </body>
-</html>
-` ,1);
+</html>` ,1);
 acecss.setValue(`*{
 margin: 0;
 padding: 0;
@@ -244,6 +175,10 @@ localStorage.setItem("js_code_inner", js_div);
 
 /* helper div */
 document.getElementById("helper_toggle").onclick = function(){
+mainfunc();
+main_func.focus();
+
+
 var x = document.getElementById("main_helper");
 if(x.style.marginLeft =="120%"){
 x.style.marginLeft ="0"	;

@@ -1,3 +1,9 @@
+function onerrorhideresult(){
+document.getElementById("result-div").style.display ="none";			
+}
+
+
+
 // output functions are configurable.  This one just appends some text
 // to a pre element.
 function outf(text) { 
@@ -26,7 +32,11 @@ function runit() {
    try {
       eval(Sk.importMainWithBody("<stdin>",false,prog)); 
    }
-   catch(e) {
-       alert(e.toString());	        	
+   catch(e) {       
+       alert(e.toString());	       	
+       onerrorhideresult(); 
    }
 } 
+
+
+
