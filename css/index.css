@@ -10,6 +10,7 @@ padding: 0;
 box-sizing: border-box;
 user-select: none;
 font-family: Arial;
+overflow: hidden;
 }
 img{
 pointer-events: none;
@@ -72,7 +73,7 @@ left: -100%;
 transition: left 0.5s;
 z-index: 9;
 background: var(--wtext);
-overflow: scroll;
+overflow: scroll !important;
 }
 #nav-head{
 width: 100%;

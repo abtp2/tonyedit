@@ -11,6 +11,7 @@ box-sizing: border-box;
 user-select: none;
 font-family: Arial;
 }
+
 img{
 pointer-events: none;
 }
@@ -22,6 +23,7 @@ width: 100%;
 background: #535763;
 height: 100vh;
 height: -webkit-fill-available;
+overflow: hidden;
 }
 .picker-blur > *:not(#picker) { 
 filter: blur(2px) brightness(50%);
@@ -164,6 +166,15 @@ margin-left: 0;
 
 
 /* textareas */
+#code-cover{
+width: 100%;
+height: calc(100vh - 72px) !important; 
+border: none;
+outline: none;
+position: relative;
+word-break: break-word;
+overflow: scroll;
+}
 .textarea{
 width: 100%;
 height: calc(100vh - 72px) !important; 
