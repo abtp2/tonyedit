@@ -175,3 +175,96 @@ if (e.keyCode === 77 && alt) {/* m */
 document.getElementById("down_open").click();
 }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AI...... ❤❤ */
+
+window.SpeechRecognition =
+  window.SpeechRecognition || window.webkitSpeechRecognition;
+
+const recognition = new SpeechRecognition();
+recognition.interimResults = true;
+const texts = document.querySelector(".texts");
+
+let p = document.createElement("p");
+
+recognition.addEventListener("result", (e) => {
+  texts.appendChild(p);
+  const text = Array.from(e.results)
+    .map((result) => result[0])
+    .map((result) => result.transcript)
+    .join("");
+  const ai = text.toLowerCase();
+  p.innerText = ai;  
+  if (e.results[0].isFinal) {
+   if (ai.includes("colour") ||
+      ai.includes("color")){
+ document.getElementById("picker-open").click();
+      }
+   
+   if (ai.includes("replace") ||
+      ai.includes("find")){
+ document.getElementById("replacecode").click();
+      }
+    
+   
+   if (ai.includes("replacer") ||
+      ai.includes("finder")){
+ document.getElementById("replacecode").click();
+      }
+      
+  if (ai.includes("replace") ||
+      ai.includes("find")){
+ document.getElementById("replacecode").click();
+      }
+  
+     if (ai.includes("run") ||
+      ai.includes("compile")){
+ document.getElementById("runcode").click();
+      }
+  
+  if (ai.includes("save") ||
+      ai.includes("store")){
+ document.getElementById("savecode").click();
+      }
+            
+   if (ai.includes("menu")){
+ document.getElementById("down_open").click();
+      }   
+      
+      
+      
+      
+      
+    p = document.createElement("p");
+  }
+});
+
+recognition.addEventListener("end", () => {
+  recognition.start();
+});
+
+recognition.start();
