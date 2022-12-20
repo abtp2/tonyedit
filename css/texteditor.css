@@ -554,3 +554,20 @@ color: var(--wtext);
 
 
 
+
+
+
+
+
+
+
+/* AI div */
+#ai-div{
+width: 100%;
+height: 50vh;
+overflow: hidden;
+visibility: hidden;
+position: absolute;
+z-index: -9999999999999999;
+}
+
