@@ -202,6 +202,12 @@ document.getElementById("down_open").click();
 
 /* AI...... ❤❤ */
 
+
+var tog_voice_local = localStorage.getItem("tog_voice"); 
+
+
+if(tog_voice_local == "on"){
+
 window.SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -268,3 +274,9 @@ recognition.addEventListener("end", () => {
 });
 
 recognition.start();
+}
+
+
+else{
+console.log("Voice controlling is disabled !!, open it from setting")
+}
