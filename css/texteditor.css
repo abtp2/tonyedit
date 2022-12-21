@@ -24,7 +24,7 @@ height: 100vh;
 height: -webkit-fill-available;
 overflow: hidden;
 }
-.picker-blur > *:not(#picker) { 
+.picker-blur > *:not(#picker, #result-div) { 
 filter: blur(2px) brightness(50%);
 }
 
