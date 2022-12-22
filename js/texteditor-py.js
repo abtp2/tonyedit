@@ -282,3 +282,32 @@ url: 'https://tonyedit.netlify.app'
 });
 }
 
+
+
+
+
+
+/* Importing file */
+document.getElementById("importcode").onclick = function(){
+var fileInput = document.getElementById('fileInput');
+fileInput.click();
+		fileInput.addEventListener('change', function(e) {
+			var file = fileInput.files[0];
+			var textType = /text.*/;
+
+			if (file.type.match(textType)) {
+				var reader = new FileReader();
+
+				reader.onload = function(e) {
+document.getElementById("down_menu").style.display ="none";
+document.getElementById("line_input").value ="";				
+					main_func.setValue(reader.result, 1);
+    document.getElementById("savecode").click();
+				}
+
+				reader.readAsText(file);	
+			} else {
+				alert("File not supported!");
+			}
+		});
+}

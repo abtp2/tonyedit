@@ -65,7 +65,7 @@ function setTranslate(xPos, yPos, el) {
 
 
 
-/* color picked */
+/* color picker */
 var colorPicker = new iro.ColorPicker("#picker", {  
 width: 240, 
 color: "#fff"
@@ -226,27 +226,47 @@ recognition.addEventListener("result", (e) => {
   const ai = text.toLowerCase();
   p.innerText = ai;  
   if (e.results[0].isFinal) {
-   if (ai.includes("colour") ||
-      ai.includes("color")){
+  
+  
+/* color picker */
+   if (ai.includes("open colour") ||
+      ai.includes("open color")){
  document.getElementById("picker-open").click();
       }
+   if (ai.includes("close colour") ||
+      ai.includes("close color")){
+ document.getElementById("picker").style.display ="none";				
+document.body.classList.remove("picker-blur");
+      }
+/* color picker */
    
-   if (ai.includes("replace") ||
-      ai.includes("find")){
+   
+   
+/* replacer div */   
+   if (ai.includes("open replace") ||
+      ai.includes("open find")){
+ document.getElementById("replacecode").click();
+      }    
+   
+   if (ai.includes("open replacer") ||
+      ai.includes("open finder")){
  document.getElementById("replacecode").click();
       }
-    
+   if (ai.includes("close replace") ||
+      ai.includes("close find")){
+ document.getElementById("replacer_close").click();
+      }    
    
-   if (ai.includes("replacer") ||
-      ai.includes("finder")){
- document.getElementById("replacecode").click();
+   if (ai.includes("close replacer") ||
+      ai.includes("close finder")){
+       document.getElementById("replacer_close").click();
       }
+/* replacer div ended */
+
+
+
       
-  if (ai.includes("replace") ||
-      ai.includes("find")){
- document.getElementById("replacecode").click();
-      }
-  
+/* run the code */  
      if (ai.includes("run") ||
       ai.includes("compile")){
  document.getElementById("runcode").click();
@@ -256,11 +276,16 @@ recognition.addEventListener("result", (e) => {
       ai.includes("store")){
  document.getElementById("savecode").click();
       }
-            
+/* run the code ended */
+
+
+
+
+/* menu */            
    if (ai.includes("menu")){
  document.getElementById("down_open").click();
       }   
-      
+/* menu ended */      
       
       
       

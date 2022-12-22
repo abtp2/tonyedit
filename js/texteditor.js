@@ -151,11 +151,18 @@ code_div.write(html_div + "<style>" + css_div + "</style>" + "<script>" + js_div
 code_div.close(); 
 document.getElementById("result-div").style.display ="block"; 
 document.getElementById("savecode").click();
+
+
+/* for page title */
+const regex_title = /\<title\>(.*)\<\/title\>/;
+const found_title = html_div_one.match(regex_title);
+const main_title = found_title?.[1];
+document.getElementById("code_run_title").innerHTML = main_title;
 }
 
 
 
-
+/* save code */
 document.getElementById("savecode").onclick = function(){ 
 var html_div_one = acehtml.getSession().getValue();
 var css_div = acecss.getSession().getValue();
@@ -278,7 +285,7 @@ main_func_type = "text/css";
 }
 if(js_main_func.style.display =="block"){
 main_func = acejs;	
-main_func_type = "application/javascript";
+main_func_type = "text/javascript";
 }
 }
 
@@ -394,5 +401,36 @@ navigator.share({
 title: 'TonyEdit', 
 url: 'https://tonyedit.netlify.app' 
 });
+}
+
+
+
+
+
+
+/* Importing file */
+document.getElementById("importcode").onclick = function(){
+mainfunc();				
+var fileInput = document.getElementById('fileInput');
+fileInput.click();
+		fileInput.addEventListener('change', function(e) {
+			var file = fileInput.files[0];
+			var textType = main_func_type;
+
+			if (file.type.match(textType)) {
+				var reader = new FileReader();
+
+				reader.onload = function(e) {
+document.getElementById("down_menu").style.display ="none";
+document.getElementById("line_input").value ="";				
+					main_func.setValue(reader.result, 1);
+    document.getElementById("savecode").click();
+				}
+
+				reader.readAsText(file);	
+			} else {
+				alert("File not supported!");
+			}
+		});
 }
 
