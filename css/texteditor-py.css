@@ -551,7 +551,7 @@ margin-top: 1rem;
 }
 #line_num input{
 width: 120px;
-padding: 5px 6px;
+padding: 5px 10px;
 border-radius: 3px;
 background: #7b8698;
 outline: none;
@@ -564,8 +564,12 @@ font-size: 18px;
 margin-left: 5px;
 color: var(--wtext);
 }
-
-
+#fileInput{
+position: absolute;
+z-index: -9999;
+visibility: hidden;
+opacity: 0;
+}
 
 
 
