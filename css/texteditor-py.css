@@ -28,6 +28,10 @@ overflow: hidden;
 .picker-blur > *:not(#picker, #result-div) { 
 filter: blur(2px) brightness(50%);
 }
+.error-blur > *:not(#result-error) { 
+filter: brightness(50%);
+pointer-events: none;
+}
 
 
 
@@ -258,7 +262,8 @@ border: none;
 height: calc(100vh - 60px);
 color: #000;
 padding: 5px 8px;
-user-select: none;
+user-select: none !important;
+pointer-events: none;
 word-break: break-all;
 overflow: scroll;
 font-size: 16px;
@@ -267,16 +272,51 @@ font-size: 16px;
 width: 100%;
 outline: none;
 border: none;
-overflow: scroll;
+overflow: visible;
 user-select: none;
 word-break: break-all;
 }
-#eval_py{
-opacity: 0;				
-position: absolute;
-z-index: -99;
+#result-error{
+width: 280px;
+background: #fff;
+border-top-left-radius: 0;
+border-radius: 4px;
+position: fixed;	
+z-index: 9999;	
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+box-shadow: 0px 1.5px 4px 2px #636363;
+padding: 12px 15px 14px 15px;
+display: none;
 }
 
+/*  
+#result-error:before{
+content: "Error";
+color: red;
+font-weight: 401;
+position: absolute;
+bottom: 100%;
+left: 0;
+}
+ */
+ 
+ 
+#result-error p:nth-child(2){
+width: 100%;
+text-align: right;
+margin-top: 2rem;
+}
+#error-alert{
+color: red;
+}
+#result-error p:nth-child(2) span{
+font-weight: 401;
+background: var(--wbg);
+padding: 6px 10px;
+border-radius: 4px;
+}
 
 
 
