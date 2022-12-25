@@ -305,3 +305,18 @@ recognition.start();
 else{
 console.log("Voice controlling is disabled !!, open it from setting")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

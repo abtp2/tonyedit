@@ -302,6 +302,7 @@ main_func.undo();
 document.getElementById("redo_edit").onclick = function(){
 mainfunc();
 main_func.redo();
+main_func.clearSelection();
 }
 /* undo redo ended */
 
@@ -399,7 +400,8 @@ link.click();
 document.getElementById("sharecode").onclick = function(){
 navigator.share({ 
 title: 'TonyEdit', 
-url: 'https://tonyedit.netlify.app' 
+text: 'Hey check online editor, where you can code html,css,js and python. Made by Ashutosh Pandey.',
+url: 'https://tonyedit.netlify.app'
 });
 }
 

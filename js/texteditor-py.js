@@ -97,6 +97,9 @@ scr.style.display ="none";
 
 /* helper div */
 document.getElementById("helper_toggle").onclick = function(){
+main_func.focus();
+
+
 var x = document.getElementById("main_helper");
 if(x.style.marginLeft =="120%"){
 x.style.marginLeft ="0"	;

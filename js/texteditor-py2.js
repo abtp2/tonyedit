@@ -1,9 +1,3 @@
-function onerrorhideresult(){
-document.getElementById("result-div").style.display ="none";			
-}
-
-
-
 // output functions are configurable.  This one just appends some text
 // to a pre element.
 function outf(text) { 
@@ -33,10 +27,26 @@ function runit() {
       eval(Sk.importMainWithBody("<stdin>",false,prog)); 
    }
    catch(e) {       
-       alert(e.toString());	       	
-       onerrorhideresult(); 
+       /* alert(e.toString());=> */	
+       var errortext = e.toString(); 	
+       errorhideresult(errortext); 
    }
 } 
 
 
 
+function errorhideresult(errortext){
+var x = document.getElementById("result-error");
+x.style.display ="block";
+document.getElementById("error-alert").innerHTML = errortext;
+document.getElementById("result-div").classList.add("error-blur");
+}
+
+
+
+document.getElementById("error-close").onclick = function(){
+var x = document.getElementById("result-error");
+x.style.display ="none";
+document.getElementById("result-div").classList.remove("error-blur");				
+document.getElementById("close-result").click();
+}

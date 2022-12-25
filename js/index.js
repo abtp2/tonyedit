@@ -164,3 +164,13 @@ $("#set_div").css("display", "none");
 
 
 
+
+
+/* sharing file */
+$("#share").click(function(){
+navigator.share({ 
+title: 'TonyEdit', 
+text: 'Hey check online editor, where you can code html,css,js and python. Made by Ashutosh Pandey.',
+url: 'https://tonyedit.netlify.app'
+});
+});
