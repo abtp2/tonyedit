@@ -175,8 +175,57 @@
 
 
 <!-- hint div 
-<button id="div_hint" style="position: absolute; transform: translate(-50%,-50%);left: 50%;top: 50%; padding: 10px; z-index: 9999;">Div</button>
+<button onclick="insertHint('<div></div>', 5)" style="position: absolute; transform: translate(-50%,-50%);left: 50%;top: 50%; padding: 10px; z-index: 9999;">Div</button>
+<button onclick="insertHint('<button></button>', 8)" style="position: absolute; transform: translate(-50%,-50%);left: 50%;top: 60%; padding: 10px; z-index: 9999;">button</button>
  -->
+
+<!-- hint div -->
+<div id="hint_div">
+
+
+								
+<div class="code_hint_div html_hint_div">
+ <div id="hint_box1">
+ <button onclick="insertHint('&lt;div&gt;&lt;/div&gt;', 5)" class="hint_but1">&lt;div&gt;</button>	
+ <button onclick="insertHint('&lt;a href=&quot;&quot;&gt;&lt/a&gt;', 9)" class="hint_but1">&lt;a&gt;</button>	
+ <button onclick="insertHint('&lt;img src=&quot;&quot;&gt;', 10)" class="hint_but1">&lt;img&gt;</button>	
+ <button onclick="insertHint('class=&quot;&quot;', 7)" class="hint_but1">[class]</button>
+ <button onclick="insertHint('id=&quot;&quot;', 4)" class="hint_but1">[id]</button>
+ <button onclick="insertHint('&lt;p&gt;&lt;/p&gt;', 3)" class="hint_but1">&lt;p&gt;</button>
+ <button onclick="insertHint('&lt;span&gt;&lt;/span&gt;', 6)" class="hint_but1">&lt;span&gt;</button>
+ <button onclick="insertHint('&lt;li&gt;&lt;/li&gt;', 4)" class="hint_but1">&lt;li&gt;</button>
+ <button onclick="insertHint('&lt;ul&gt;&lt;/ul&gt;', 5)" class="hint_but1">&lt;ul&gt;</button>
+ <button onclick="insertHint('&lt;input type=&quot;&quot;&gt;', 13)" class="hint_but1">&lt;input&gt;</button>
+ <button onclick="insertHint('&lt;section&gt;&lt;/section&gt;', 9)" class="hint_but1">&lt;section&gt;</button>
+ <button onclick="insertHint('&lt;script&gt;&lt;/script&gt;', 8)" class="hint_but1">&lt;script&gt;</button>
+ <button onclick="insertHint('&lt;link rel=&quot;stylesheet&quot; href=&quot;&quot;&gt;', 29)" class="hint_but1">&lt;link&gt;</button>
+ </div>  
+ 
+ <div id="hint_box2">
+ <button onclick="insertHint('=&quot;&quot;', 2)" class="hint_but2">=&quot; &quot;</button>	
+ <button onclick="insertHint('&lt', 1)" class="hint_but2">&lt;</button>	
+ <button onclick="insertHint('&gt', 1)" class="hint_but2">&gt;</button>
+ <button onclick="insertHint('&lt;/', 2)" class="hint_but2">&lt;/</button>	
+ <button onclick="insertHint('-', 1)" class="hint_but2">-</button>
+ <button onclick="insertHint('&lt;!--  --&gt;', 5)" class="hint_but2">&lt;!-- --&gt;</button>
+ <button onclick="insertHint('#', 1)" class="hint_but2">#</button>
+ <button onclick="insertHint('.', 1)" class="hint_but2">.</button>
+ <button onclick="insertHint('(', 1)" class="hint_but2">(</button>
+ <button onclick="insertHint(')', 1)" class="hint_but2">)</button>
+ <button onclick="insertHint('&', 1)" class="hint_but2">&</button>
+ <button onclick="insertHint('_', 1)" class="hint_but2">_</button>
+ <button onclick="insertHint('/', 1)" class="hint_but2">/</button>
+ </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
 
 
 
