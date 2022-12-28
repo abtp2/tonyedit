@@ -14,15 +14,17 @@ font-family: Arial;
 img{
 pointer-events: none;
 }
-html{
-height: -webkit-fill-available;	
+html{ 
+height: -webkit-fill-available; 
+overflow-y: hidden;
 }
 body{
 width: 100%;
-background: #535763;
 height: 100vh;
-height: -webkit-fill-available;
-overflow: hidden;
+min-height: 100vh; 
+min-height: -webkit-fill-available;
+background: #535763;
+overflow: hidden !important;
 }
 .picker-blur > *:not(#picker, #result-div) { 
 filter: blur(2px) brightness(50%);
@@ -175,7 +177,7 @@ border: none;
 outline: none;
 position: relative;
 word-break: break-word;
-overflow: scroll !important;
+overflow: hidden !important;
 }
 @media(min-width: 600px){
 #code-cover{
@@ -193,6 +195,7 @@ border: none;
 outline: none;
 position: relative;
 word-break: break-word;
+overflow: scroll !important;
 }
 #html_code{
 display: block;
@@ -611,7 +614,7 @@ z-index: -9999999999999999;
 #hint_div{
 position: fixed;
 z-index: 9;
-bottom: 0;		
+bottom: 0;
 width: 100%;
 background: #242e3a;
 padding: 7px 2px;
@@ -661,3 +664,16 @@ color: #262f3d;
 display: none;
 }				
 }
+
+
+
+.html_hint_div{
+display: flex;				
+}
+.css_hint_div{
+display: none;
+}
+.js_hint_div{
+display: none;
+}
+
