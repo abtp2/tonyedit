@@ -12,6 +12,7 @@ It is built with Javascript.
 * Undo and redo buttons
 * In-built Find and Replacer
 * Shortcut keys for keyboard
+* Voice controlling 😍
 and more.......
 <br>
 
