@@ -183,7 +183,8 @@
 <div id="hint_div">
 
 
-								
+
+<!-- html hint div -->
 <div class="code_hint_div html_hint_div">
  <div id="hint_box1">
  <button onclick="insertHint('&lt;div&gt;&lt;/div&gt;', 5)" class="hint_but1">&lt;div&gt;</button>	
@@ -218,6 +219,115 @@
  </div>
 </div>
 
+
+<!-- css hint div -->
+<div class="code_hint_div css_hint_div">
+ <div id="hint_box1">
+ <button onclick="insertHint('background: ;', 12)" class="hint_but1">background</button>	
+ <button onclick="insertHint('width: ;', 7)" class="hint_but1">width</button>
+ <button onclick="insertHint('height: ;', 8)" class="hint_but1">height</button>
+ <button onclick="insertHint('font: ;', 6)" class="hint_but1">font</button>
+ <button onclick="insertHintGap('@media(){\n\n}', 9, 1)" class="hint_but1">@media</button>
+ <button onclick="insertHint('margin: ;', 8)" class="hint_but1">margin</button>
+ <button onclick="insertHint('color: ;', 7)" class="hint_but1">color</button>
+ <button onclick="insertHint('padding: ;', 9)" class="hint_but1">padding</button>
+ <button onclick="insertHint('px', 2)" class="hint_but1">px</button>
+ <button onclick="insertHint('em', 2)" class="hint_but1">em</button>
+ <button onclick="insertHint('url(&quot;&quot;)', 5)" class="hint_but1">url</button>
+ <button onclick="insertHint('position: ;', 10)" class="hint_but1">position</button>
+ <button onclick="insertHint('top: ;', 5)" class="hint_but1">top</button>
+ <button onclick="insertHint('right: ;', 7)" class="hint_but1">right</button>
+ <button onclick="insertHint('bottom: ;', 8)" class="hint_but1">bottom</button>
+ <button onclick="insertHint('left: ;', 6)" class="hint_but1">left</button>
+ <button onclick="insertHint('border-radius: ;', 15)" class="hint_but1">border-R</button>
+ </div>  
+ 
+ <div id="hint_box2">
+ <button onclick="insertHint('{', 1)" class="hint_but2">{</button>	
+ <button onclick="insertHint('}', 1)" class="hint_but2">}</button>
+ <button onclick="insertHint(':', 1)" class="hint_but2">:</button>
+ <button onclick="insertHint(';', 1)" class="hint_but2">;</button>
+ <button onclick="insertHint('%', 1)" class="hint_but2">%</button>
+ <button onclick="insertHint('(', 1)" class="hint_but2">(</button>
+ <button onclick="insertHint(')', 1)" class="hint_but2">)</button>
+ <button onclick="insertHint('#', 1)" class="hint_but2">#</button>
+ <button onclick="insertHint('""', 1)" class="hint_but2">""</button>
+ <button onclick="insertHint('/*  */', 3)" class="hint_but2">/*  */</button>
+ <button onclick="insertHint('-', 1)" class="hint_but2">-</button>
+ <button onclick="insertHint('@', 1)" class="hint_but2">@</button>
+ <button onclick="insertHint('::', 2)" class="hint_but2">::</button>
+ <button onclick="insertHint('.', 1)" class="hint_but2">.</button>
+ <button onclick="insertHint(',', 1)" class="hint_but2">,</button>
+ <button onclick="insertHint('_', 1)" class="hint_but2">_</button>
+ <button onclick="insertHint('~', 1)" class="hint_but2">~</button>
+ <button onclick="insertHint('+', 1)" class="hint_but2">+</button>
+ <button onclick="insertHint('&gt;', 1)" class="hint_but2">&gt;</button>
+ <button onclick="insertHint('/', 1)" class="hint_but2">/</button>
+ <button onclick="insertHint('&', 1)" class="hint_but2">&</button>
+ <button onclick="insertHint('[', 1)" class="hint_but2">[</button>
+ <button onclick="insertHint(']', 1)" class="hint_but2">]</button>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- javascript hint div -->
+<div class="code_hint_div js_hint_div">
+ <div id="hint_box1">
+ <button onclick="insertHint('var ', 4)" class="hint_but1">var</button>	
+ <button onclick="insertHint('function (){\n\n}', 9)" class="hint_but1">function</button>
+ <button onclick="insertHint('if(){\n\n}', 3)" class="hint_but1">if</button>
+ <button onclick="insertHint('if(){\n\n}\nelse{\n\n}', 3)" class="hint_but1">if...else</button>
+ <button onclick="insertHint('true', 4)" class="hint_but1">true</button>
+ <button onclick="insertHint('false', 5)" class="hint_but1">false</button>
+ <button onclick="insertHint('return', 6)" class="hint_but1">return</button>
+ <button onclick="insertHint('for(){\n\n}', 4)" class="hint_but1">for</button>
+ <button onclick="insertHint('console.log();', 12)" class="hint_but1">log</button>
+ <button onclick="insertHint('alert();', 6)" class="hint_but1">alert</button>
+ <button onclick="insertHint('px', 2)" class="hint_but1">px</button>
+ <button onclick="insertHint('em', 2)" class="hint_but1">em</button>
+ </div>  
+ 
+
+ 
+ 
+ <div id="hint_box2">
+ <button onclick="insertHint('{', 1)" class="hint_but2">{</button>	
+ <button onclick="insertHint('}', 1)" class="hint_but2">}</button>
+ <button onclick="insertHint('(', 1)" class="hint_but2">(</button>
+ <button onclick="insertHint(')', 1)" class="hint_but2">)</button>
+ <button onclick="insertHint('=', 1)" class="hint_but2">=</button>
+ <button onclick="insertHint('!', 1)" class="hint_but2">!</button>
+ <button onclick="insertHint('&& ', 1)" class="hint_but2">&&</button>
+ <button onclick="insertHint(';', 1)" class="hint_but2">;</button>
+ <button onclick="insertHint('$', 1)" class="hint_but2">$</button>
+ <button onclick="insertHint('&quot;&quot;', 1)" class="hint_but2">&quot;&quot;</button>
+ <button onclick="insertHint('&#39;&#39;', 1)" class="hint_but2">&#39; &#39;</button>
+ <button onclick="insertHint('``', 1)" class="hint_but2">` `</button>
+ <button onclick="insertHint('|| ', 3)" class="hint_but2">||</button>
+ <button onclick="insertHint(':', 1)" class="hint_but2">:</button>
+ <button onclick="insertHint('//', 1)" class="hint_but2">//</button>
+ <button onclick="insertHint('/*  */', 3)" class="hint_but2">/*  */</button>
+ <button onclick="insertHint('=&gt;', 2)" class="hint_but2">=&gt;</button>
+ <button onclick="insertHint('&lt;', 1)" class="hint_but2">&lt;</button>
+ <button onclick="insertHint('&gt;', 1)" class="hint_but2">&gt;</button>
+ <button onclick="insertHint('#', 1)" class="hint_but2">#</button>
+ <button onclick="insertHint(',', 1)" class="hint_but2">,</button>
+ <button onclick="insertHint('.', 1)" class="hint_but2">.</button>
+ <button onclick="insertHint('%', 1)" class="hint_but2">%</button>
+ <button onclick="insertHint('-', 1)" class="hint_but2">-</button>
+ <button onclick="insertHint('_', 1)" class="hint_but2">_</button>
+ <button onclick="insertHint('+', 1)" class="hint_but2">+</button>
+ <button onclick="insertHint('/', 1)" class="hint_but2">/</button>
+ <button onclick="insertHint('[', 1)" class="hint_but2">[</button>
+ <button onclick="insertHint(']', 1)" class="hint_but2">]</button>
+ </div>
+</div>
 
 
 </div>
