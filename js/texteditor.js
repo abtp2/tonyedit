@@ -4,6 +4,7 @@ var y = localStorage.getItem("css_code_inner");
 var z = localStorage.getItem("js_code_inner");	
 document.getElementById("helper_toggle").click();
 
+
 if(x !== null && y !== null && z !== null){
 acehtml.setValue(x ,1);	
 acecss.setValue(y ,1);	
@@ -93,6 +94,10 @@ acejs.getSession().setMode("ace/mode/javascript");
 var html_code_content = document.getElementById("html_code");
 var css_code_content = document.getElementById("css_code");
 var js_code_content = document.getElementById("js_code");
+var html_hint = document.getElementsByClassName("html_hint_div")[0];
+var css_hint = document.getElementsByClassName("css_hint_div")[0];
+var js_hint = document.getElementsByClassName("js_hint_div")[0];
+
 
 
 
@@ -101,6 +106,9 @@ html_code_content.style.display ="block";
 css_code_content.style.display ="none";
 js_code_content.style.display ="none";
 
+html_hint.style.display ="flex";
+css_hint.style.display ="none";
+js_hint.style.display ="none";
 document.getElementById("nav_html").style.borderBottom ="2px solid #fff";
 document.getElementById("nav_css").style.borderBottom ="0px solid #fff";
 document.getElementById("nav_js").style.borderBottom ="0px solid #fff";
@@ -110,6 +118,9 @@ css_code_content.style.display ="block";
 html_code_content.style.display ="none";
 js_code_content.style.display ="none";
 
+html_hint.style.display ="none";
+css_hint.style.display ="flex";
+js_hint.style.display ="none";
 document.getElementById("nav_css").style.borderBottom ="2px solid #fff";
 document.getElementById("nav_html").style.borderBottom ="0px solid #fff";
 document.getElementById("nav_js").style.borderBottom ="0px solid #fff";
@@ -119,6 +130,9 @@ js_code_content.style.display ="block";
 css_code_content.style.display ="none";
 html_code_content.style.display ="none";
 
+html_hint.style.display ="none";
+css_hint.style.display ="none";
+js_hint.style.display ="flex";
 document.getElementById("nav_js").style.borderBottom ="2px solid #fff";
 document.getElementById("nav_css").style.borderBottom ="0px solid #fff";
 document.getElementById("nav_html").style.borderBottom ="0px solid #fff";
@@ -273,6 +287,7 @@ var main_func_type = "text/html";
 var html_main_func = document.getElementById("html_code");
 var css_main_func = document.getElementById("css_code");
 var js_main_func = document.getElementById("js_code");
+
 
 function mainfunc(){
 if(html_main_func.style.display =="block"){
@@ -435,4 +450,17 @@ document.getElementById("line_input").value ="";
 			}
 		});
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
