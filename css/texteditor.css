@@ -172,6 +172,8 @@ margin-left: 0;
 width: 100%;
 /* 100vh - 72px */
 height: calc(100vh - 142px); 
+-webkit-height: calc(100vh - 142px); 
+-moz-height: calc(100vh - 142px); 
 margin-bottom: 70px;
 border: none;
 outline: none;
