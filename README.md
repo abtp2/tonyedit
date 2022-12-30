@@ -8,8 +8,8 @@ It is built with Javascript.
 * Real time code compiler
 * Real time error finder
 * Emulator for the websites
+* Get source code of any website
 * In-bulit color picker
-* Undo and redo buttons
 * In-built Find and Replacer
 * Shortcut keys for keyboard
 * Voice controlling 😍
