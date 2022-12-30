@@ -280,15 +280,67 @@ document.body.classList.remove("picker-blur");
 
 
 
+/* closing result */  
+     if (ai.includes("open editor") ||
+      ai.includes("back to editor")){
+ document.getElementById("close-result").click();
+      } 
+/* closing result ended */
+
+
+
+/* open python editor */  
+     if (ai.includes("open python") ||
+      ai.includes("go to python")){
+ window.location ="texteditor-py.html";
+       } 
+/* open python ended */
+
+
+
+/* open html editor */  
+     if (ai.includes("open html") ||
+      ai.includes("go to html")){
+ window.location ="texteditor.html";
+       } 
+/* open html ended */
+
+
+
+
+/* go to home */  
+     if (ai.includes("home") ||
+      ai.includes("open home")){
+ window.location ="index.html";
+       } 
+/* home ended */
+
+
+
+
 
 /* menu */            
    if (ai.includes("menu")){
  document.getElementById("down_open").click();
       }   
-/* menu ended */      
-      
-      
-      
+/* menu ended */  
+
+
+/* undo */            
+   if (ai.includes("undo")){
+ document.getElementById("undo_edit").click();
+      }   
+/* undo ended */  
+
+
+/* redo */            
+   if (ai.includes("redo")){
+ document.getElementById("redo_edit").click();
+      }   
+/* redo ended */  
+
+
+
       
     p = document.createElement("p");
   }
