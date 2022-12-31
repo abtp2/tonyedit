@@ -312,10 +312,12 @@ main_func_type = "text/javascript";
 /* for undo and redo */
 document.getElementById("undo_edit").onclick = function(){
 mainfunc();
+main_func.focus();
 main_func.undo();
 }
 document.getElementById("redo_edit").onclick = function(){
 mainfunc();
+main_func.focus();
 main_func.redo();
 main_func.clearSelection();
 }
