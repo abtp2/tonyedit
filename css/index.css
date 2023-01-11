@@ -335,6 +335,7 @@ margin-top: 1.5rem;
 color: var(--wtext);
 font-size: 15.5px;
 line-height: 1.42;
+opacity: 0.7;
 }
 #dev-span{
 opacity: 1 !important;
@@ -355,7 +356,7 @@ margin-bottom: 0.4rem;
 #dev-foot a{
 text-decoration: none;
 margin: 0.2rem 0;
-color: #000000;
+color: #e6e6e6;
 font-weight: 401;
 display: flex; 
 align-items: center;
