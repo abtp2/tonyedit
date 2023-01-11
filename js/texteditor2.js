@@ -82,6 +82,9 @@ document.getElementById("picker-rgb").innerHTML = rgb;
 
 document.getElementById("picker-open").onclick = function(){
 var x = document.getElementById("picker");
+document.getElementById("picker-hex").click();
+document.getElementById("result-link").click();
+
 if(x.style.display =="block"){
 x.style.display ="none";				
 document.body.classList.remove("picker-blur");

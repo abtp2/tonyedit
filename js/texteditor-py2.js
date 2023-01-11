@@ -37,6 +37,7 @@ function runit() {
 
 function errorhideresult(errortext){
 var x = document.getElementById("result-error");
+window.navigator.vibrate([200]);
 x.style.display ="block";
 document.getElementById("error-alert").innerHTML = errortext;
 document.getElementById("result-div").classList.add("error-blur");
