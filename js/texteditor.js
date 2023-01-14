@@ -2,9 +2,10 @@ window.onload = function(){
 var x = localStorage.getItem("html_code_inner");	
 var y = localStorage.getItem("css_code_inner");	
 var z = localStorage.getItem("js_code_inner");	
+var editor_theme = localStorage.getItem("theme_name");
 document.getElementById("helper_toggle").click();
 
-
+/* Setting value for text editor */
 if(x !== null && y !== null && z !== null){
 acehtml.setValue(x ,1);	
 acecss.setValue(y ,1);	
@@ -27,14 +28,36 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }` ,1);
-acejs.setValue(`// write javascript here` ,1);
+acejs.setValue(`// write javascript here
+` ,1);
+acehtml.moveCursorToPosition({row: 7, column: 0});
 }
+
+
+/* Setting theme for editor */
+if(editor_theme !== null){
+acehtml.setTheme("ace/theme/" + editor_theme);
+acecss.setTheme("ace/theme/" + editor_theme);
+acejs.setTheme("ace/theme/" + editor_theme);
+}
+else{
+acehtml.setTheme("ace/theme/twilight");
+acecss.setTheme("ace/theme/twilight");
+acejs.setTheme("ace/theme/twilight");
+}
+console.log("Editor theme is :" + editor_theme);
 }
 
 
 
 
 
+
+
+
+
+
+/* editor functions */
 
 var acehtml = window.ace.edit("html_code");
 acehtml.setOptions({
@@ -42,7 +65,6 @@ enableBasicAutocompletion: true,
 enableLiveAutocompletion: true,
 fontSize: "100%" 
 });
-acehtml.setTheme("ace/theme/twilight");
 acehtml.getSession().setMode("ace/mode/html"); 
 // acehtml.setValue(acehtml_value);
 // acehtml.getSession().getValue();
@@ -56,7 +78,6 @@ enableBasicAutocompletion: true,
 enableLiveAutocompletion: true,
 fontSize: "100%" 
 });
-acecss.setTheme("ace/theme/twilight");
 acecss.getSession().setMode("ace/mode/css");
 // acecss.setValue(acecss_value);
 // acecss.getSession().getValue();
@@ -70,7 +91,6 @@ enableBasicAutocompletion: false,
 enableLiveAutocompletion: false,
 fontSize: "100%" 
 });
-acejs.setTheme("ace/theme/twilight");
 acejs.getSession().setMode("ace/mode/javascript");
 // acejs.setValue(acejs_value);
 // acejs.getSession().getValue();

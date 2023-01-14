@@ -1,16 +1,27 @@
 window.onload = function(){
 var x = localStorage.getItem("py_code_inner");	
+var editor_theme = localStorage.getItem("theme_name");
 document.getElementById("helper_toggle").click();
 
 
 if(x !== null){
 acehtml.setValue(x ,1);	
 }
-
 if(x == null){
 acehtml.setValue(`# write python code here
 `,1);
 }
+
+
+
+/* Setting theme for editor */
+if(editor_theme !== null){
+acehtml.setTheme("ace/theme/" + editor_theme);
+}
+else{
+acehtml.setTheme("ace/theme/twilight");
+}
+console.log("Editor theme is :" + editor_theme);
 }
 
 
@@ -24,7 +35,6 @@ enableBasicAutocompletion: true,
 enableLiveAutocompletion: true,
 fontSize: "100%" 
 });
-acehtml.setTheme("ace/theme/twilight");
 acehtml.getSession().setMode("ace/mode/python"); 
 // acehtml.setValue(acehtml_value);
 // acehtml.getSession().getValue();

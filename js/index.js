@@ -5,12 +5,47 @@
 
 $(document).ready(function(){
 var x = localStorage.getItem("tog_voice");
-
+var editor_theme = localStorage.getItem("theme_name"); 
 if(x == "on"){
 $(".tog_voice").css("justify-content", "flex-end");				
 }
 if(x == "off"){
 $(".tog_voice").css("justify-content", "flex-start");				
+}
+
+
+
+
+
+
+
+
+if (editor_theme =="twilight"){
+$("#twilight").addClass("theme_applied");
+$("*").not("#twilight").removeClass("theme_applied");
+}
+else if (editor_theme =="tomorrow_night"){
+$("#tomorrow_night").addClass("theme_applied");
+$("*").not("#tomorrow_night").removeClass("theme_applied");
+}
+else if (editor_theme =="dracula"){
+$("#dracula").addClass("theme_applied");
+$("*").not("#dracula").removeClass("theme_applied");
+}
+else if (editor_theme =="monokai"){
+$("#monokai").addClass("theme_applied");
+$("*").not("#monokai").removeClass("theme_applied");
+}
+else if (editor_theme =="one_dark"){
+$("#one_dark").addClass("theme_applied");
+$("*").not("#one_dark").removeClass("theme_applied");
+}
+else if (editor_theme =="clouds_midnight"){
+$("#clouds_midnight").addClass("theme_applied");
+$("*").not("#clouds_midnight").removeClass("theme_applied");
+}
+else{
+$("#twilight").addClass("theme_applied");
 }
 }); 
 
