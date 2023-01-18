@@ -12,6 +12,9 @@ It is built with Javascript.
 * In-bulit color picker
 * In-built Find and Replacer
 * Shortcut keys for keyboard
+* Emmet support
+* Many in-built themes
+* Syntax highlighting
 * Voice controlling 😍
 and more.......
 <br>
