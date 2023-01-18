@@ -16,19 +16,19 @@
 
 <div id="nav_files">
 	 <div id="nav_html" class="nav_bars">
-	 <img src="img/htmlicon.jpg">
+	 <img src="img/htmlicon.png">
 	 <p>index.html</p>
 	 <i class="rc-icon">close</i>
 	 </div>
 	 
 	 <div id="nav_css" class="nav_bars">
-	 <img src="img/cssicon.jpg">
+	 <img src="img/cssicon.png">
 	 <p>style.css</p>
 	 <i class="rc-icon">close</i>
 	 </div>
 	 
 	 <div id="nav_js" class="nav_bars">
-	 <img src="img/jsicon.jpg">
+	 <img src="img/jsicon.png">
 	 <p>script.js</p>
 	 <i class="rc-icon">close</i>
 	 </div>
@@ -88,7 +88,7 @@
 <div id="helper">
  <div id="main_helper">
    	 <div id="picker-open">
-   	 	<img src="img/color_picker.jpg">
+   	 	<img src="img/color_picker.png">
    	 	<p>Picker</p>
    	 </div>		
    	 	<div>
@@ -137,8 +137,8 @@
 
 <!-- color picker -->
 <div id="picker">				
-<p>HEX: <span id="picker-hex">#ffffff</span><i class="rc-icon" id="copy-picker-hex">content_copy</i></p>
-<p>RGB: <span id="picker-rgb">rgb(255,255,255)</span><i class="rc-icon" id="copy-picker-rgb">content_copy</i></p><br>
+<p id="to_resque_picker">HEX : <span id="picker-hex">#ffffff</span><i class="rc-icon" id="copy-picker-hex">content_copy</i></p>
+<p>RGB : <span id="picker-rgb">rgb(255,255,255)</span><i class="rc-icon" id="copy-picker-rgb">content_copy</i></p><br>
 </div>
 
 
@@ -368,12 +368,21 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ace.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ext-language_tools.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/theme-chrome.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/mode-javascript.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/worker-javascript.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+
+<script src="ace/ace.js"></script> 
+<script src="ace/theme-github_dark.js"></script>
+<script src="ace/ext-language_tools.js"></script>
+<script src="ace/emmet-core.js"></script>
+<script src="ace/ext-emmet.js"></script>
+<script src="ace/mode-javascript.js"></script>
+<script src="ace/mode-html.js"></script>
+<script src="ace/mode-css.js"></script>
+<script src="ace/worker-javascript.js"></script>
+<script src="ace/worker-css.js"></script>
+<script src="ace/worker-html.js"></script>
+
+
+<script src="js/iro@5.js"></script>
 <script src="js/texteditor.js"></script>
 <script src="js/texteditor2.js"></script>
 <script src="js/texteditor3.js"></script>
