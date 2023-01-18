@@ -55,3 +55,9 @@ code_div.open();
 code_div.write(html_div + "<style>" + css_div + "</style>" + "<script>" + js_div + "</script>" + "</body> </html>"); 
 code_div.close(); 
 }
+
+
+
+
+
+
