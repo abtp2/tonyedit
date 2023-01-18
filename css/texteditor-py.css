@@ -186,6 +186,7 @@ border: none;
 outline: none;
 position: relative;
 word-break: break-word;
+line-height: 1.45;
 }
 #html_code{
 display: block;

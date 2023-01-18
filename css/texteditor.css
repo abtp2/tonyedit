@@ -170,8 +170,6 @@ margin-left: 0;
 width: 100%;
 /* 100vh - 72px */
 height: calc(100vh - 142px); 
--webkit-height: calc(100vh - 142px); 
--moz-height: calc(100vh - 142px); 
 margin-bottom: 70px;
 border: none;
 outline: none;
@@ -196,6 +194,7 @@ outline: none;
 position: relative;
 word-break: break-word;
 overflow: scroll !important;
+line-height: 1.45;
 }
 #html_code{
 display: block;
@@ -617,7 +616,7 @@ z-index: -9999999999999999;
 
 /* hint div */
 #hint_div{
-position: fixed;
+position: absolute;
 z-index: 9;
 bottom: 0;
 width: 100%;
