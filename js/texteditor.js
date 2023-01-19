@@ -393,7 +393,7 @@ var x = document.getElementById("find_code_value").value;
 var y = document.getElementById("replace_code_value").value;
 mainfunc();
 main_func.find(x);					
-main_func.replace(y);	
+main_func.replace(y);
 }
 
 /* search and replace ended */
