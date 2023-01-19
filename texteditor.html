@@ -137,8 +137,8 @@
 
 <!-- color picker -->
 <div id="picker">				
-<p id="to_resque_picker">HEX : <span id="picker-hex">#ffffff</span><i class="rc-icon" id="copy-picker-hex">content_copy</i></p>
-<p>RGB : <span id="picker-rgb">rgb(255,255,255)</span><i class="rc-icon" id="copy-picker-rgb">content_copy</i></p><br>
+<p id="to_resque_picker">HEX : <span id="picker-hex">#ffffff</span><i class="rc-icon" id="copy-picker-hex">add_task</i></p>
+<p>RGB : <span id="picker-rgb">rgb(255,255,255)</span><i class="rc-icon" id="copy-picker-rgb">add_task</i></p><br>
 </div>
 
 
@@ -223,6 +223,7 @@
 <!-- css hint div -->
 <div class="code_hint_div css_hint_div">
  <div id="hint_box1">
+  <button onclick="insertHintGap('body{\n\n}', 5, 1)" class="hint_but1">body</button>
  <button onclick="insertHint('background: ;', 12)" class="hint_but1">background</button>	
  <button onclick="insertHint('width: ;', 7)" class="hint_but1">width</button>
  <button onclick="insertHint('height: ;', 8)" class="hint_but1">height</button>
