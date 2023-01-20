@@ -21,17 +21,14 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.loader {
-    position: fixed;
-    width: 100vw;
-    height: 200vh;
-    pointer-events: none;
-    background-color: #FFF6ED;
-    z-index: 999999999999999999999999999999;
-    visibility: hidden;
-    opacity: 0;
+*::-webkit-scrollbar{
+background: transparent;
+width: 0px !important;
 }
-.is-transitioning {
-    pointer-events: none;
-    cursor: progress;
+*::-webkit-scrollbar-thumb{
+background: transparent;
 }
+*::-webkit-scrollbar-track{
+background: transparent;
+}
+
