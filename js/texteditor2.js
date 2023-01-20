@@ -122,10 +122,22 @@ main_func.blur();
 
 /* copying picker values */
 document.getElementById("copy-picker-hex").onclick = function(){
-var x = document.getElementById("picker-hex").innerText;		navigator.clipboard.writeText(x);		
+var x = document.getElementById("picker-hex").innerText;	
+mainfunc();
+main_func.insert(x);
+main_func.focus();
+document.getElementById("picker").style.display ="none";				
+document.body.classList.remove("picker-blur");
 }
+
+
+
 document.getElementById("copy-picker-rgb").onclick = function(){
-var x = document.getElementById("picker-rgb").innerText;		navigator.clipboard.writeText(x);		
+var x = document.getElementById("picker-rgb").innerText;		mainfunc();
+main_func.insert(x);
+main_func.focus();
+document.getElementById("picker").style.display ="none";				
+document.body.classList.remove("picker-blur");
 }
 
 
@@ -151,6 +163,50 @@ var x = document.getElementById("picker-rgb").innerText;		navigator.clipboard.wr
 
 
 
+
+
+/* function for fsm */
+function fsm(){
+var element = document.documentElement;
+if(element.requestFullscreen){
+element.requestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else if(elem.webkitRequestFullscreen){
+element.webkitrequestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else if(element.msrequestFullscreen){
+element.msrequestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else{
+alert("You device do not support FSM");
+}
+}
+
+/* function for exit full screen mode */
+function fsm_exit(){
+var x = document;
+if(x.ExitFullscreen){
+x.ExitFullscreen();
+}
+else if(x.webkitExitFullscreen){
+x.webkitExitFullscreen();
+}
+else if(x.msExitFullscreen){
+x.msExitFullscreen();
+}
+else{
+alert("You device do not support FSM");
+}
+}
 
 
 
@@ -192,6 +248,9 @@ document.getElementById("savecode").click();
 if (e.keyCode === 77 && alt) {/* m */
 document.getElementById("down_open").click();
 }
+if (e.keyCode === 122 && alt) {/* f11 */
+   if(document.fullscreenElement){fsm_exit();} 
+   else{fsm();}
 };
 
 
@@ -375,7 +434,7 @@ recognition.start();
 else{
 console.log("Voice controlling is disabled !!, open it from setting")
 }
-
+}
 
 
 

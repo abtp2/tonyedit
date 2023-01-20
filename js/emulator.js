@@ -61,3 +61,64 @@ code_div.close();
 
 
 
+
+
+/* function for fsm */
+function fsm(){
+var element = document.documentElement;
+if(element.requestFullscreen){
+element.requestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else if(elem.webkitRequestFullscreen){
+element.webkitrequestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else if(element.msrequestFullscreen){
+element.msrequestFullscreen().then(function(){ 		
+console.log("Full Screen Mode : ON;");
+}).catch(function(error){
+alert("You device do not support FSM");
+});}
+else{
+alert("You device do not support FSM");
+}
+}
+
+/* function for exit full screen mode */
+function fsm_exit(){
+var x = document;
+if(x.ExitFullscreen){
+x.ExitFullscreen();
+}
+else if(x.webkitExitFullscreen){
+x.webkitExitFullscreen();
+}
+else if(x.msExitFullscreen){
+x.msExitFullscreen();
+}
+else{
+alert("You device do not support FSM");
+}
+}
+
+
+
+
+
+
+/* for keyboard inputs */
+document.onkeydown = function (e){ 
+var alt = e.altKey ? e.altKey : ((e.key === 18) ? true : false); 
+var ctrl = e.ctrlKey ? e.ctrlKey : ((e.key === 17) ? true : false); 
+
+
+if (e.keyCode === 122 && alt) {/* f11 */
+   if (document.fullscreenElement){fsm_exit();} 
+   else{fsm();}
+};
+}

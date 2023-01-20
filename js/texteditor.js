@@ -58,6 +58,9 @@ console.log("Editor theme is :" + editor_theme);
 
 
 
+
+
+
 /* editor functions */
 
 var acehtml = window.ace.edit("html_code");
@@ -110,8 +113,6 @@ acejs.setShowPrintMargin(false);
 acehtml.setOption("enableEmmet", true);
 acecss.setOption("enableEmmet", true);
 acejs.setOption("enableEmmet", true);
-
-
 
 
 
@@ -219,7 +220,11 @@ localStorage.setItem("js_code_inner", js_div);
 
 
 
-
+/* full screen mode*/
+document.getElementById("fscode").onclick = function(){
+if (document.fullscreenElement){fsm_exit();} 
+else{fsm();}				
+}
 
 
 
