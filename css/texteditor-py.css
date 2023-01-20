@@ -555,17 +555,19 @@ outline: 2px double #fff;
 
 /* download menu */
 #down_menu{
-width: 170px;
+width: 180px;
 background: #192535;
 position: fixed;
 z-index: 10;
 top: 44px;
-right: 5px;
+right: 0px;
 display: none; 
 flex-direction: column;
 padding: 5px 0;
 border-bottom: 5px solid #464646;
 overflow: hidden;
+border-bottom-left-radius: 3px;
+border-top-left-radius: 3px;
 }
 #down_menu p{
 display: flex; 
