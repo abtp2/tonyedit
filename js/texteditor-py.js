@@ -86,6 +86,15 @@ localStorage.setItem("py_code_inner", html_div_one);
 
 
 
+/* full screen mode*/
+document.getElementById("fscode").onclick = function(){
+if (document.fullscreenElement){fsm_exit();} 
+else{fsm();}				
+}
+
+
+
+
 
 
 /* checking if code has turtle */
