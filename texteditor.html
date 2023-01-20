@@ -152,6 +152,7 @@
  <input type="file" id="fileInput">
  <p id="downcode"><i class="rc-icon">download</i> Download</p>
  <p id="sharecode"><i class="rc-icon">share</i> Share</p>
+ <p id="fscode"><i class="rc-icon">fullscreen</i> Full View Mode</p>
  <div id="line_num">
  	 <input type="number" placeholder="Go to line..." id="line_input">
  	 <i class="rc-icon" id="line_submit">arrow_forward</i>
@@ -203,6 +204,7 @@
  </div>  
  
  <div id="hint_box2">
+ <button class="hint_but2" onclick="insertTab()"><b class="rc-icon">keyboard_tab</b></button>
  <button onclick="insertHint('=&quot;&quot;', 2)" class="hint_but2">=&quot; &quot;</button>	
  <button onclick="insertHint('&lt', 1)" class="hint_but2">&lt;</button>	
  <button onclick="insertHint('&gt', 1)" class="hint_but2">&gt;</button>
@@ -244,6 +246,7 @@
  </div>  
  
  <div id="hint_box2">
+ <button class="hint_but2" onclick="insertTab()"><b class="rc-icon">keyboard_tab</b></button>
  <button onclick="insertHint('{', 1)" class="hint_but2">{</button>	
  <button onclick="insertHint('}', 1)" class="hint_but2">}</button>
  <button onclick="insertHint(':', 1)" class="hint_but2">:</button>
@@ -298,6 +301,7 @@
  
  
  <div id="hint_box2">
+ <button class="hint_but2" onclick="insertTab()"><b class="rc-icon">keyboard_tab</b></button>
  <button onclick="insertHint('{', 1)" class="hint_but2">{</button>	
  <button onclick="insertHint('}', 1)" class="hint_but2">}</button>
  <button onclick="insertHint('(', 1)" class="hint_but2">(</button>
@@ -381,11 +385,20 @@
 <script src="ace/worker-javascript.js"></script>
 <script src="ace/worker-css.js"></script>
 <script src="ace/worker-html.js"></script>
+<script src="ace/keybinding-emacs.js"></script>
+<script src="ace/ext-keybinding_menu.js"></script>
 
 
 <script src="js/iro@5.js"></script>
 <script src="js/texteditor.js"></script>
 <script src="js/texteditor2.js"></script>
 <script src="js/texteditor3.js"></script>
+<script>
+function insertTab(){
+mainfunc();
+main_func.insert("\t");
+main_func.focus();
+}
+</script>
 </body>
 </html>
