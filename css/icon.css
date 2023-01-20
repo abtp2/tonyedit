@@ -24,11 +24,24 @@
 *::-webkit-scrollbar{
 background: transparent;
 width: 0px !important;
+height: 0px !important;
+display: none;
+position: absolute;
+z-index: -99999999;
 }
 *::-webkit-scrollbar-thumb{
 background: transparent;
+width: 0px !important;
+height: 0px !important;
+display: none;
+position: absolute;
+z-index: -99999999;
 }
 *::-webkit-scrollbar-track{
 background: transparent;
+width: 0px !important;
+height: 0px !important;
+display: none;
+position: absolute;
+z-index: -99999999;
 }
-
