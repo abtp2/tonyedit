@@ -48,6 +48,7 @@ var html_div = localStorage.getItem("html_code_inner");
 var css_div = localStorage.getItem("css_code_inner");
 var js_div = localStorage.getItem("js_code_inner");
 
+getzoom();
 
 
 var code_div = document.getElementById("iframe").contentWindow.document;
@@ -122,3 +123,28 @@ if (e.keyCode === 122 && alt) {/* f11 */
    else{fsm();}
 };
 }
+
+
+
+
+function getzoom(){
+var container = document.querySelector("#i-main");
+var inner = document.querySelector("#iframe_container");
+if(inner.offsetWidth > container.offsetWidth){
+var scale = container.offsetWidth / inner.offsetWidth;
+inner.style.transform = "scale(" + scale + ")";
+inner.style.transformOrigin = "left top";
+}
+}
+setInterval(getzoom, 5);
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+

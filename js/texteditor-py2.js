@@ -19,7 +19,7 @@ function runit() {
    var html_div_one = acehtml.getSession().getValue();
    var prog = html_div_one; 
    var mypre = document.getElementById("result-code"); 
-   mypre.innerHTML = ''; 
+   mypre.innerHTML = '>>> '; 
    Sk.canvas = "mycanvas";
    Sk.pre = "result-code";
    Sk.configure({output:outf, read:builtinRead}); 

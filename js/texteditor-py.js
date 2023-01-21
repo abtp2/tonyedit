@@ -81,16 +81,46 @@ document.getElementById("savecode").click();
 /* savecode */
 document.getElementById("savecode").onclick = function(){ 
 var html_div_one = acehtml.getSession().getValue();
+valert("Saved");
+document.getElementById("down_menu").style.display ="none";
+document.getElementById("line_input").value ="";
+
 localStorage.setItem("py_code_inner", html_div_one); 
 }
 
 
 
+/* virtual alert*/
+function valert(x){
+var box = document.getElementById("v_alert");
+var content = document.getElementById("v_alert_text");
+box.style.display ="flex";
+content.innerHTML = x;
+mainfunc();
+main_func.focus();
+setTimeout(function(){
+box.style.display ="none";
+}, 2000);
+}
+
+
+
+
+
+
+
+
 /* full screen mode*/
 document.getElementById("fscode").onclick = function(){
-if (document.fullscreenElement){fsm_exit();} 
-else{fsm();}				
+document.getElementById("down_menu").style.display ="none";
+document.getElementById("line_input").value ="";
+
+
+if (document.fullscreenElement){fsm_exit();valert("Full Screen Mode : ON")} 
+else{fsm();valert("Full Screen Mode : OFF")}				
 }
+
+
 
 
 
