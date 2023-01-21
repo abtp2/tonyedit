@@ -126,9 +126,10 @@ font-size: 14px;
 color: var(--wtext);
 opacity: 0.4;
 }
-.main_icons:focus{
-background: #000;
+.main_icons:hover{
+box-shadow:inset 0px 0px 1px 7px rgba(0,0,0,0.45), 0px 0px 1px 6px rgba(0,0,0,0.45);
 }
+
 
 
 @media(max-width: 350px){
@@ -165,6 +166,27 @@ margin-left: 0;
 
 
 
+
+/* virtual alert*/
+#v_alert{
+background: #606060;
+position: absolute;
+z-index: 99;
+transform: translate(-50%,50%);
+left: 50%;
+bottom: 35%;
+padding: 6.6px 15px;
+border-radius: 50px;
+display: none; 
+align-items: center;
+justify-content: center;
+transition: display 3s;
+}
+#v_alert p{
+color: #fff;
+font-size: 14.2px;
+font-weight: 400.5;
+}
 
 
 
