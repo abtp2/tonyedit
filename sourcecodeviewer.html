@@ -7,6 +7,7 @@
 				<meta name="theme-color" content="#535763">
 				<link rel="stylesheet" href="css/sourcecodeviewer.css">
 				<link rel="icon" type="image/png" href="img/logo(rel).png">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
 				<title>TonyEdit</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
   <i class="rc-icon" id="copy">content_copy</i>
   </div>		
   
-  <textarea id="result-code" readonly></textarea>		
+  <div id="result-code"></div>
 </div>
 
 
@@ -53,6 +54,24 @@
 
 
 
-<script src="js/sourcecodeviewer.js"></script>		
+<script src="js/sourcecodeviewer.js"></script>	
+<script src="ace/ace.js"></script> 
+<script src="ace/ext-language_tools.js"></script>
+<script src="ace/mode-html.js"></script>
+<script src="ace/worker-html.js"></script>
+<script src="ace/ext-beautify.js"></script>
+
+
+<script>
+var acehtml = window.ace.edit("result-code");
+acehtml.setOptions({
+enableBasicAutocompletion: true,
+enableLiveAutocompletion: true,
+fontSize: "100%" 
+});
+acehtml.getSession().setMode("ace/mode/html");
+acehtml.setTheme("ace/theme/chrome");
+acehtml.setReadOnly(true);
+</script>	
 </body>
 </html>
