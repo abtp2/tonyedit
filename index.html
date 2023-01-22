@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+				<meta name="description" content="A modern code editor where one can code html,css,javascript and python. Features of the editor are next level. Made by Ashutosh Pandey.">
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
 				<link rel="stylesheet" href="css/index.css">
+				<link rel="stylesheet" href="css/swiffy-slider.css">
 				<link rel="icon" type="image/png" href="img/logo(rel).png">
 				<meta name="theme-color" content="#535763">
 				<meta name="google-site-verification" content="kJaYB0LAuyagC97IqGDarOGz3QzGOzP49UYj8syPDtc" />
 				<title>TonyEdit</title>
 </head>
 <body>    	    		
-
 <!-- loader -->
 <div id="loader">
 <img src="img/loadlogo.png">	
@@ -31,7 +33,7 @@
  <p>Extras</p> 
  <h1><i class="rc-icon">star</i> Star This</h1>
  <h1 id="share"><i class="rc-icon">share</i> Share</h1>
- <h1 onclick="window.location='https://ashutoshpandey.netlify.app'"><i class="rc-icon">email</i> Contact Us</h1>
+ <h1 onclick="goto('https://ashutoshpandey.netlify.app')"><i class="rc-icon">email</i> Contact Us</h1>
  <h1><i class="rc-icon">policy</i> Policies</h1>
  <br>
  <p>Premium</p>
@@ -203,6 +205,9 @@
   <i class="rc-icon" id="set_div_chevron">chevron_right</i>
   </div>
 </div>  
+
+
+
 <div id="set_div_theme_div">
 		 <div id="set_div_theme">
 	 	 <img src="img/t_github.png">
@@ -251,16 +256,71 @@
  
  
  
+<!-- emmet toggle div -->
+ 
+<div id="set_div_row">
+  <div id="set_div_card" onclick="emmet()">
+  <p>Emmet Snippets</p>	
+  <i class="rc-icon" id="emmet_div_chevron">chevron_right</i>
+  </div>
+</div>  
+
+
+
+
+<!-- emmet snippet div -->
+<div id="emmet-pdf">
+<div class="swiffy-slider slider-indicators-round slider-indicators-dark slider-indicators-outside slider-indicators-highlight slider-indicators-sm"> 
+<ul class="slider-container"> 
+<li><img src="emmet/emmet_page-0001.jpg" id="xx"></li>
+<li><img src="emmet/emmet_page-0002.jpg"></li>
+<li><img src="emmet/emmet_page-0003.jpg"></li>
+<li><img src="emmet/emmet_page-0004.jpg"></li>
+<li><img src="emmet/emmet_page-0005.jpg"></li>
+<li><img src="emmet/emmet_page-0006.jpg"></li>
+<li><img src="emmet/emmet_page-0007.jpg"></li>
+<li><img src="emmet/emmet_page-0008.jpg"></li>
+<li><img src="emmet/emmet_page-0009.jpg"></li>
+<li><img src="emmet/emmet_page-0010.jpg"></li> 
+<li><img src="emmet/emmet_page-0011.jpg"></li> 
+<li><img src="emmet/emmet_page-0012.jpg"></li> 
+<li><img src="emmet/emmet_page-0013.jpg"></li> 
+<li><img src="emmet/emmet_page-0014.jpg"></li> 
+<li><img src="emmet/emmet_page-0015.jpg"></li> 
+<li><img src="emmet/emmet_page-0016.jpg"></li> 
+<li><img src="emmet/emmet_page-0017.jpg"></li> 
+<li><img src="emmet/emmet_page-0018.jpg"></li> 
+<li><img src="emmet/emmet_page-0019.jpg"></li> 
+<li><img src="emmet/emmet_page-0020.jpg"></li> 
+<li><img src="emmet/emmet_page-0021.jpg"></li> 
+<li><img src="emmet/emmet_page-0022.jpg"></li> 
+<li><img src="emmet/emmet_page-0023.jpg"></li> 
+<li><img src="emmet/emmet_page-0024.jpg"></li> 
+</ul> 
+
+<button type="button" class="slider-nav"></button> 
+<button type="button" class="slider-nav slider-nav-next"></button> 
+<div class="slider-indicators">
+<button class="active"></button> 
+<button></button><button></button> 
+ </div></div>
+</div>
+<!-- ended -->
+ 
+ 
+ 
  
 
 </div>
 
 
 
-
-
+<script src="js/swiffy-slider.js"></script>
+<script src="js/swiffy-slider-extensions.min.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/index.js"></script>		
+
+
 
 
 <!-- 
@@ -296,6 +356,41 @@ function seteditorthemelocal(x, its){
 localStorage.setItem("theme_name", x);			
 $(its).addClass("theme_applied");
 $("*").not(its).removeClass("theme_applied");
+}
+
+
+
+
+/* emmet div pdf */
+function emmet(){
+var x = $("#emmet-pdf"); 
+var y = $("#emmet_div_chevron");
+
+if(x.css("display") =="none"){
+x.css("display", "flex");				
+y.css("transform", "rotate(90deg)");
+}
+else{
+x.css("display", "none");
+y.css("transform", "none");
+}
+}
+
+
+
+
+
+
+
+function goto(x){
+var y = window.navigator.onLine;
+
+if(y == true){
+window.location = x;
+}
+else{
+alert("You are offline !!");
+}
 }
 </script>
 </body>
