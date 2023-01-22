@@ -32,7 +32,7 @@ body{
     resize: both;
     overflow: auto;
     position: relative;
-    overflow: visible;
+    overflow: visible;    
     transform-origin: center;
 }
 #i-main{

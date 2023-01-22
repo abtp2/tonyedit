@@ -162,6 +162,8 @@ font-weight: 401;
 width: 100%;
 display: flex; 
 margin-top: 0.5rem;
+height: 75px;
+overflow: scroll;
 }
 #row-card{
 width: 280px;
@@ -621,6 +623,87 @@ color: #cdd5d8 !important;
 @media(min-width: 600px){
 #set_div_theme{
 width: 40%;
+}				
+}
+
+
+
+
+
+
+/* emmet pdf div */
+#emmet-pdf{
+background: transparent;
+width: 90%;
+margin: 2rem auto;
+display: none;	
+}
+
+.swiffy-slider{
+margin: 0 auto;
+width: 100%;
+height: 515px;
+overflow-y: scroll !important;
+}
+.slider-container{
+border: 4px solid #405b66;
+border-radius: 6px;
+overflow: scroll !important;
+}
+.slider-container li{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+.slider-container li img{
+max-width: 100%;
+}
+.slider-nav::after{
+background: #405b66 !important;
+color: #fff;
+border-radius: 100%;
+border: 3px solid #000;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+@media(min-width: 600px){
+#emmet-pdf{
+width: 85%;			
+}				
+}
+@media(min-width: 700px){
+#emmet-pdf{
+width: 80%;			
+}				
+}
+@media(min-width: 800px){
+#emmet-pdf{
+width: 75%;			
+}				
+}
+@media(min-width: 900px){
+#emmet-pdf{
+width: 70%;			
+}				
+}
+@media(min-width: 1000px){
+#emmet-pdf{
+width: 65%;			
+}				
+}
+@media(min-width: 1200px){
+#emmet-pdf{
+width: 60%;			
+}				
+}
+@media(min-width: 1400px){
+#emmet-pdf{
+width: 55%;			
 }				
 }
 
