@@ -201,6 +201,13 @@ height: calc(100vh - 60px);
 padding: 12px;
 }
 
+.ace_editor, .ace_editor * {
+font-family: "Monaco", "Menlo", "Ubuntu Mono", "Droid Sans Mono", "Consolas", monospace !important; 
+font-size: 12px !important; 
+font-weight: 400 !important; 
+letter-spacing: 0 !important;
+}
+.ace_mobile-menu { display: none !important; }
 
 
 
