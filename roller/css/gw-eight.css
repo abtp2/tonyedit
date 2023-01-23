@@ -1,0 +1,6402 @@
+/* TRANSFORMS */
+
+
+/* scale */
+.scale-0{
+transform: scale(0) !important;
+}
+.scale-1{
+transform: scale(0.2) !important;
+}
+.scale-2{
+transform: scale(0.4) !important;
+}
+.scale-3{
+transform: scale(0.6) !important;
+}
+.scale-4{
+transform: scale(0.8) !important;
+}
+.scale-5{
+transform: scale(1) !important;
+}
+.scale-6{
+transform: scale(1.2) !important;
+}
+.scale-7{
+transform: scale(1.4) !important;
+}
+.scale-8{
+transform: scale(1.6) !important;
+}
+.scale-9{
+transform: scale(1.8) !important;
+}
+.scale-10{
+transform: scale(2) !important;
+}
+
+
+
+.scale-x-0{
+transform: scaleX(0) !important;
+}
+.scale-x-1{
+transform: scaleX(0.2) !important;
+}
+.scale-x-2{
+transform: scaleX(0.4) !important;
+}
+.scale-x-3{
+transform: scaleX(0.6) !important;
+}
+.scale-x-4{
+transform: scaleX(0.8) !important;
+}
+.scale-x-5{
+transform: scaleX(1) !important;
+}
+.scale-x-6{
+transform: scaleX(1.2) !important;
+}
+.scale-x-7{
+transform: scaleX(1.4) !important;
+}
+.scale-x-8{
+transform: scaleX(1.6) !important;
+}
+.scale-x-9{
+transform: scaleX(1.8) !important;
+}
+.scale-x-10{
+transform: scaleX(2) !important;
+}
+
+
+
+.scale-y-0{
+transform: scaleY(0) !important;
+}
+.scale-y-1{
+transform: scaleY(0.2) !important;
+}
+.scale-y-2{
+transform: scaleY(0.4) !important;
+}
+.scale-y-3{
+transform: scaleY(0.6) !important;
+}
+.scale-y-4{
+transform: scaleY(0.8) !important;
+}
+.scale-y-5{
+transform: scaleY(1) !important;
+}
+.scale-y-6{
+transform: scaleY(1.2) !important;
+}
+.scale-y-7{
+transform: scaleY(1.4) !important;
+}
+.scale-y-8{
+transform: scaleY(1.6) !important;
+}
+.scale-y-9{
+transform: scaleY(1.8) !important;
+}
+.scale-y-10{
+transform: scaleY(2) !important;
+}
+
+
+.scale-z-0{
+transform: scaleZ(0) !important;
+}
+.scale-z-1{
+transform: scaleZ(0.2) !important;
+}
+.scale-z-2{
+transform: scaleZ(0.4) !important;
+}
+.scale-z-3{
+transform: scaleZ(0.6) !important;
+}
+.scale-z-4{
+transform: scaleZ(0.8) !important;
+}
+.scale-z-5{
+transform: scaleZ(1) !important;
+}
+.scale-z-6{
+transform: scaleZ(1.2) !important;
+}
+.scale-z-7{
+transform: scaleZ(1.4) !important;
+}
+.scale-z-8{
+transform: scaleZ(1.6) !important;
+}
+.scale-z-9{
+transform: scaleZ(1.8) !important;
+}
+.scale-z-10{
+transform: scaleZ(2) !important;
+}
+
+
+
+
+.scale-3d-0{
+transform: scale3d(0) !important;
+}
+.scale-3d-1{
+transform: scale3d(0.2) !important;
+}
+.scale-3d-2{
+transform: scale3d(0.4) !important;
+}
+.scale-3d-3{
+transform: scale3d(0.6) !important;
+}
+.scale-3d-4{
+transform: scale3d(0.8) !important;
+}
+.scale-3d-5{
+transform: scale3d(1) !important;
+}
+.scale-3d-6{
+transform: scale3d(1.2) !important;
+}
+.scale-3d-7{
+transform: scale3d(1.4) !important;
+}
+.scale-3d-8{
+transform: scale3d(1.6) !important;
+}
+.scale-3d-9{
+transform: scale3d(1.8) !important;
+}
+.scale-3d-10{
+transform: scale3d(2) !important;
+}
+
+
+
+
+/* scale hover */
+.hover\:scale-0:hover{
+transform: scale(0) !important;
+}
+.hover\:scale-1:hover{
+transform: scale(0.2) !important;
+}
+.hover\:scale-2:hover{
+transform: scale(0.4) !important;
+}
+.hover\:scale-3:hover{
+transform: scale(0.6) !important;
+}
+.hover\:scale-4:hover{
+transform: scale(0.8) !important;
+}
+.hover\:scale-5:hover{
+transform: scale(1) !important;
+}
+.hover\:scale-6:hover{
+transform: scale(1.2) !important;
+}
+.hover\:scale-7:hover{
+transform: scale(1.4) !important;
+}
+.hover\:scale-8:hover{
+transform: scale(1.6) !important;
+}
+.hover\:scale-9:hover{
+transform: scale(1.8) !important;
+}
+.hover\:scale-10:hover{
+transform: scale(2) !important;
+}
+
+
+
+.hover\:scale-x-0:hover{
+transform: scaleX(0) !important;
+}
+.hover\:scale-x-1:hover{
+transform: scaleX(0.2) !important;
+}
+.hover\:scale-x-2:hover{
+transform: scaleX(0.4) !important;
+}
+.hover\:scale-x-3:hover{
+transform: scaleX(0.6) !important;
+}
+.hover\:scale-x-4:hover{
+transform: scaleX(0.8) !important;
+}
+.hover\:scale-x-5:hover{
+transform: scaleX(1) !important;
+}
+.hover\:scale-x-6:hover{
+transform: scaleX(1.2) !important;
+}
+.hover\:scale-x-7:hover{
+transform: scaleX(1.4) !important;
+}
+.hover\:scale-x-8:hover{
+transform: scaleX(1.6) !important;
+}
+.hover\:scale-x-9:hover{
+transform: scaleX(1.8) !important;
+}
+.hover\:scale-x-10:hover{
+transform: scaleX(2) !important;
+}
+
+.hover\:scale-y-0:hover{
+transform: scaleY(0) !important;
+}
+.hover\:scale-y-1:hover{
+transform: scaleY(0.2) !important;
+}
+.hover\:scale-y-2:hover{
+transform: scaleY(0.4) !important;
+}
+.hover\:scale-y-3:hover{
+transform: scaleY(0.6) !important;
+}
+.hover\:scale-y-4:hover{
+transform: scaleY(0.8) !important;
+}
+.hover\:scale-y-5:hover{
+transform: scaleY(1) !important;
+}
+.hover\:scale-y-6:hover{
+transform: scaleY(1.2) !important;
+}
+.hover\:scale-y-7:hover{
+transform: scaleY(1.4) !important;
+}
+.hover\:scale-y-8:hover{
+transform: scaleY(1.6) !important;
+}
+.hover\:scale-y-9:hover{
+transform: scaleY(1.8) !important;
+}
+.hover\:scale-y-10:hover{
+transform: scaleY(2) !important;
+}
+
+
+.hover\:scale-z-0:hover{
+transform: scaleZ(0) !important;
+}
+.hover\:scale-z-1:hover{
+transform: scaleZ(0.2) !important;
+}
+.hover\:scale-z-2:hover{
+transform: scaleZ(0.4) !important;
+}
+.hover\:scale-z-3:hover{
+transform: scaleZ(0.6) !important;
+}
+.hover\:scale-z-4:hover{
+transform: scaleZ(0.8) !important;
+}
+.hover\:scale-z-5:hover{
+transform: scaleZ(1) !important;
+}
+.hover\:scale-z-6:hover{
+transform: scaleZ(1.2) !important;
+}
+.hover\:scale-z-7:hover{
+transform: scaleZ(1.4) !important;
+}
+.hover\:scale-z-8:hover{
+transform: scaleZ(1.6) !important;
+}
+.hover\:scale-z-9:hover{
+transform: scaleZ(1.8) !important;
+}
+.hover\:scale-z-10:hover{
+transform: scaleZ(2) !important;
+}
+
+.hover\:scale-3d-0:hover{
+transform: scale3d(0) !important;
+}
+.hover\:scale-3d-1:hover{
+transform: scale3d(0.2) !important;
+}
+.hover\:scale-3d-2:hover{
+transform: scale3d(0.4) !important;
+}
+.hover\:scale-3d-3:hover{
+transform: scale3d(0.6) !important;
+}
+.hover\:scale-3d-4:hover{
+transform: scale3d(0.8) !important;
+}
+.hover\:scale-3d-5:hover{
+transform: scale3d(1) !important;
+}
+.hover\:scale-3d-6:hover{
+transform: scale3d(1.2) !important;
+}
+.hover\:scale-3d-7:hover{
+transform: scale3d(1.4) !important;
+}
+.hover\:scale-3d-8:hover{
+transform: scale3d(1.6) !important;
+}
+.hover\:scale-3d-9:hover{
+transform: scale3d(1.8) !important;
+}
+.hover\:scale-3d-10:hover{
+transform: scale3d(2) !important;
+}
+
+
+
+
+
+
+/* scale sm media screen */
+@media(min-width:576px){
+.sm\:scale-0 {
+transform: scale(0) !important;
+}
+.sm\:scale-1 {
+transform: scale(0.2) !important;
+}
+.sm\:scale-2 {
+transform: scale(0.4) !important;
+}
+.sm\:scale-3 {
+transform: scale(0.6) !important;
+}
+.sm\:scale-4 {
+transform: scale(0.8) !important;
+}
+.sm\:scale-5 {
+transform: scale(1) !important;
+}
+.sm\:scale-6 {
+transform: scale(1.2) !important;
+}
+.sm\:scale-7 {
+transform: scale(1.4) !important;
+}
+.sm\:scale-8 {
+transform: scale(1.6) !important;
+}
+.sm\:scale-9 {
+transform: scale(1.8) !important;
+}
+.sm\:scale-10 {
+transform: scale(2) !important;
+}
+
+
+
+.sm\:scale-x-0 {
+transform: scaleX(0) !important;
+}
+.sm\:scale-x-1 {
+transform: scaleX(0.2) !important;
+}
+.sm\:scale-x-2 {
+transform: scaleX(0.4) !important;
+}
+.sm\:scale-x-3 {
+transform: scaleX(0.6) !important;
+}
+.sm\:scale-x-4 {
+transform: scaleX(0.8) !important;
+}
+.sm\:scale-x-5 {
+transform: scaleX(1) !important;
+}
+.sm\:scale-x-6 {
+transform: scaleX(1.2) !important;
+}
+.sm\:scale-x-7 {
+transform: scaleX(1.4) !important;
+}
+.sm\:scale-x-8 {
+transform: scaleX(1.6) !important;
+}
+.sm\:scale-x-9 {
+transform: scaleX(1.8) !important;
+}
+.sm\:scale-x-10 {
+transform: scaleX(2) !important;
+}
+
+.sm\:scale-y-0 {
+transform: scaleY(0) !important;
+}
+.sm\:scale-y-1 {
+transform: scaleY(0.2) !important;
+}
+.sm\:scale-y-2 {
+transform: scaleY(0.4) !important;
+}
+.sm\:scale-y-3 {
+transform: scaleY(0.6) !important;
+}
+.sm\:scale-y-4 {
+transform: scaleY(0.8) !important;
+}
+.sm\:scale-y-5 {
+transform: scaleY(1) !important;
+}
+.sm\:scale-y-6 {
+transform: scaleY(1.2) !important;
+}
+.sm\:scale-y-7 {
+transform: scaleY(1.4) !important;
+}
+.sm\:scale-y-8 {
+transform: scaleY(1.6) !important;
+}
+.sm\:scale-y-9 {
+transform: scaleY(1.8) !important;
+}
+.sm\:scale-y-10 {
+transform: scaleY(2) !important;
+}
+
+
+.sm\:scale-z-0 {
+transform: scaleZ(0) !important;
+}
+.sm\:scale-z-1 {
+transform: scaleZ(0.2) !important;
+}
+.sm\:scale-z-2 {
+transform: scaleZ(0.4) !important;
+}
+.sm\:scale-z-3 {
+transform: scaleZ(0.6) !important;
+}
+.sm\:scale-z-4 {
+transform: scaleZ(0.8) !important;
+}
+.sm\:scale-z-5 {
+transform: scaleZ(1) !important;
+}
+.sm\:scale-z-6 {
+transform: scaleZ(1.2) !important;
+}
+.sm\:scale-z-7 {
+transform: scaleZ(1.4) !important;
+}
+.sm\:scale-z-8 {
+transform: scaleZ(1.6) !important;
+}
+.sm\:scale-z-9 {
+transform: scaleZ(1.8) !important;
+}
+.sm\:scale-z-10 {
+transform: scaleZ(2) !important;
+}
+
+.sm\:scale-3d-0 {
+transform: scale3d(0) !important;
+}
+.sm\:scale-3d-1 {
+transform: scale3d(0.2) !important;
+}
+.sm\:scale-3d-2 {
+transform: scale3d(0.4) !important;
+}
+.sm\:scale-3d-3 {
+transform: scale3d(0.6) !important;
+}
+.sm\:scale-3d-4 {
+transform: scale3d(0.8) !important;
+}
+.sm\:scale-3d-5 {
+transform: scale3d(1) !important;
+}
+.sm\:scale-3d-6 {
+transform: scale3d(1.2) !important;
+}
+.sm\:scale-3d-7 {
+transform: scale3d(1.4) !important;
+}
+.sm\:scale-3d-8 {
+transform: scale3d(1.6) !important;
+}
+.sm\:scale-3d-9 {
+transform: scale3d(1.8) !important;
+}
+.sm\:scale-3d-10 {
+transform: scale3d(2) !important;
+}
+}
+
+
+
+
+/* scale md media screen */
+@media(min-width:768px){
+.md\:scale-0 {
+transform: scale(0) !important;
+}
+.md\:scale-1 {
+transform: scale(0.2) !important;
+}
+.md\:scale-2 {
+transform: scale(0.4) !important;
+}
+.md\:scale-3 {
+transform: scale(0.6) !important;
+}
+.md\:scale-4 {
+transform: scale(0.8) !important;
+}
+.md\:scale-5 {
+transform: scale(1) !important;
+}
+.md\:scale-6 {
+transform: scale(1.2) !important;
+}
+.md\:scale-7 {
+transform: scale(1.4) !important;
+}
+.md\:scale-8 {
+transform: scale(1.6) !important;
+}
+.md\:scale-9 {
+transform: scale(1.8) !important;
+}
+.md\:scale-10 {
+transform: scale(2) !important;
+}
+
+
+
+.md\:scale-x-0 {
+transform: scaleX(0) !important;
+}
+.md\:scale-x-1 {
+transform: scaleX(0.2) !important;
+}
+.md\:scale-x-2 {
+transform: scaleX(0.4) !important;
+}
+.md\:scale-x-3 {
+transform: scaleX(0.6) !important;
+}
+.md\:scale-x-4 {
+transform: scaleX(0.8) !important;
+}
+.md\:scale-x-5 {
+transform: scaleX(1) !important;
+}
+.md\:scale-x-6 {
+transform: scaleX(1.2) !important;
+}
+.md\:scale-x-7 {
+transform: scaleX(1.4) !important;
+}
+.md\:scale-x-8 {
+transform: scaleX(1.6) !important;
+}
+.md\:scale-x-9 {
+transform: scaleX(1.8) !important;
+}
+.md\:scale-x-10 {
+transform: scaleX(2) !important;
+}
+
+.md\:scale-y-0 {
+transform: scaleY(0) !important;
+}
+.md\:scale-y-1 {
+transform: scaleY(0.2) !important;
+}
+.md\:scale-y-2 {
+transform: scaleY(0.4) !important;
+}
+.md\:scale-y-3 {
+transform: scaleY(0.6) !important;
+}
+.md\:scale-y-4 {
+transform: scaleY(0.8) !important;
+}
+.md\:scale-y-5 {
+transform: scaleY(1) !important;
+}
+.md\:scale-y-6 {
+transform: scaleY(1.2) !important;
+}
+.md\:scale-y-7 {
+transform: scaleY(1.4) !important;
+}
+.md\:scale-y-8 {
+transform: scaleY(1.6) !important;
+}
+.md\:scale-y-9 {
+transform: scaleY(1.8) !important;
+}
+.md\:scale-y-10 {
+transform: scaleY(2) !important;
+}
+
+
+.md\:scale-z-0 {
+transform: scaleZ(0) !important;
+}
+.md\:scale-z-1 {
+transform: scaleZ(0.2) !important;
+}
+.md\:scale-z-2 {
+transform: scaleZ(0.4) !important;
+}
+.md\:scale-z-3 {
+transform: scaleZ(0.6) !important;
+}
+.md\:scale-z-4 {
+transform: scaleZ(0.8) !important;
+}
+.md\:scale-z-5 {
+transform: scaleZ(1) !important;
+}
+.md\:scale-z-6 {
+transform: scaleZ(1.2) !important;
+}
+.md\:scale-z-7 {
+transform: scaleZ(1.4) !important;
+}
+.md\:scale-z-8 {
+transform: scaleZ(1.6) !important;
+}
+.md\:scale-z-9 {
+transform: scaleZ(1.8) !important;
+}
+.md\:scale-z-10 {
+transform: scaleZ(2) !important;
+}
+
+.md\:scale-3d-0 {
+transform: scale3d(0) !important;
+}
+.md\:scale-3d-1 {
+transform: scale3d(0.2) !important;
+}
+.md\:scale-3d-2 {
+transform: scale3d(0.4) !important;
+}
+.md\:scale-3d-3 {
+transform: scale3d(0.6) !important;
+}
+.md\:scale-3d-4 {
+transform: scale3d(0.8) !important;
+}
+.md\:scale-3d-5 {
+transform: scale3d(1) !important;
+}
+.md\:scale-3d-6 {
+transform: scale3d(1.2) !important;
+}
+.md\:scale-3d-7 {
+transform: scale3d(1.4) !important;
+}
+.md\:scale-3d-8 {
+transform: scale3d(1.6) !important;
+}
+.md\:scale-3d-9 {
+transform: scale3d(1.8) !important;
+}
+.md\:scale-3d-10 {
+transform: scale3d(2) !important;
+}
+}
+
+
+
+/* scale lg media screen */
+@media(min-width:992px){
+.lg\:scale-0 {
+transform: scale(0) !important;
+}
+.lg\:scale-1 {
+transform: scale(0.2) !important;
+}
+.lg\:scale-2 {
+transform: scale(0.4) !important;
+}
+.lg\:scale-3 {
+transform: scale(0.6) !important;
+}
+.lg\:scale-4 {
+transform: scale(0.8) !important;
+}
+.lg\:scale-5 {
+transform: scale(1) !important;
+}
+.lg\:scale-6 {
+transform: scale(1.2) !important;
+}
+.lg\:scale-7 {
+transform: scale(1.4) !important;
+}
+.lg\:scale-8 {
+transform: scale(1.6) !important;
+}
+.lg\:scale-9 {
+transform: scale(1.8) !important;
+}
+.lg\:scale-10 {
+transform: scale(2) !important;
+}
+
+
+
+.lg\:scale-x-0 {
+transform: scaleX(0) !important;
+}
+.lg\:scale-x-1 {
+transform: scaleX(0.2) !important;
+}
+.lg\:scale-x-2 {
+transform: scaleX(0.4) !important;
+}
+.lg\:scale-x-3 {
+transform: scaleX(0.6) !important;
+}
+.lg\:scale-x-4 {
+transform: scaleX(0.8) !important;
+}
+.lg\:scale-x-5 {
+transform: scaleX(1) !important;
+}
+.lg\:scale-x-6 {
+transform: scaleX(1.2) !important;
+}
+.lg\:scale-x-7 {
+transform: scaleX(1.4) !important;
+}
+.lg\:scale-x-8 {
+transform: scaleX(1.6) !important;
+}
+.lg\:scale-x-9 {
+transform: scaleX(1.8) !important;
+}
+.lg\:scale-x-10 {
+transform: scaleX(2) !important;
+}
+
+.lg\:scale-y-0 {
+transform: scaleY(0) !important;
+}
+.lg\:scale-y-1 {
+transform: scaleY(0.2) !important;
+}
+.lg\:scale-y-2 {
+transform: scaleY(0.4) !important;
+}
+.lg\:scale-y-3 {
+transform: scaleY(0.6) !important;
+}
+.lg\:scale-y-4 {
+transform: scaleY(0.8) !important;
+}
+.lg\:scale-y-5 {
+transform: scaleY(1) !important;
+}
+.lg\:scale-y-6 {
+transform: scaleY(1.2) !important;
+}
+.lg\:scale-y-7 {
+transform: scaleY(1.4) !important;
+}
+.lg\:scale-y-8 {
+transform: scaleY(1.6) !important;
+}
+.lg\:scale-y-9 {
+transform: scaleY(1.8) !important;
+}
+.lg\:scale-y-10 {
+transform: scaleY(2) !important;
+}
+
+
+.lg\:scale-z-0 {
+transform: scaleZ(0) !important;
+}
+.lg\:scale-z-1 {
+transform: scaleZ(0.2) !important;
+}
+.lg\:scale-z-2 {
+transform: scaleZ(0.4) !important;
+}
+.lg\:scale-z-3 {
+transform: scaleZ(0.6) !important;
+}
+.lg\:scale-z-4 {
+transform: scaleZ(0.8) !important;
+}
+.lg\:scale-z-5 {
+transform: scaleZ(1) !important;
+}
+.lg\:scale-z-6 {
+transform: scaleZ(1.2) !important;
+}
+.lg\:scale-z-7 {
+transform: scaleZ(1.4) !important;
+}
+.lg\:scale-z-8 {
+transform: scaleZ(1.6) !important;
+}
+.lg\:scale-z-9 {
+transform: scaleZ(1.8) !important;
+}
+.lg\:scale-z-10 {
+transform: scaleZ(2) !important;
+}
+
+.lg\:scale-3d-0 {
+transform: scale3d(0) !important;
+}
+.lg\:scale-3d-1 {
+transform: scale3d(0.2) !important;
+}
+.lg\:scale-3d-2 {
+transform: scale3d(0.4) !important;
+}
+.lg\:scale-3d-3 {
+transform: scale3d(0.6) !important;
+}
+.lg\:scale-3d-4 {
+transform: scale3d(0.8) !important;
+}
+.lg\:scale-3d-5 {
+transform: scale3d(1) !important;
+}
+.lg\:scale-3d-6 {
+transform: scale3d(1.2) !important;
+}
+.lg\:scale-3d-7 {
+transform: scale3d(1.4) !important;
+}
+.lg\:scale-3d-8 {
+transform: scale3d(1.6) !important;
+}
+.lg\:scale-3d-9 {
+transform: scale3d(1.8) !important;
+}
+.lg\:scale-3d-10 {
+transform: scale3d(2) !important;
+}
+}
+
+
+
+
+/* scale xl media screen */
+@media(min-width:1200px){
+.xl\:scale-0 {
+transform: scale(0) !important;
+}
+.xl\:scale-1 {
+transform: scale(0.2) !important;
+}
+.xl\:scale-2 {
+transform: scale(0.4) !important;
+}
+.xl\:scale-3 {
+transform: scale(0.6) !important;
+}
+.xl\:scale-4 {
+transform: scale(0.8) !important;
+}
+.xl\:scale-5 {
+transform: scale(1) !important;
+}
+.xl\:scale-6 {
+transform: scale(1.2) !important;
+}
+.xl\:scale-7 {
+transform: scale(1.4) !important;
+}
+.xl\:scale-8 {
+transform: scale(1.6) !important;
+}
+.xl\:scale-9 {
+transform: scale(1.8) !important;
+}
+.xl\:scale-10 {
+transform: scale(2) !important;
+}
+
+
+
+.xl\:scale-x-0 {
+transform: scaleX(0) !important;
+}
+.xl\:scale-x-1 {
+transform: scaleX(0.2) !important;
+}
+.xl\:scale-x-2 {
+transform: scaleX(0.4) !important;
+}
+.xl\:scale-x-3 {
+transform: scaleX(0.6) !important;
+}
+.xl\:scale-x-4 {
+transform: scaleX(0.8) !important;
+}
+.xl\:scale-x-5 {
+transform: scaleX(1) !important;
+}
+.xl\:scale-x-6 {
+transform: scaleX(1.2) !important;
+}
+.xl\:scale-x-7 {
+transform: scaleX(1.4) !important;
+}
+.xl\:scale-x-8 {
+transform: scaleX(1.6) !important;
+}
+.xl\:scale-x-9 {
+transform: scaleX(1.8) !important;
+}
+.xl\:scale-x-10 {
+transform: scaleX(2) !important;
+}
+
+.xl\:scale-y-0 {
+transform: scaleY(0) !important;
+}
+.xl\:scale-y-1 {
+transform: scaleY(0.2) !important;
+}
+.xl\:scale-y-2 {
+transform: scaleY(0.4) !important;
+}
+.xl\:scale-y-3 {
+transform: scaleY(0.6) !important;
+}
+.xl\:scale-y-4 {
+transform: scaleY(0.8) !important;
+}
+.xl\:scale-y-5 {
+transform: scaleY(1) !important;
+}
+.xl\:scale-y-6 {
+transform: scaleY(1.2) !important;
+}
+.xl\:scale-y-7 {
+transform: scaleY(1.4) !important;
+}
+.xl\:scale-y-8 {
+transform: scaleY(1.6) !important;
+}
+.xl\:scale-y-9 {
+transform: scaleY(1.8) !important;
+}
+.xl\:scale-y-10 {
+transform: scaleY(2) !important;
+}
+
+
+.xl\:scale-z-0 {
+transform: scaleZ(0) !important;
+}
+.xl\:scale-z-1 {
+transform: scaleZ(0.2) !important;
+}
+.xl\:scale-z-2 {
+transform: scaleZ(0.4) !important;
+}
+.xl\:scale-z-3 {
+transform: scaleZ(0.6) !important;
+}
+.xl\:scale-z-4 {
+transform: scaleZ(0.8) !important;
+}
+.xl\:scale-z-5 {
+transform: scaleZ(1) !important;
+}
+.xl\:scale-z-6 {
+transform: scaleZ(1.2) !important;
+}
+.xl\:scale-z-7 {
+transform: scaleZ(1.4) !important;
+}
+.xl\:scale-z-8 {
+transform: scaleZ(1.6) !important;
+}
+.xl\:scale-z-9 {
+transform: scaleZ(1.8) !important;
+}
+.xl\:scale-z-10 {
+transform: scaleZ(2) !important;
+}
+
+.xl\:scale-3d-0 {
+transform: scale3d(0) !important;
+}
+.xl\:scale-3d-1 {
+transform: scale3d(0.2) !important;
+}
+.xl\:scale-3d-2 {
+transform: scale3d(0.4) !important;
+}
+.xl\:scale-3d-3 {
+transform: scale3d(0.6) !important;
+}
+.xl\:scale-3d-4 {
+transform: scale3d(0.8) !important;
+}
+.xl\:scale-3d-5 {
+transform: scale3d(1) !important;
+}
+.xl\:scale-3d-6 {
+transform: scale3d(1.2) !important;
+}
+.xl\:scale-3d-7 {
+transform: scale3d(1.4) !important;
+}
+.xl\:scale-3d-8 {
+transform: scale3d(1.6) !important;
+}
+.xl\:scale-3d-9 {
+transform: scale3d(1.8) !important;
+}
+.xl\:scale-3d-10 {
+transform: scale3d(2) !important;
+}
+}
+
+
+/* scale property ended 🤘*/
+
+
+
+
+
+
+
+
+
+/* rotate property started */
+.rotate-0{
+transform: rotate(0deg) !important;
+}
+.rotate-1{
+transform: rotate(1deg) !important;
+}
+.rotate-2{
+transform: rotate(2deg) !important;
+}
+.rotate-3{
+transform: rotate(3deg) !important;
+}
+.rotate-4{
+transform: rotate(4deg) !important;
+}
+.rotate-5{
+transform: rotate(5deg) !important;
+}
+.rotate-6{
+transform: rotate(6deg) !important;
+}
+.rotate-7{
+transform: rotate(7deg) !important;
+}
+.rotate-8{
+transform: rotate(8deg) !important;
+}
+.rotate-9{
+transform: rotate(9deg) !important;
+}
+.rotate-10{
+transform: rotate(10deg) !important;
+}
+.rotate-15{
+transform: rotate(15deg) !important;
+}
+.rotate-30{
+transform: rotate(30deg) !important;
+}
+.rotate-45{
+transform: rotate(45deg) !important;
+}
+.rotate-60{
+transform: rotate(60deg) !important;
+}
+.rotate-75{
+transform: rotate(75deg) !important;
+}
+.rotate-90{
+transform: rotate(90deg) !important;
+}
+.rotate-105{
+transform: rotate(105deg) !important;
+}
+.rotate-120{
+transform: rotate(120deg) !important;
+}
+.rotate-135{
+transform: rotate(135deg) !important;
+}
+.rotate-150{
+transform: rotate(150deg) !important;
+}
+.rotate-165{
+transform: rotate(165deg) !important;
+}
+.rotate-180{
+transform: rotate(180deg) !important;
+}
+.rotate-360{
+transform: rotate(360deg) !important;
+}
+
+
+
+.rotate-x-0{
+transform: rotateX(0deg) !important;
+}
+.rotate-x-1{
+transform: rotateX(1deg) !important;
+}
+.rotate-x-2{
+transform: rotateX(2deg) !important;
+}
+.rotate-x-3{
+transform: rotateX(3deg) !important;
+}
+.rotate-x-4{
+transform: rotateX(4deg) !important;
+}
+.rotate-x-5{
+transform: rotateX(5deg) !important;
+}
+.rotate-x-6{
+transform: rotateX(6deg) !important;
+}
+.rotate-x-7{
+transform: rotateX(7deg) !important;
+}
+.rotate-x-8{
+transform: rotateX(8deg) !important;
+}
+.rotate-x-9{
+transform: rotateX(9deg) !important;
+}
+.rotate-x-10{
+transform: rotateX(10deg) !important;
+}
+.rotate-x-15{
+transform: rotateX(15deg) !important;
+}
+.rotate-x-30{
+transform: rotateX(30deg) !important;
+}
+.rotate-x-45{
+transform: rotateX(45deg) !important;
+}
+.rotate-x-60{
+transform: rotateX(60deg) !important;
+}
+.rotate-x-75{
+transform: rotateX(75deg) !important;
+}
+.rotate-x-90{
+transform: rotateX(90deg) !important;
+}
+.rotate-x-105{
+transform: rotateX(105deg) !important;
+}
+.rotate-x-120{
+transform: rotateX(120deg) !important;
+}
+.rotate-x-135{
+transform: rotateX(135deg) !important;
+}
+.rotate-x-150{
+transform: rotateX(150deg) !important;
+}
+.rotate-x-165{
+transform: rotateX(165deg) !important;
+}
+.rotate-x-180{
+transform: rotateX(180deg) !important;
+}
+.rotate-x-360{
+transform: rotateX(360deg) !important;
+}
+
+
+.rotate-y-0{
+transform: rotateY(0deg) !important;
+}
+.rotate-y-1{
+transform: rotateY(1deg) !important;
+}
+.rotate-y-2{
+transform: rotateY(2deg) !important;
+}
+.rotate-y-3{
+transform: rotateY(3deg) !important;
+}
+.rotate-y-4{
+transform: rotateY(4deg) !important;
+}
+.rotate-y-5{
+transform: rotateY(5deg) !important;
+}
+.rotate-y-6{
+transform: rotateY(6deg) !important;
+}
+.rotate-y-7{
+transform: rotateY(7deg) !important;
+}
+.rotate-y-8{
+transform: rotateY(8deg) !important;
+}
+.rotate-y-9{
+transform: rotateY(9deg) !important;
+}
+.rotate-y-10{
+transform: rotateY(10deg) !important;
+}
+.rotate-y-15{
+transform: rotateY(15deg) !important;
+}
+.rotate-y-30{
+transform: rotateY(30deg) !important;
+}
+.rotate-y-45{
+transform: rotateY(45deg) !important;
+}
+.rotate-y-60{
+transform: rotateY(60deg) !important;
+}
+.rotate-y-75{
+transform: rotateY(75deg) !important;
+}
+.rotate-y-90{
+transform: rotateY(90deg) !important;
+}
+.rotate-y-105{
+transform: rotateY(105deg) !important;
+}
+.rotate-y-120{
+transform: rotateY(120deg) !important;
+}
+.rotate-y-135{
+transform: rotateY(135deg) !important;
+}
+.rotate-y-150{
+transform: rotateY(150deg) !important;
+}
+.rotate-y-165{
+transform: rotateY(165deg) !important;
+}
+.rotate-y-180{
+transform: rotateY(180deg) !important;
+}
+.rotate-y-360{
+transform: rotateY(360deg) !important;
+}
+
+
+.rotate-z-0{
+transform: rotateZ(0deg) !important;
+}
+.rotate-z-1{
+transform: rotateZ(1deg) !important;
+}
+.rotate-z-2{
+transform: rotateZ(2deg) !important;
+}
+.rotate-z-3{
+transform: rotateZ(3deg) !important;
+}
+.rotate-z-4{
+transform: rotateZ(4deg) !important;
+}
+.rotate-z-5{
+transform: rotateZ(5deg) !important;
+}
+.rotate-z-6{
+transform: rotateZ(6deg) !important;
+}
+.rotate-z-7{
+transform: rotateZ(7deg) !important;
+}
+.rotate-z-8{
+transform: rotateZ(8deg) !important;
+}
+.rotate-z-9{
+transform: rotateZ(9deg) !important;
+}
+.rotate-z-10{
+transform: rotateZ(10deg) !important;
+}
+.rotate-z-15{
+transform: rotateZ(15deg) !important;
+}
+.rotate-z-30{
+transform: rotateZ(30deg) !important;
+}
+.rotate-z-45{
+transform: rotateZ(45deg) !important;
+}
+.rotate-z-60{
+transform: rotateZ(60deg) !important;
+}
+.rotate-z-75{
+transform: rotateZ(75deg) !important;
+}
+.rotate-z-90{
+transform: rotateZ(90deg) !important;
+}
+.rotate-z-105{
+transform: rotateZ(105deg) !important;
+}
+.rotate-z-120{
+transform: rotateZ(120deg) !important;
+}
+.rotate-z-135{
+transform: rotateZ(135deg) !important;
+}
+.rotate-z-150{
+transform: rotateZ(150deg) !important;
+}
+.rotate-z-165{
+transform: rotateZ(165deg) !important;
+}
+.rotate-z-180{
+transform: rotateZ(180deg) !important;
+}
+.rotate-z-360{
+transform: rotateZ(360deg) !important;
+}
+
+
+.rotate-3d-0{
+transform: rotate3d(0deg) !important;
+}
+.rotate-3d-1{
+transform: rotate3d(1deg) !important;
+}
+.rotate-3d-2{
+transform: rotate3d(2deg) !important;
+}
+.rotate-3d-3{
+transform: rotate3d(3deg) !important;
+}
+.rotate-3d-4{
+transform: rotate3d(4deg) !important;
+}
+.rotate-3d-5{
+transform: rotate3d(5deg) !important;
+}
+.rotate-3d-6{
+transform: rotate3d(6deg) !important;
+}
+.rotate-3d-7{
+transform: rotate3d(7deg) !important;
+}
+.rotate-3d-8{
+transform: rotate3d(8deg) !important;
+}
+.rotate-3d-9{
+transform: rotate3d(9deg) !important;
+}
+.rotate-3d-10{
+transform: rotate3d(10deg) !important;
+}
+.rotate-3d-15{
+transform: rotate3d(15deg) !important;
+}
+.rotate-3d-30{
+transform: rotate3d(30deg) !important;
+}
+.rotate-3d-45{
+transform: rotate3d(45deg) !important;
+}
+.rotate-3d-60{
+transform: rotate3d(60deg) !important;
+}
+.rotate-3d-75{
+transform: rotate3d(75deg) !important;
+}
+.rotate-3d-90{
+transform: rotate3d(90deg) !important;
+}
+.rotate-3d-105{
+transform: rotate3d(105deg) !important;
+}
+.rotate-3d-120{
+transform: rotate3d(120deg) !important;
+}
+.rotate-3d-135{
+transform: rotate3d(135deg) !important;
+}
+.rotate-3d-150{
+transform: rotate3d(150deg) !important;
+}
+.rotate-3d-165{
+transform: rotate3d(165deg) !important;
+}
+.rotate-3d-180{
+transform: rotate3d(180deg) !important;
+}
+.rotate-3d-360{
+transform: rotate3d(360deg) !important;
+}
+
+
+
+.hover\:rotate-0:hover{
+transform: rotate(0deg) !important;
+}
+.hover\:rotate-1:hover{
+transform: rotate(1deg) !important;
+}
+.hover\:rotate-2:hover{
+transform: rotate(2deg) !important;
+}
+.hover\:rotate-3:hover{
+transform: rotate(3deg) !important;
+}
+.hover\:rotate-4:hover{
+transform: rotate(4deg) !important;
+}
+.hover\:rotate-5:hover{
+transform: rotate(5deg) !important;
+}
+.hover\:rotate-6:hover{
+transform: rotate(6deg) !important;
+}
+.hover\:rotate-7:hover{
+transform: rotate(7deg) !important;
+}
+.hover\:rotate-8:hover{
+transform: rotate(8deg) !important;
+}
+.hover\:rotate-9:hover{
+transform: rotate(9deg) !important;
+}
+.hover\:rotate-10:hover{
+transform: rotate(10deg) !important;
+}
+.hover\:rotate-15:hover{
+transform: rotate(15deg) !important;
+}
+.hover\:rotate-30:hover{
+transform: rotate(30deg) !important;
+}
+.hover\:rotate-45:hover{
+transform: rotate(45deg) !important;
+}
+.hover\:rotate-60:hover{
+transform: rotate(60deg) !important;
+}
+.hover\:rotate-75:hover{
+transform: rotate(75deg) !important;
+}
+.hover\:rotate-90:hover{
+transform: rotate(90deg) !important;
+}
+.hover\:rotate-105:hover{
+transform: rotate(105deg) !important;
+}
+.hover\:rotate-120:hover{
+transform: rotate(120deg) !important;
+}
+.hover\:rotate-135:hover{
+transform: rotate(135deg) !important;
+}
+.hover\:rotate-150:hover{
+transform: rotate(150deg) !important;
+}
+.hover\:rotate-165:hover{
+transform: rotate(165deg) !important;
+}
+.hover\:rotate-180:hover{
+transform: rotate(180deg) !important;
+}
+.hover\:rotate-360:hover{
+transform: rotate(360deg) !important;
+}
+
+
+
+.hover\:rotate-x-0:hover{
+transform: rotateX(0deg) !important;
+}
+.hover\:rotate-x-1:hover{
+transform: rotateX(1deg) !important;
+}
+.hover\:rotate-x-2:hover{
+transform: rotateX(2deg) !important;
+}
+.hover\:rotate-x-3:hover{
+transform: rotateX(3deg) !important;
+}
+.hover\:rotate-x-4:hover{
+transform: rotateX(4deg) !important;
+}
+.hover\:rotate-x-5:hover{
+transform: rotateX(5deg) !important;
+}
+.hover\:rotate-x-6:hover{
+transform: rotateX(6deg) !important;
+}
+.hover\:rotate-x-7:hover{
+transform: rotateX(7deg) !important;
+}
+.hover\:rotate-x-8:hover{
+transform: rotateX(8deg) !important;
+}
+.hover\:rotate-x-9:hover{
+transform: rotateX(9deg) !important;
+}
+.hover\:rotate-x-10:hover{
+transform: rotateX(10deg) !important;
+}
+.hover\:rotate-x-15:hover{
+transform: rotateX(15deg) !important;
+}
+.hover\:rotate-x-30:hover{
+transform: rotateX(30deg) !important;
+}
+.hover\:rotate-x-45:hover{
+transform: rotateX(45deg) !important;
+}
+.hover\:rotate-x-60:hover{
+transform: rotateX(60deg) !important;
+}
+.hover\:rotate-x-75:hover{
+transform: rotateX(75deg) !important;
+}
+.hover\:rotate-x-90:hover{
+transform: rotateX(90deg) !important;
+}
+.hover\:rotate-x-105:hover{
+transform: rotateX(105deg) !important;
+}
+.hover\:rotate-x-120:hover{
+transform: rotateX(120deg) !important;
+}
+.hover\:rotate-x-135:hover{
+transform: rotateX(135deg) !important;
+}
+.hover\:rotate-x-150:hover{
+transform: rotateX(150deg) !important;
+}
+.hover\:rotate-x-165:hover{
+transform: rotateX(165deg) !important;
+}
+.hover\:rotate-x-180:hover{
+transform: rotateX(180deg) !important;
+}
+.hover\:rotate-x-360:hover{
+transform: rotateX(360deg) !important;
+}
+
+
+.hover\:rotate-y-0:hover{
+transform: rotateY(0deg) !important;
+}
+.hover\:rotate-y-1:hover{
+transform: rotateY(1deg) !important;
+}
+.hover\:rotate-y-2:hover{
+transform: rotateY(2deg) !important;
+}
+.hover\:rotate-y-3:hover{
+transform: rotateY(3deg) !important;
+}
+.hover\:rotate-y-4:hover{
+transform: rotateY(4deg) !important;
+}
+.hover\:rotate-y-5:hover{
+transform: rotateY(5deg) !important;
+}
+.hover\:rotate-y-6:hover{
+transform: rotateY(6deg) !important;
+}
+.hover\:rotate-y-7:hover{
+transform: rotateY(7deg) !important;
+}
+.hover\:rotate-y-8:hover{
+transform: rotateY(8deg) !important;
+}
+.hover\:rotate-y-9:hover{
+transform: rotateY(9deg) !important;
+}
+.hover\:rotate-y-10:hover{
+transform: rotateY(10deg) !important;
+}
+.hover\:rotate-y-15:hover{
+transform: rotateY(15deg) !important;
+}
+.hover\:rotate-y-30:hover{
+transform: rotateY(30deg) !important;
+}
+.hover\:rotate-y-45:hover{
+transform: rotateY(45deg) !important;
+}
+.hover\:rotate-y-60:hover{
+transform: rotateY(60deg) !important;
+}
+.hover\:rotate-y-75:hover{
+transform: rotateY(75deg) !important;
+}
+.hover\:rotate-y-90:hover{
+transform: rotateY(90deg) !important;
+}
+.hover\:rotate-y-105:hover{
+transform: rotateY(105deg) !important;
+}
+.hover\:rotate-y-120:hover{
+transform: rotateY(120deg) !important;
+}
+.hover\:rotate-y-135:hover{
+transform: rotateY(135deg) !important;
+}
+.hover\:rotate-y-150:hover{
+transform: rotateY(150deg) !important;
+}
+.hover\:rotate-y-165:hover{
+transform: rotateY(165deg) !important;
+}
+.hover\:rotate-y-180:hover{
+transform: rotateY(180deg) !important;
+}
+.hover\:rotate-y-360:hover{
+transform: rotateY(360deg) !important;
+}
+
+
+.hover\:rotate-z-0:hover{
+transform: rotateZ(0deg) !important;
+}
+.hover\:rotate-z-1:hover{
+transform: rotateZ(1deg) !important;
+}
+.hover\:rotate-z-2:hover{
+transform: rotateZ(2deg) !important;
+}
+.hover\:rotate-z-3:hover{
+transform: rotateZ(3deg) !important;
+}
+.hover\:rotate-z-4:hover{
+transform: rotateZ(4deg) !important;
+}
+.hover\:rotate-z-5:hover{
+transform: rotateZ(5deg) !important;
+}
+.hover\:rotate-z-6:hover{
+transform: rotateZ(6deg) !important;
+}
+.hover\:rotate-z-7:hover{
+transform: rotateZ(7deg) !important;
+}
+.hover\:rotate-z-8:hover{
+transform: rotateZ(8deg) !important;
+}
+.hover\:rotate-z-9:hover{
+transform: rotateZ(9deg) !important;
+}
+.hover\:rotate-z-10:hover{
+transform: rotateZ(10deg) !important;
+}
+.hover\:rotate-z-15:hover{
+transform: rotateZ(15deg) !important;
+}
+.hover\:rotate-z-30:hover{
+transform: rotateZ(30deg) !important;
+}
+.hover\:rotate-z-45:hover{
+transform: rotateZ(45deg) !important;
+}
+.hover\:rotate-z-60:hover{
+transform: rotateZ(60deg) !important;
+}
+.hover\:rotate-z-75:hover{
+transform: rotateZ(75deg) !important;
+}
+.hover\:rotate-z-90:hover{
+transform: rotateZ(90deg) !important;
+}
+.hover\:rotate-z-105:hover{
+transform: rotateZ(105deg) !important;
+}
+.hover\:rotate-z-120:hover{
+transform: rotateZ(120deg) !important;
+}
+.hover\:rotate-z-135:hover{
+transform: rotateZ(135deg) !important;
+}
+.hover\:rotate-z-150:hover{
+transform: rotateZ(150deg) !important;
+}
+.hover\:rotate-z-165:hover{
+transform: rotateZ(165deg) !important;
+}
+.hover\:rotate-z-180:hover{
+transform: rotateZ(180deg) !important;
+}
+.hover\:rotate-z-360:hover{
+transform: rotateZ(360deg) !important;
+}
+
+
+.hover\:rotate-3d-0:hover{
+transform: rotate3d(0deg) !important;
+}
+.hover\:rotate-3d-1:hover{
+transform: rotate3d(1deg) !important;
+}
+.hover\:rotate-3d-2:hover{
+transform: rotate3d(2deg) !important;
+}
+.hover\:rotate-3d-3:hover{
+transform: rotate3d(3deg) !important;
+}
+.hover\:rotate-3d-4:hover{
+transform: rotate3d(4deg) !important;
+}
+.hover\:rotate-3d-5:hover{
+transform: rotate3d(5deg) !important;
+}
+.hover\:rotate-3d-6:hover{
+transform: rotate3d(6deg) !important;
+}
+.hover\:rotate-3d-7:hover{
+transform: rotate3d(7deg) !important;
+}
+.hover\:rotate-3d-8:hover{
+transform: rotate3d(8deg) !important;
+}
+.hover\:rotate-3d-9:hover{
+transform: rotate3d(9deg) !important;
+}
+.hover\:rotate-3d-10:hover{
+transform: rotate3d(10deg) !important;
+}
+.hover\:rotate-3d-15:hover{
+transform: rotate3d(15deg) !important;
+}
+.hover\:rotate-3d-30:hover{
+transform: rotate3d(30deg) !important;
+}
+.hover\:rotate-3d-45:hover{
+transform: rotate3d(45deg) !important;
+}
+.hover\:rotate-3d-60:hover{
+transform: rotate3d(60deg) !important;
+}
+.hover\:rotate-3d-75:hover{
+transform: rotate3d(75deg) !important;
+}
+.hover\:rotate-3d-90:hover{
+transform: rotate3d(90deg) !important;
+}
+.hover\:rotate-3d-105:hover{
+transform: rotate3d(105deg) !important;
+}
+.hover\:rotate-3d-120:hover{
+transform: rotate3d(120deg) !important;
+}
+.hover\:rotate-3d-135:hover{
+transform: rotate3d(135deg) !important;
+}
+.hover\:rotate-3d-150:hover{
+transform: rotate3d(150deg) !important;
+}
+.hover\:rotate-3d-165:hover{
+transform: rotate3d(165deg) !important;
+}
+.hover\:rotate-3d-180:hover{
+transform: rotate3d(180deg) !important;
+}
+.hover\:rotate-3d-360:hover{
+transform: rotate3d(360deg) !important;
+}
+
+
+
+
+
+
+@media(min-width:576px){
+.sm\:rotate-0{
+transform: rotate(0deg) !important;
+}
+.sm\:rotate-1{
+transform: rotate(1deg) !important;
+}
+.sm\:rotate-2{
+transform: rotate(2deg) !important;
+}
+.sm\:rotate-3{
+transform: rotate(3deg) !important;
+}
+.sm\:rotate-4{
+transform: rotate(4deg) !important;
+}
+.sm\:rotate-5{
+transform: rotate(5deg) !important;
+}
+.sm\:rotate-6{
+transform: rotate(6deg) !important;
+}
+.sm\:rotate-7{
+transform: rotate(7deg) !important;
+}
+.sm\:rotate-8{
+transform: rotate(8deg) !important;
+}
+.sm\:rotate-9{
+transform: rotate(9deg) !important;
+}
+.sm\:rotate-10{
+transform: rotate(10deg) !important;
+}
+.sm\:rotate-15{
+transform: rotate(15deg) !important;
+}
+.sm\:rotate-30{
+transform: rotate(30deg) !important;
+}
+.sm\:rotate-45{
+transform: rotate(45deg) !important;
+}
+.sm\:rotate-60{
+transform: rotate(60deg) !important;
+}
+.sm\:rotate-75{
+transform: rotate(75deg) !important;
+}
+.sm\:rotate-90{
+transform: rotate(90deg) !important;
+}
+.sm\:rotate-105{
+transform: rotate(105deg) !important;
+}
+.sm\:rotate-120{
+transform: rotate(120deg) !important;
+}
+.sm\:rotate-135{
+transform: rotate(135deg) !important;
+}
+.sm\:rotate-150{
+transform: rotate(150deg) !important;
+}
+.sm\:rotate-165{
+transform: rotate(165deg) !important;
+}
+.sm\:rotate-180{
+transform: rotate(180deg) !important;
+}
+.sm\:rotate-360{
+transform: rotate(360deg) !important;
+}
+
+
+
+.sm\:rotate-x-0{
+transform: rotateX(0deg) !important;
+}
+.sm\:rotate-x-1{
+transform: rotateX(1deg) !important;
+}
+.sm\:rotate-x-2{
+transform: rotateX(2deg) !important;
+}
+.sm\:rotate-x-3{
+transform: rotateX(3deg) !important;
+}
+.sm\:rotate-x-4{
+transform: rotateX(4deg) !important;
+}
+.sm\:rotate-x-5{
+transform: rotateX(5deg) !important;
+}
+.sm\:rotate-x-6{
+transform: rotateX(6deg) !important;
+}
+.sm\:rotate-x-7{
+transform: rotateX(7deg) !important;
+}
+.sm\:rotate-x-8{
+transform: rotateX(8deg) !important;
+}
+.sm\:rotate-x-9{
+transform: rotateX(9deg) !important;
+}
+.sm\:rotate-x-10{
+transform: rotateX(10deg) !important;
+}
+.sm\:rotate-x-15{
+transform: rotateX(15deg) !important;
+}
+.sm\:rotate-x-30{
+transform: rotateX(30deg) !important;
+}
+.sm\:rotate-x-45{
+transform: rotateX(45deg) !important;
+}
+.sm\:rotate-x-60{
+transform: rotateX(60deg) !important;
+}
+.sm\:rotate-x-75{
+transform: rotateX(75deg) !important;
+}
+.sm\:rotate-x-90{
+transform: rotateX(90deg) !important;
+}
+.sm\:rotate-x-105{
+transform: rotateX(105deg) !important;
+}
+.sm\:rotate-x-120{
+transform: rotateX(120deg) !important;
+}
+.sm\:rotate-x-135{
+transform: rotateX(135deg) !important;
+}
+.sm\:rotate-x-150{
+transform: rotateX(150deg) !important;
+}
+.sm\:rotate-x-165{
+transform: rotateX(165deg) !important;
+}
+.sm\:rotate-x-180{
+transform: rotateX(180deg) !important;
+}
+.sm\:rotate-x-360{
+transform: rotateX(360deg) !important;
+}
+
+
+.sm\:rotate-y-0{
+transform: rotateY(0deg) !important;
+}
+.sm\:rotate-y-1{
+transform: rotateY(1deg) !important;
+}
+.sm\:rotate-y-2{
+transform: rotateY(2deg) !important;
+}
+.sm\:rotate-y-3{
+transform: rotateY(3deg) !important;
+}
+.sm\:rotate-y-4{
+transform: rotateY(4deg) !important;
+}
+.sm\:rotate-y-5{
+transform: rotateY(5deg) !important;
+}
+.sm\:rotate-y-6{
+transform: rotateY(6deg) !important;
+}
+.sm\:rotate-y-7{
+transform: rotateY(7deg) !important;
+}
+.sm\:rotate-y-8{
+transform: rotateY(8deg) !important;
+}
+.sm\:rotate-y-9{
+transform: rotateY(9deg) !important;
+}
+.sm\:rotate-y-10{
+transform: rotateY(10deg) !important;
+}
+.sm\:rotate-y-15{
+transform: rotateY(15deg) !important;
+}
+.sm\:rotate-y-30{
+transform: rotateY(30deg) !important;
+}
+.sm\:rotate-y-45{
+transform: rotateY(45deg) !important;
+}
+.sm\:rotate-y-60{
+transform: rotateY(60deg) !important;
+}
+.sm\:rotate-y-75{
+transform: rotateY(75deg) !important;
+}
+.sm\:rotate-y-90{
+transform: rotateY(90deg) !important;
+}
+.sm\:rotate-y-105{
+transform: rotateY(105deg) !important;
+}
+.sm\:rotate-y-120{
+transform: rotateY(120deg) !important;
+}
+.sm\:rotate-y-135{
+transform: rotateY(135deg) !important;
+}
+.sm\:rotate-y-150{
+transform: rotateY(150deg) !important;
+}
+.sm\:rotate-y-165{
+transform: rotateY(165deg) !important;
+}
+.sm\:rotate-y-180{
+transform: rotateY(180deg) !important;
+}
+.sm\:rotate-y-360{
+transform: rotateY(360deg) !important;
+}
+
+
+.sm\:rotate-z-0{
+transform: rotateZ(0deg) !important;
+}
+.sm\:rotate-z-1{
+transform: rotateZ(1deg) !important;
+}
+.sm\:rotate-z-2{
+transform: rotateZ(2deg) !important;
+}
+.sm\:rotate-z-3{
+transform: rotateZ(3deg) !important;
+}
+.sm\:rotate-z-4{
+transform: rotateZ(4deg) !important;
+}
+.sm\:rotate-z-5{
+transform: rotateZ(5deg) !important;
+}
+.sm\:rotate-z-6{
+transform: rotateZ(6deg) !important;
+}
+.sm\:rotate-z-7{
+transform: rotateZ(7deg) !important;
+}
+.sm\:rotate-z-8{
+transform: rotateZ(8deg) !important;
+}
+.sm\:rotate-z-9{
+transform: rotateZ(9deg) !important;
+}
+.sm\:rotate-z-10{
+transform: rotateZ(10deg) !important;
+}
+.sm\:rotate-z-15{
+transform: rotateZ(15deg) !important;
+}
+.sm\:rotate-z-30{
+transform: rotateZ(30deg) !important;
+}
+.sm\:rotate-z-45{
+transform: rotateZ(45deg) !important;
+}
+.sm\:rotate-z-60{
+transform: rotateZ(60deg) !important;
+}
+.sm\:rotate-z-75{
+transform: rotateZ(75deg) !important;
+}
+.sm\:rotate-z-90{
+transform: rotateZ(90deg) !important;
+}
+.sm\:rotate-z-105{
+transform: rotateZ(105deg) !important;
+}
+.sm\:rotate-z-120{
+transform: rotateZ(120deg) !important;
+}
+.sm\:rotate-z-135{
+transform: rotateZ(135deg) !important;
+}
+.sm\:rotate-z-150{
+transform: rotateZ(150deg) !important;
+}
+.sm\:rotate-z-165{
+transform: rotateZ(165deg) !important;
+}
+.sm\:rotate-z-180{
+transform: rotateZ(180deg) !important;
+}
+.sm\:rotate-z-360{
+transform: rotateZ(360deg) !important;
+}
+
+
+.sm\:rotate-3d-0{
+transform: rotate3d(0deg) !important;
+}
+.sm\:rotate-3d-1{
+transform: rotate3d(1deg) !important;
+}
+.sm\:rotate-3d-2{
+transform: rotate3d(2deg) !important;
+}
+.sm\:rotate-3d-3{
+transform: rotate3d(3deg) !important;
+}
+.sm\:rotate-3d-4{
+transform: rotate3d(4deg) !important;
+}
+.sm\:rotate-3d-5{
+transform: rotate3d(5deg) !important;
+}
+.sm\:rotate-3d-6{
+transform: rotate3d(6deg) !important;
+}
+.sm\:rotate-3d-7{
+transform: rotate3d(7deg) !important;
+}
+.sm\:rotate-3d-8{
+transform: rotate3d(8deg) !important;
+}
+.sm\:rotate-3d-9{
+transform: rotate3d(9deg) !important;
+}
+.sm\:rotate-3d-10{
+transform: rotate3d(10deg) !important;
+}
+.sm\:rotate-3d-15{
+transform: rotate3d(15deg) !important;
+}
+.sm\:rotate-3d-30{
+transform: rotate3d(30deg) !important;
+}
+.sm\:rotate-3d-45{
+transform: rotate3d(45deg) !important;
+}
+.sm\:rotate-3d-60{
+transform: rotate3d(60deg) !important;
+}
+.sm\:rotate-3d-75{
+transform: rotate3d(75deg) !important;
+}
+.sm\:rotate-3d-90{
+transform: rotate3d(90deg) !important;
+}
+.sm\:rotate-3d-105{
+transform: rotate3d(105deg) !important;
+}
+.sm\:rotate-3d-120{
+transform: rotate3d(120deg) !important;
+}
+.sm\:rotate-3d-135{
+transform: rotate3d(135deg) !important;
+}
+.sm\:rotate-3d-150{
+transform: rotate3d(150deg) !important;
+}
+.sm\:rotate-3d-165{
+transform: rotate3d(165deg) !important;
+}
+.sm\:rotate-3d-180{
+transform: rotate3d(180deg) !important;
+}
+.sm\:rotate-3d-360{
+transform: rotate3d(360deg) !important;
+}
+}
+
+
+@media(min-width:768px){
+.md\:rotate-0{
+transform: rotate(0deg) !important;
+}
+.md\:rotate-1{
+transform: rotate(1deg) !important;
+}
+.md\:rotate-2{
+transform: rotate(2deg) !important;
+}
+.md\:rotate-3{
+transform: rotate(3deg) !important;
+}
+.md\:rotate-4{
+transform: rotate(4deg) !important;
+}
+.md\:rotate-5{
+transform: rotate(5deg) !important;
+}
+.md\:rotate-6{
+transform: rotate(6deg) !important;
+}
+.md\:rotate-7{
+transform: rotate(7deg) !important;
+}
+.md\:rotate-8{
+transform: rotate(8deg) !important;
+}
+.md\:rotate-9{
+transform: rotate(9deg) !important;
+}
+.md\:rotate-10{
+transform: rotate(10deg) !important;
+}
+.md\:rotate-15{
+transform: rotate(15deg) !important;
+}
+.md\:rotate-30{
+transform: rotate(30deg) !important;
+}
+.md\:rotate-45{
+transform: rotate(45deg) !important;
+}
+.md\:rotate-60{
+transform: rotate(60deg) !important;
+}
+.md\:rotate-75{
+transform: rotate(75deg) !important;
+}
+.md\:rotate-90{
+transform: rotate(90deg) !important;
+}
+.md\:rotate-105{
+transform: rotate(105deg) !important;
+}
+.md\:rotate-120{
+transform: rotate(120deg) !important;
+}
+.md\:rotate-135{
+transform: rotate(135deg) !important;
+}
+.md\:rotate-150{
+transform: rotate(150deg) !important;
+}
+.md\:rotate-165{
+transform: rotate(165deg) !important;
+}
+.md\:rotate-180{
+transform: rotate(180deg) !important;
+}
+.md\:rotate-360{
+transform: rotate(360deg) !important;
+}
+
+
+
+.md\:rotate-x-0{
+transform: rotateX(0deg) !important;
+}
+.md\:rotate-x-1{
+transform: rotateX(1deg) !important;
+}
+.md\:rotate-x-2{
+transform: rotateX(2deg) !important;
+}
+.md\:rotate-x-3{
+transform: rotateX(3deg) !important;
+}
+.md\:rotate-x-4{
+transform: rotateX(4deg) !important;
+}
+.md\:rotate-x-5{
+transform: rotateX(5deg) !important;
+}
+.md\:rotate-x-6{
+transform: rotateX(6deg) !important;
+}
+.md\:rotate-x-7{
+transform: rotateX(7deg) !important;
+}
+.md\:rotate-x-8{
+transform: rotateX(8deg) !important;
+}
+.md\:rotate-x-9{
+transform: rotateX(9deg) !important;
+}
+.md\:rotate-x-10{
+transform: rotateX(10deg) !important;
+}
+.md\:rotate-x-15{
+transform: rotateX(15deg) !important;
+}
+.md\:rotate-x-30{
+transform: rotateX(30deg) !important;
+}
+.md\:rotate-x-45{
+transform: rotateX(45deg) !important;
+}
+.md\:rotate-x-60{
+transform: rotateX(60deg) !important;
+}
+.md\:rotate-x-75{
+transform: rotateX(75deg) !important;
+}
+.md\:rotate-x-90{
+transform: rotateX(90deg) !important;
+}
+.md\:rotate-x-105{
+transform: rotateX(105deg) !important;
+}
+.md\:rotate-x-120{
+transform: rotateX(120deg) !important;
+}
+.md\:rotate-x-135{
+transform: rotateX(135deg) !important;
+}
+.md\:rotate-x-150{
+transform: rotateX(150deg) !important;
+}
+.md\:rotate-x-165{
+transform: rotateX(165deg) !important;
+}
+.md\:rotate-x-180{
+transform: rotateX(180deg) !important;
+}
+.md\:rotate-x-360{
+transform: rotateX(360deg) !important;
+}
+
+
+.md\:rotate-y-0{
+transform: rotateY(0deg) !important;
+}
+.md\:rotate-y-1{
+transform: rotateY(1deg) !important;
+}
+.md\:rotate-y-2{
+transform: rotateY(2deg) !important;
+}
+.md\:rotate-y-3{
+transform: rotateY(3deg) !important;
+}
+.md\:rotate-y-4{
+transform: rotateY(4deg) !important;
+}
+.md\:rotate-y-5{
+transform: rotateY(5deg) !important;
+}
+.md\:rotate-y-6{
+transform: rotateY(6deg) !important;
+}
+.md\:rotate-y-7{
+transform: rotateY(7deg) !important;
+}
+.md\:rotate-y-8{
+transform: rotateY(8deg) !important;
+}
+.md\:rotate-y-9{
+transform: rotateY(9deg) !important;
+}
+.md\:rotate-y-10{
+transform: rotateY(10deg) !important;
+}
+.md\:rotate-y-15{
+transform: rotateY(15deg) !important;
+}
+.md\:rotate-y-30{
+transform: rotateY(30deg) !important;
+}
+.md\:rotate-y-45{
+transform: rotateY(45deg) !important;
+}
+.md\:rotate-y-60{
+transform: rotateY(60deg) !important;
+}
+.md\:rotate-y-75{
+transform: rotateY(75deg) !important;
+}
+.md\:rotate-y-90{
+transform: rotateY(90deg) !important;
+}
+.md\:rotate-y-105{
+transform: rotateY(105deg) !important;
+}
+.md\:rotate-y-120{
+transform: rotateY(120deg) !important;
+}
+.md\:rotate-y-135{
+transform: rotateY(135deg) !important;
+}
+.md\:rotate-y-150{
+transform: rotateY(150deg) !important;
+}
+.md\:rotate-y-165{
+transform: rotateY(165deg) !important;
+}
+.md\:rotate-y-180{
+transform: rotateY(180deg) !important;
+}
+.md\:rotate-y-360{
+transform: rotateY(360deg) !important;
+}
+
+
+.md\:rotate-z-0{
+transform: rotateZ(0deg) !important;
+}
+.md\:rotate-z-1{
+transform: rotateZ(1deg) !important;
+}
+.md\:rotate-z-2{
+transform: rotateZ(2deg) !important;
+}
+.md\:rotate-z-3{
+transform: rotateZ(3deg) !important;
+}
+.md\:rotate-z-4{
+transform: rotateZ(4deg) !important;
+}
+.md\:rotate-z-5{
+transform: rotateZ(5deg) !important;
+}
+.md\:rotate-z-6{
+transform: rotateZ(6deg) !important;
+}
+.md\:rotate-z-7{
+transform: rotateZ(7deg) !important;
+}
+.md\:rotate-z-8{
+transform: rotateZ(8deg) !important;
+}
+.md\:rotate-z-9{
+transform: rotateZ(9deg) !important;
+}
+.md\:rotate-z-10{
+transform: rotateZ(10deg) !important;
+}
+.md\:rotate-z-15{
+transform: rotateZ(15deg) !important;
+}
+.md\:rotate-z-30{
+transform: rotateZ(30deg) !important;
+}
+.md\:rotate-z-45{
+transform: rotateZ(45deg) !important;
+}
+.md\:rotate-z-60{
+transform: rotateZ(60deg) !important;
+}
+.md\:rotate-z-75{
+transform: rotateZ(75deg) !important;
+}
+.md\:rotate-z-90{
+transform: rotateZ(90deg) !important;
+}
+.md\:rotate-z-105{
+transform: rotateZ(105deg) !important;
+}
+.md\:rotate-z-120{
+transform: rotateZ(120deg) !important;
+}
+.md\:rotate-z-135{
+transform: rotateZ(135deg) !important;
+}
+.md\:rotate-z-150{
+transform: rotateZ(150deg) !important;
+}
+.md\:rotate-z-165{
+transform: rotateZ(165deg) !important;
+}
+.md\:rotate-z-180{
+transform: rotateZ(180deg) !important;
+}
+.md\:rotate-z-360{
+transform: rotateZ(360deg) !important;
+}
+
+
+.md\:rotate-3d-0{
+transform: rotate3d(0deg) !important;
+}
+.md\:rotate-3d-1{
+transform: rotate3d(1deg) !important;
+}
+.md\:rotate-3d-2{
+transform: rotate3d(2deg) !important;
+}
+.md\:rotate-3d-3{
+transform: rotate3d(3deg) !important;
+}
+.md\:rotate-3d-4{
+transform: rotate3d(4deg) !important;
+}
+.md\:rotate-3d-5{
+transform: rotate3d(5deg) !important;
+}
+.md\:rotate-3d-6{
+transform: rotate3d(6deg) !important;
+}
+.md\:rotate-3d-7{
+transform: rotate3d(7deg) !important;
+}
+.md\:rotate-3d-8{
+transform: rotate3d(8deg) !important;
+}
+.md\:rotate-3d-9{
+transform: rotate3d(9deg) !important;
+}
+.md\:rotate-3d-10{
+transform: rotate3d(10deg) !important;
+}
+.md\:rotate-3d-15{
+transform: rotate3d(15deg) !important;
+}
+.md\:rotate-3d-30{
+transform: rotate3d(30deg) !important;
+}
+.md\:rotate-3d-45{
+transform: rotate3d(45deg) !important;
+}
+.md\:rotate-3d-60{
+transform: rotate3d(60deg) !important;
+}
+.md\:rotate-3d-75{
+transform: rotate3d(75deg) !important;
+}
+.md\:rotate-3d-90{
+transform: rotate3d(90deg) !important;
+}
+.md\:rotate-3d-105{
+transform: rotate3d(105deg) !important;
+}
+.md\:rotate-3d-120{
+transform: rotate3d(120deg) !important;
+}
+.md\:rotate-3d-135{
+transform: rotate3d(135deg) !important;
+}
+.md\:rotate-3d-150{
+transform: rotate3d(150deg) !important;
+}
+.md\:rotate-3d-165{
+transform: rotate3d(165deg) !important;
+}
+.md\:rotate-3d-180{
+transform: rotate3d(180deg) !important;
+}
+.md\:rotate-3d-360{
+transform: rotate3d(360deg) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:rotate-0{
+transform: rotate(0deg) !important;
+}
+.lg\:rotate-1{
+transform: rotate(1deg) !important;
+}
+.lg\:rotate-2{
+transform: rotate(2deg) !important;
+}
+.lg\:rotate-3{
+transform: rotate(3deg) !important;
+}
+.lg\:rotate-4{
+transform: rotate(4deg) !important;
+}
+.lg\:rotate-5{
+transform: rotate(5deg) !important;
+}
+.lg\:rotate-6{
+transform: rotate(6deg) !important;
+}
+.lg\:rotate-7{
+transform: rotate(7deg) !important;
+}
+.lg\:rotate-8{
+transform: rotate(8deg) !important;
+}
+.lg\:rotate-9{
+transform: rotate(9deg) !important;
+}
+.lg\:rotate-10{
+transform: rotate(10deg) !important;
+}
+.lg\:rotate-15{
+transform: rotate(15deg) !important;
+}
+.lg\:rotate-30{
+transform: rotate(30deg) !important;
+}
+.lg\:rotate-45{
+transform: rotate(45deg) !important;
+}
+.lg\:rotate-60{
+transform: rotate(60deg) !important;
+}
+.lg\:rotate-75{
+transform: rotate(75deg) !important;
+}
+.lg\:rotate-90{
+transform: rotate(90deg) !important;
+}
+.lg\:rotate-105{
+transform: rotate(105deg) !important;
+}
+.lg\:rotate-120{
+transform: rotate(120deg) !important;
+}
+.lg\:rotate-135{
+transform: rotate(135deg) !important;
+}
+.lg\:rotate-150{
+transform: rotate(150deg) !important;
+}
+.lg\:rotate-165{
+transform: rotate(165deg) !important;
+}
+.lg\:rotate-180{
+transform: rotate(180deg) !important;
+}
+.lg\:rotate-360{
+transform: rotate(360deg) !important;
+}
+
+
+
+.lg\:rotate-x-0{
+transform: rotateX(0deg) !important;
+}
+.lg\:rotate-x-1{
+transform: rotateX(1deg) !important;
+}
+.lg\:rotate-x-2{
+transform: rotateX(2deg) !important;
+}
+.lg\:rotate-x-3{
+transform: rotateX(3deg) !important;
+}
+.lg\:rotate-x-4{
+transform: rotateX(4deg) !important;
+}
+.lg\:rotate-x-5{
+transform: rotateX(5deg) !important;
+}
+.lg\:rotate-x-6{
+transform: rotateX(6deg) !important;
+}
+.lg\:rotate-x-7{
+transform: rotateX(7deg) !important;
+}
+.lg\:rotate-x-8{
+transform: rotateX(8deg) !important;
+}
+.lg\:rotate-x-9{
+transform: rotateX(9deg) !important;
+}
+.lg\:rotate-x-10{
+transform: rotateX(10deg) !important;
+}
+.lg\:rotate-x-15{
+transform: rotateX(15deg) !important;
+}
+.lg\:rotate-x-30{
+transform: rotateX(30deg) !important;
+}
+.lg\:rotate-x-45{
+transform: rotateX(45deg) !important;
+}
+.lg\:rotate-x-60{
+transform: rotateX(60deg) !important;
+}
+.lg\:rotate-x-75{
+transform: rotateX(75deg) !important;
+}
+.lg\:rotate-x-90{
+transform: rotateX(90deg) !important;
+}
+.lg\:rotate-x-105{
+transform: rotateX(105deg) !important;
+}
+.lg\:rotate-x-120{
+transform: rotateX(120deg) !important;
+}
+.lg\:rotate-x-135{
+transform: rotateX(135deg) !important;
+}
+.lg\:rotate-x-150{
+transform: rotateX(150deg) !important;
+}
+.lg\:rotate-x-165{
+transform: rotateX(165deg) !important;
+}
+.lg\:rotate-x-180{
+transform: rotateX(180deg) !important;
+}
+.lg\:rotate-x-360{
+transform: rotateX(360deg) !important;
+}
+
+
+.lg\:rotate-y-0{
+transform: rotateY(0deg) !important;
+}
+.lg\:rotate-y-1{
+transform: rotateY(1deg) !important;
+}
+.lg\:rotate-y-2{
+transform: rotateY(2deg) !important;
+}
+.lg\:rotate-y-3{
+transform: rotateY(3deg) !important;
+}
+.lg\:rotate-y-4{
+transform: rotateY(4deg) !important;
+}
+.lg\:rotate-y-5{
+transform: rotateY(5deg) !important;
+}
+.lg\:rotate-y-6{
+transform: rotateY(6deg) !important;
+}
+.lg\:rotate-y-7{
+transform: rotateY(7deg) !important;
+}
+.lg\:rotate-y-8{
+transform: rotateY(8deg) !important;
+}
+.lg\:rotate-y-9{
+transform: rotateY(9deg) !important;
+}
+.lg\:rotate-y-10{
+transform: rotateY(10deg) !important;
+}
+.lg\:rotate-y-15{
+transform: rotateY(15deg) !important;
+}
+.lg\:rotate-y-30{
+transform: rotateY(30deg) !important;
+}
+.lg\:rotate-y-45{
+transform: rotateY(45deg) !important;
+}
+.lg\:rotate-y-60{
+transform: rotateY(60deg) !important;
+}
+.lg\:rotate-y-75{
+transform: rotateY(75deg) !important;
+}
+.lg\:rotate-y-90{
+transform: rotateY(90deg) !important;
+}
+.lg\:rotate-y-105{
+transform: rotateY(105deg) !important;
+}
+.lg\:rotate-y-120{
+transform: rotateY(120deg) !important;
+}
+.lg\:rotate-y-135{
+transform: rotateY(135deg) !important;
+}
+.lg\:rotate-y-150{
+transform: rotateY(150deg) !important;
+}
+.lg\:rotate-y-165{
+transform: rotateY(165deg) !important;
+}
+.lg\:rotate-y-180{
+transform: rotateY(180deg) !important;
+}
+.lg\:rotate-y-360{
+transform: rotateY(360deg) !important;
+}
+
+
+.lg\:rotate-z-0{
+transform: rotateZ(0deg) !important;
+}
+.lg\:rotate-z-1{
+transform: rotateZ(1deg) !important;
+}
+.lg\:rotate-z-2{
+transform: rotateZ(2deg) !important;
+}
+.lg\:rotate-z-3{
+transform: rotateZ(3deg) !important;
+}
+.lg\:rotate-z-4{
+transform: rotateZ(4deg) !important;
+}
+.lg\:rotate-z-5{
+transform: rotateZ(5deg) !important;
+}
+.lg\:rotate-z-6{
+transform: rotateZ(6deg) !important;
+}
+.lg\:rotate-z-7{
+transform: rotateZ(7deg) !important;
+}
+.lg\:rotate-z-8{
+transform: rotateZ(8deg) !important;
+}
+.lg\:rotate-z-9{
+transform: rotateZ(9deg) !important;
+}
+.lg\:rotate-z-10{
+transform: rotateZ(10deg) !important;
+}
+.lg\:rotate-z-15{
+transform: rotateZ(15deg) !important;
+}
+.lg\:rotate-z-30{
+transform: rotateZ(30deg) !important;
+}
+.lg\:rotate-z-45{
+transform: rotateZ(45deg) !important;
+}
+.lg\:rotate-z-60{
+transform: rotateZ(60deg) !important;
+}
+.lg\:rotate-z-75{
+transform: rotateZ(75deg) !important;
+}
+.lg\:rotate-z-90{
+transform: rotateZ(90deg) !important;
+}
+.lg\:rotate-z-105{
+transform: rotateZ(105deg) !important;
+}
+.lg\:rotate-z-120{
+transform: rotateZ(120deg) !important;
+}
+.lg\:rotate-z-135{
+transform: rotateZ(135deg) !important;
+}
+.lg\:rotate-z-150{
+transform: rotateZ(150deg) !important;
+}
+.lg\:rotate-z-165{
+transform: rotateZ(165deg) !important;
+}
+.lg\:rotate-z-180{
+transform: rotateZ(180deg) !important;
+}
+.lg\:rotate-z-360{
+transform: rotateZ(360deg) !important;
+}
+
+
+.lg\:rotate-3d-0{
+transform: rotate3d(0deg) !important;
+}
+.lg\:rotate-3d-1{
+transform: rotate3d(1deg) !important;
+}
+.lg\:rotate-3d-2{
+transform: rotate3d(2deg) !important;
+}
+.lg\:rotate-3d-3{
+transform: rotate3d(3deg) !important;
+}
+.lg\:rotate-3d-4{
+transform: rotate3d(4deg) !important;
+}
+.lg\:rotate-3d-5{
+transform: rotate3d(5deg) !important;
+}
+.lg\:rotate-3d-6{
+transform: rotate3d(6deg) !important;
+}
+.lg\:rotate-3d-7{
+transform: rotate3d(7deg) !important;
+}
+.lg\:rotate-3d-8{
+transform: rotate3d(8deg) !important;
+}
+.lg\:rotate-3d-9{
+transform: rotate3d(9deg) !important;
+}
+.lg\:rotate-3d-10{
+transform: rotate3d(10deg) !important;
+}
+.lg\:rotate-3d-15{
+transform: rotate3d(15deg) !important;
+}
+.lg\:rotate-3d-30{
+transform: rotate3d(30deg) !important;
+}
+.lg\:rotate-3d-45{
+transform: rotate3d(45deg) !important;
+}
+.lg\:rotate-3d-60{
+transform: rotate3d(60deg) !important;
+}
+.lg\:rotate-3d-75{
+transform: rotate3d(75deg) !important;
+}
+.lg\:rotate-3d-90{
+transform: rotate3d(90deg) !important;
+}
+.lg\:rotate-3d-105{
+transform: rotate3d(105deg) !important;
+}
+.lg\:rotate-3d-120{
+transform: rotate3d(120deg) !important;
+}
+.lg\:rotate-3d-135{
+transform: rotate3d(135deg) !important;
+}
+.lg\:rotate-3d-150{
+transform: rotate3d(150deg) !important;
+}
+.lg\:rotate-3d-165{
+transform: rotate3d(165deg) !important;
+}
+.lg\:rotate-3d-180{
+transform: rotate3d(180deg) !important;
+}
+.lg\:rotate-3d-360{
+transform: rotate3d(360deg) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:rotate-0{
+transform: rotate(0deg) !important;
+}
+.xl\:rotate-1{
+transform: rotate(1deg) !important;
+}
+.xl\:rotate-2{
+transform: rotate(2deg) !important;
+}
+.xl\:rotate-3{
+transform: rotate(3deg) !important;
+}
+.xl\:rotate-4{
+transform: rotate(4deg) !important;
+}
+.xl\:rotate-5{
+transform: rotate(5deg) !important;
+}
+.xl\:rotate-6{
+transform: rotate(6deg) !important;
+}
+.xl\:rotate-7{
+transform: rotate(7deg) !important;
+}
+.xl\:rotate-8{
+transform: rotate(8deg) !important;
+}
+.xl\:rotate-9{
+transform: rotate(9deg) !important;
+}
+.xl\:rotate-10{
+transform: rotate(10deg) !important;
+}
+.xl\:rotate-15{
+transform: rotate(15deg) !important;
+}
+.xl\:rotate-30{
+transform: rotate(30deg) !important;
+}
+.xl\:rotate-45{
+transform: rotate(45deg) !important;
+}
+.xl\:rotate-60{
+transform: rotate(60deg) !important;
+}
+.xl\:rotate-75{
+transform: rotate(75deg) !important;
+}
+.xl\:rotate-90{
+transform: rotate(90deg) !important;
+}
+.xl\:rotate-105{
+transform: rotate(105deg) !important;
+}
+.xl\:rotate-120{
+transform: rotate(120deg) !important;
+}
+.xl\:rotate-135{
+transform: rotate(135deg) !important;
+}
+.xl\:rotate-150{
+transform: rotate(150deg) !important;
+}
+.xl\:rotate-165{
+transform: rotate(165deg) !important;
+}
+.xl\:rotate-180{
+transform: rotate(180deg) !important;
+}
+.xl\:rotate-360{
+transform: rotate(360deg) !important;
+}
+
+
+
+.xl\:rotate-x-0{
+transform: rotateX(0deg) !important;
+}
+.xl\:rotate-x-1{
+transform: rotateX(1deg) !important;
+}
+.xl\:rotate-x-2{
+transform: rotateX(2deg) !important;
+}
+.xl\:rotate-x-3{
+transform: rotateX(3deg) !important;
+}
+.xl\:rotate-x-4{
+transform: rotateX(4deg) !important;
+}
+.xl\:rotate-x-5{
+transform: rotateX(5deg) !important;
+}
+.xl\:rotate-x-6{
+transform: rotateX(6deg) !important;
+}
+.xl\:rotate-x-7{
+transform: rotateX(7deg) !important;
+}
+.xl\:rotate-x-8{
+transform: rotateX(8deg) !important;
+}
+.xl\:rotate-x-9{
+transform: rotateX(9deg) !important;
+}
+.xl\:rotate-x-10{
+transform: rotateX(10deg) !important;
+}
+.xl\:rotate-x-15{
+transform: rotateX(15deg) !important;
+}
+.xl\:rotate-x-30{
+transform: rotateX(30deg) !important;
+}
+.xl\:rotate-x-45{
+transform: rotateX(45deg) !important;
+}
+.xl\:rotate-x-60{
+transform: rotateX(60deg) !important;
+}
+.xl\:rotate-x-75{
+transform: rotateX(75deg) !important;
+}
+.xl\:rotate-x-90{
+transform: rotateX(90deg) !important;
+}
+.xl\:rotate-x-105{
+transform: rotateX(105deg) !important;
+}
+.xl\:rotate-x-120{
+transform: rotateX(120deg) !important;
+}
+.xl\:rotate-x-135{
+transform: rotateX(135deg) !important;
+}
+.xl\:rotate-x-150{
+transform: rotateX(150deg) !important;
+}
+.xl\:rotate-x-165{
+transform: rotateX(165deg) !important;
+}
+.xl\:rotate-x-180{
+transform: rotateX(180deg) !important;
+}
+.xl\:rotate-x-360{
+transform: rotateX(360deg) !important;
+}
+
+
+.xl\:rotate-y-0{
+transform: rotateY(0deg) !important;
+}
+.xl\:rotate-y-1{
+transform: rotateY(1deg) !important;
+}
+.xl\:rotate-y-2{
+transform: rotateY(2deg) !important;
+}
+.xl\:rotate-y-3{
+transform: rotateY(3deg) !important;
+}
+.xl\:rotate-y-4{
+transform: rotateY(4deg) !important;
+}
+.xl\:rotate-y-5{
+transform: rotateY(5deg) !important;
+}
+.xl\:rotate-y-6{
+transform: rotateY(6deg) !important;
+}
+.xl\:rotate-y-7{
+transform: rotateY(7deg) !important;
+}
+.xl\:rotate-y-8{
+transform: rotateY(8deg) !important;
+}
+.xl\:rotate-y-9{
+transform: rotateY(9deg) !important;
+}
+.xl\:rotate-y-10{
+transform: rotateY(10deg) !important;
+}
+.xl\:rotate-y-15{
+transform: rotateY(15deg) !important;
+}
+.xl\:rotate-y-30{
+transform: rotateY(30deg) !important;
+}
+.xl\:rotate-y-45{
+transform: rotateY(45deg) !important;
+}
+.xl\:rotate-y-60{
+transform: rotateY(60deg) !important;
+}
+.xl\:rotate-y-75{
+transform: rotateY(75deg) !important;
+}
+.xl\:rotate-y-90{
+transform: rotateY(90deg) !important;
+}
+.xl\:rotate-y-105{
+transform: rotateY(105deg) !important;
+}
+.xl\:rotate-y-120{
+transform: rotateY(120deg) !important;
+}
+.xl\:rotate-y-135{
+transform: rotateY(135deg) !important;
+}
+.xl\:rotate-y-150{
+transform: rotateY(150deg) !important;
+}
+.xl\:rotate-y-165{
+transform: rotateY(165deg) !important;
+}
+.xl\:rotate-y-180{
+transform: rotateY(180deg) !important;
+}
+.xl\:rotate-y-360{
+transform: rotateY(360deg) !important;
+}
+
+
+.xl\:rotate-z-0{
+transform: rotateZ(0deg) !important;
+}
+.xl\:rotate-z-1{
+transform: rotateZ(1deg) !important;
+}
+.xl\:rotate-z-2{
+transform: rotateZ(2deg) !important;
+}
+.xl\:rotate-z-3{
+transform: rotateZ(3deg) !important;
+}
+.xl\:rotate-z-4{
+transform: rotateZ(4deg) !important;
+}
+.xl\:rotate-z-5{
+transform: rotateZ(5deg) !important;
+}
+.xl\:rotate-z-6{
+transform: rotateZ(6deg) !important;
+}
+.xl\:rotate-z-7{
+transform: rotateZ(7deg) !important;
+}
+.xl\:rotate-z-8{
+transform: rotateZ(8deg) !important;
+}
+.xl\:rotate-z-9{
+transform: rotateZ(9deg) !important;
+}
+.xl\:rotate-z-10{
+transform: rotateZ(10deg) !important;
+}
+.xl\:rotate-z-15{
+transform: rotateZ(15deg) !important;
+}
+.xl\:rotate-z-30{
+transform: rotateZ(30deg) !important;
+}
+.xl\:rotate-z-45{
+transform: rotateZ(45deg) !important;
+}
+.xl\:rotate-z-60{
+transform: rotateZ(60deg) !important;
+}
+.xl\:rotate-z-75{
+transform: rotateZ(75deg) !important;
+}
+.xl\:rotate-z-90{
+transform: rotateZ(90deg) !important;
+}
+.xl\:rotate-z-105{
+transform: rotateZ(105deg) !important;
+}
+.xl\:rotate-z-120{
+transform: rotateZ(120deg) !important;
+}
+.xl\:rotate-z-135{
+transform: rotateZ(135deg) !important;
+}
+.xl\:rotate-z-150{
+transform: rotateZ(150deg) !important;
+}
+.xl\:rotate-z-165{
+transform: rotateZ(165deg) !important;
+}
+.xl\:rotate-z-180{
+transform: rotateZ(180deg) !important;
+}
+.xl\:rotate-z-360{
+transform: rotateZ(360deg) !important;
+}
+
+
+.xl\:rotate-3d-0{
+transform: rotate3d(0deg) !important;
+}
+.xl\:rotate-3d-1{
+transform: rotate3d(1deg) !important;
+}
+.xl\:rotate-3d-2{
+transform: rotate3d(2deg) !important;
+}
+.xl\:rotate-3d-3{
+transform: rotate3d(3deg) !important;
+}
+.xl\:rotate-3d-4{
+transform: rotate3d(4deg) !important;
+}
+.xl\:rotate-3d-5{
+transform: rotate3d(5deg) !important;
+}
+.xl\:rotate-3d-6{
+transform: rotate3d(6deg) !important;
+}
+.xl\:rotate-3d-7{
+transform: rotate3d(7deg) !important;
+}
+.xl\:rotate-3d-8{
+transform: rotate3d(8deg) !important;
+}
+.xl\:rotate-3d-9{
+transform: rotate3d(9deg) !important;
+}
+.xl\:rotate-3d-10{
+transform: rotate3d(10deg) !important;
+}
+.xl\:rotate-3d-15{
+transform: rotate3d(15deg) !important;
+}
+.xl\:rotate-3d-30{
+transform: rotate3d(30deg) !important;
+}
+.xl\:rotate-3d-45{
+transform: rotate3d(45deg) !important;
+}
+.xl\:rotate-3d-60{
+transform: rotate3d(60deg) !important;
+}
+.xl\:rotate-3d-75{
+transform: rotate3d(75deg) !important;
+}
+.xl\:rotate-3d-90{
+transform: rotate3d(90deg) !important;
+}
+.xl\:rotate-3d-105{
+transform: rotate3d(105deg) !important;
+}
+.xl\:rotate-3d-120{
+transform: rotate3d(120deg) !important;
+}
+.xl\:rotate-3d-135{
+transform: rotate3d(135deg) !important;
+}
+.xl\:rotate-3d-150{
+transform: rotate3d(150deg) !important;
+}
+.xl\:rotate-3d-165{
+transform: rotate3d(165deg) !important;
+}
+.xl\:rotate-3d-180{
+transform: rotate3d(180deg) !important;
+}
+.xl\:rotate-3d-360{
+transform: rotate3d(360deg) !important;
+}
+}
+
+
+
+
+/* rotate property ended 🥲*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skew property started */
+.skew-x-0{
+transform: skewX(0deg) !important;
+}
+.skew-x-1{
+transform: skewX(1deg) !important;
+}
+.skew-x-2{
+transform: skewX(2deg) !important;
+}
+.skew-x-3{
+transform: skewX(3deg) !important;
+}
+.skew-x-4{
+transform: skewX(4deg) !important;
+}
+.skew-x-5{
+transform: skewX(5deg) !important;
+}
+.skew-x-6{
+transform: skewX(6deg) !important;
+}
+.skew-x-7{
+transform: skewX(7deg) !important;
+}
+.skew-x-8{
+transform: skewX(8deg) !important;
+}
+.skew-x-9{
+transform: skewX(9deg) !important;
+}
+.skew-x-10{
+transform: skewX(10deg) !important;
+}
+.skew-x-15{
+transform: skewX(15deg) !important;
+}
+.skew-x-30{
+transform: skewX(30deg) !important;
+}
+.skew-x-45{
+transform: skewX(45deg) !important;
+}
+.skew-x-60{
+transform: skewX(60deg) !important;
+}
+.skew-x-75{
+transform: skewX(75deg) !important;
+}
+.skew-x-90{
+transform: skewX(90deg) !important;
+}
+.skew-x-105{
+transform: skewX(105deg) !important;
+}
+.skew-x-120{
+transform: skewX(120deg) !important;
+}
+.skew-x-135{
+transform: skewX(135deg) !important;
+}
+.skew-x-150{
+transform: skewX(150deg) !important;
+}
+.skew-x-165{
+transform: skewX(165deg) !important;
+}
+.skew-x-180{
+transform: skewX(180deg) !important;
+}
+.skew-x-360{
+transform: skewX(360deg) !important;
+}
+
+
+.skew-y-0{
+transform: skewY(0deg) !important;
+}
+.skew-y-1{
+transform: skewY(1deg) !important;
+}
+.skew-y-2{
+transform: skewY(2deg) !important;
+}
+.skew-y-3{
+transform: skewY(3deg) !important;
+}
+.skew-y-4{
+transform: skewY(4deg) !important;
+}
+.skew-y-5{
+transform: skewY(5deg) !important;
+}
+.skew-y-6{
+transform: skewY(6deg) !important;
+}
+.skew-y-7{
+transform: skewY(7deg) !important;
+}
+.skew-y-8{
+transform: skewY(8deg) !important;
+}
+.skew-y-9{
+transform: skewY(9deg) !important;
+}
+.skew-y-10{
+transform: skewY(10deg) !important;
+}
+.skew-y-15{
+transform: skewY(15deg) !important;
+}
+.skew-y-30{
+transform: skewY(30deg) !important;
+}
+.skew-y-45{
+transform: skewY(45deg) !important;
+}
+.skew-y-60{
+transform: skewY(60deg) !important;
+}
+.skew-y-75{
+transform: skewY(75deg) !important;
+}
+.skew-y-90{
+transform: skewY(90deg) !important;
+}
+.skew-y-105{
+transform: skewY(105deg) !important;
+}
+.skew-y-120{
+transform: skewY(120deg) !important;
+}
+.skew-y-135{
+transform: skewY(135deg) !important;
+}
+.skew-y-150{
+transform: skewY(150deg) !important;
+}
+.skew-y-165{
+transform: skewY(165deg) !important;
+}
+.skew-y-180{
+transform: skewY(180deg) !important;
+}
+.skew-y-360{
+transform: skewY(360deg) !important;
+}
+
+
+
+
+.hover\:skew-x-0:hover{
+transform: skewX(0deg) !important;
+}
+.hover\:skew-x-1:hover{
+transform: skewX(1deg) !important;
+}
+.hover\:skew-x-2:hover{
+transform: skewX(2deg) !important;
+}
+.hover\:skew-x-3:hover{
+transform: skewX(3deg) !important;
+}
+.hover\:skew-x-4:hover{
+transform: skewX(4deg) !important;
+}
+.hover\:skew-x-5:hover{
+transform: skewX(5deg) !important;
+}
+.hover\:skew-x-6:hover{
+transform: skewX(6deg) !important;
+}
+.hover\:skew-x-7:hover{
+transform: skewX(7deg) !important;
+}
+.hover\:skew-x-8:hover{
+transform: skewX(8deg) !important;
+}
+.hover\:skew-x-9:hover{
+transform: skewX(9deg) !important;
+}
+.hover\:skew-x-10:hover{
+transform: skewX(10deg) !important;
+}
+.hover\:skew-x-15:hover{
+transform: skewX(15deg) !important;
+}
+.hover\:skew-x-30:hover{
+transform: skewX(30deg) !important;
+}
+.hover\:skew-x-45:hover{
+transform: skewX(45deg) !important;
+}
+.hover\:skew-x-60:hover{
+transform: skewX(60deg) !important;
+}
+.hover\:skew-x-75:hover{
+transform: skewX(75deg) !important;
+}
+.hover\:skew-x-90:hover{
+transform: skewX(90deg) !important;
+}
+.hover\:skew-x-105:hover{
+transform: skewX(105deg) !important;
+}
+.hover\:skew-x-120:hover{
+transform: skewX(120deg) !important;
+}
+.hover\:skew-x-135:hover{
+transform: skewX(135deg) !important;
+}
+.hover\:skew-x-150:hover{
+transform: skewX(150deg) !important;
+}
+.hover\:skew-x-165:hover{
+transform: skewX(165deg) !important;
+}
+.hover\:skew-x-180:hover{
+transform: skewX(180deg) !important;
+}
+.hover\:skew-x-360:hover{
+transform: skewX(360deg) !important;
+}
+
+
+.hover\:skew-y-0:hover{
+transform: skewY(0deg) !important;
+}
+.hover\:skew-y-1:hover{
+transform: skewY(1deg) !important;
+}
+.hover\:skew-y-2:hover{
+transform: skewY(2deg) !important;
+}
+.hover\:skew-y-3:hover{
+transform: skewY(3deg) !important;
+}
+.hover\:skew-y-4:hover{
+transform: skewY(4deg) !important;
+}
+.hover\:skew-y-5:hover{
+transform: skewY(5deg) !important;
+}
+.hover\:skew-y-6:hover{
+transform: skewY(6deg) !important;
+}
+.hover\:skew-y-7:hover{
+transform: skewY(7deg) !important;
+}
+.hover\:skew-y-8:hover{
+transform: skewY(8deg) !important;
+}
+.hover\:skew-y-9:hover{
+transform: skewY(9deg) !important;
+}
+.hover\:skew-y-10:hover{
+transform: skewY(10deg) !important;
+}
+.hover\:skew-y-15:hover{
+transform: skewY(15deg) !important;
+}
+.hover\:skew-y-30:hover{
+transform: skewY(30deg) !important;
+}
+.hover\:skew-y-45:hover{
+transform: skewY(45deg) !important;
+}
+.hover\:skew-y-60:hover{
+transform: skewY(60deg) !important;
+}
+.hover\:skew-y-75:hover{
+transform: skewY(75deg) !important;
+}
+.hover\:skew-y-90:hover{
+transform: skewY(90deg) !important;
+}
+.hover\:skew-y-105:hover{
+transform: skewY(105deg) !important;
+}
+.hover\:skew-y-120:hover{
+transform: skewY(120deg) !important;
+}
+.hover\:skew-y-135:hover{
+transform: skewY(135deg) !important;
+}
+.hover\:skew-y-150:hover{
+transform: skewY(150deg) !important;
+}
+.hover\:skew-y-165:hover{
+transform: skewY(165deg) !important;
+}
+.hover\:skew-y-180:hover{
+transform: skewY(180deg) !important;
+}
+.hover\:skew-y-360:hover{
+transform: skewY(360deg) !important;
+}
+
+
+
+@media(min-width:576px){
+.sm\:skew-x-0{
+transform: skewX(0deg) !important;
+}
+.sm\:skew-x-1{
+transform: skewX(1deg) !important;
+}
+.sm\:skew-x-2{
+transform: skewX(2deg) !important;
+}
+.sm\:skew-x-3{
+transform: skewX(3deg) !important;
+}
+.sm\:skew-x-4{
+transform: skewX(4deg) !important;
+}
+.sm\:skew-x-5{
+transform: skewX(5deg) !important;
+}
+.sm\:skew-x-6{
+transform: skewX(6deg) !important;
+}
+.sm\:skew-x-7{
+transform: skewX(7deg) !important;
+}
+.sm\:skew-x-8{
+transform: skewX(8deg) !important;
+}
+.sm\:skew-x-9{
+transform: skewX(9deg) !important;
+}
+.sm\:skew-x-10{
+transform: skewX(10deg) !important;
+}
+.sm\:skew-x-15{
+transform: skewX(15deg) !important;
+}
+.sm\:skew-x-30{
+transform: skewX(30deg) !important;
+}
+.sm\:skew-x-45{
+transform: skewX(45deg) !important;
+}
+.sm\:skew-x-60{
+transform: skewX(60deg) !important;
+}
+.sm\:skew-x-75{
+transform: skewX(75deg) !important;
+}
+.sm\:skew-x-90{
+transform: skewX(90deg) !important;
+}
+.sm\:skew-x-105{
+transform: skewX(105deg) !important;
+}
+.sm\:skew-x-120{
+transform: skewX(120deg) !important;
+}
+.sm\:skew-x-135{
+transform: skewX(135deg) !important;
+}
+.sm\:skew-x-150{
+transform: skewX(150deg) !important;
+}
+.sm\:skew-x-165{
+transform: skewX(165deg) !important;
+}
+.sm\:skew-x-180{
+transform: skewX(180deg) !important;
+}
+.sm\:skew-x-360{
+transform: skewX(360deg) !important;
+}
+
+
+.sm\:skew-y-0{
+transform: skewY(0deg) !important;
+}
+.sm\:skew-y-1{
+transform: skewY(1deg) !important;
+}
+.sm\:skew-y-2{
+transform: skewY(2deg) !important;
+}
+.sm\:skew-y-3{
+transform: skewY(3deg) !important;
+}
+.sm\:skew-y-4{
+transform: skewY(4deg) !important;
+}
+.sm\:skew-y-5{
+transform: skewY(5deg) !important;
+}
+.sm\:skew-y-6{
+transform: skewY(6deg) !important;
+}
+.sm\:skew-y-7{
+transform: skewY(7deg) !important;
+}
+.sm\:skew-y-8{
+transform: skewY(8deg) !important;
+}
+.sm\:skew-y-9{
+transform: skewY(9deg) !important;
+}
+.sm\:skew-y-10{
+transform: skewY(10deg) !important;
+}
+.sm\:skew-y-15{
+transform: skewY(15deg) !important;
+}
+.sm\:skew-y-30{
+transform: skewY(30deg) !important;
+}
+.sm\:skew-y-45{
+transform: skewY(45deg) !important;
+}
+.sm\:skew-y-60{
+transform: skewY(60deg) !important;
+}
+.sm\:skew-y-75{
+transform: skewY(75deg) !important;
+}
+.sm\:skew-y-90{
+transform: skewY(90deg) !important;
+}
+.sm\:skew-y-105{
+transform: skewY(105deg) !important;
+}
+.sm\:skew-y-120{
+transform: skewY(120deg) !important;
+}
+.sm\:skew-y-135{
+transform: skewY(135deg) !important;
+}
+.sm\:skew-y-150{
+transform: skewY(150deg) !important;
+}
+.sm\:skew-y-165{
+transform: skewY(165deg) !important;
+}
+.sm\:skew-y-180{
+transform: skewY(180deg) !important;
+}
+.sm\:skew-y-360{
+transform: skewY(360deg) !important;
+}
+}
+
+
+@media(min-width:768px){
+.md\:skew-x-0{
+transform: skewX(0deg) !important;
+}
+.md\:skew-x-1{
+transform: skewX(1deg) !important;
+}
+.md\:skew-x-2{
+transform: skewX(2deg) !important;
+}
+.md\:skew-x-3{
+transform: skewX(3deg) !important;
+}
+.md\:skew-x-4{
+transform: skewX(4deg) !important;
+}
+.md\:skew-x-5{
+transform: skewX(5deg) !important;
+}
+.md\:skew-x-6{
+transform: skewX(6deg) !important;
+}
+.md\:skew-x-7{
+transform: skewX(7deg) !important;
+}
+.md\:skew-x-8{
+transform: skewX(8deg) !important;
+}
+.md\:skew-x-9{
+transform: skewX(9deg) !important;
+}
+.md\:skew-x-10{
+transform: skewX(10deg) !important;
+}
+.md\:skew-x-15{
+transform: skewX(15deg) !important;
+}
+.md\:skew-x-30{
+transform: skewX(30deg) !important;
+}
+.md\:skew-x-45{
+transform: skewX(45deg) !important;
+}
+.md\:skew-x-60{
+transform: skewX(60deg) !important;
+}
+.md\:skew-x-75{
+transform: skewX(75deg) !important;
+}
+.md\:skew-x-90{
+transform: skewX(90deg) !important;
+}
+.md\:skew-x-105{
+transform: skewX(105deg) !important;
+}
+.md\:skew-x-120{
+transform: skewX(120deg) !important;
+}
+.md\:skew-x-135{
+transform: skewX(135deg) !important;
+}
+.md\:skew-x-150{
+transform: skewX(150deg) !important;
+}
+.md\:skew-x-165{
+transform: skewX(165deg) !important;
+}
+.md\:skew-x-180{
+transform: skewX(180deg) !important;
+}
+.md\:skew-x-360{
+transform: skewX(360deg) !important;
+}
+
+
+.md\:skew-y-0{
+transform: skewY(0deg) !important;
+}
+.md\:skew-y-1{
+transform: skewY(1deg) !important;
+}
+.md\:skew-y-2{
+transform: skewY(2deg) !important;
+}
+.md\:skew-y-3{
+transform: skewY(3deg) !important;
+}
+.md\:skew-y-4{
+transform: skewY(4deg) !important;
+}
+.md\:skew-y-5{
+transform: skewY(5deg) !important;
+}
+.md\:skew-y-6{
+transform: skewY(6deg) !important;
+}
+.md\:skew-y-7{
+transform: skewY(7deg) !important;
+}
+.md\:skew-y-8{
+transform: skewY(8deg) !important;
+}
+.md\:skew-y-9{
+transform: skewY(9deg) !important;
+}
+.md\:skew-y-10{
+transform: skewY(10deg) !important;
+}
+.md\:skew-y-15{
+transform: skewY(15deg) !important;
+}
+.md\:skew-y-30{
+transform: skewY(30deg) !important;
+}
+.md\:skew-y-45{
+transform: skewY(45deg) !important;
+}
+.md\:skew-y-60{
+transform: skewY(60deg) !important;
+}
+.md\:skew-y-75{
+transform: skewY(75deg) !important;
+}
+.md\:skew-y-90{
+transform: skewY(90deg) !important;
+}
+.md\:skew-y-105{
+transform: skewY(105deg) !important;
+}
+.md\:skew-y-120{
+transform: skewY(120deg) !important;
+}
+.md\:skew-y-135{
+transform: skewY(135deg) !important;
+}
+.md\:skew-y-150{
+transform: skewY(150deg) !important;
+}
+.md\:skew-y-165{
+transform: skewY(165deg) !important;
+}
+.md\:skew-y-180{
+transform: skewY(180deg) !important;
+}
+.md\:skew-y-360{
+transform: skewY(360deg) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:skew-x-0{
+transform: skewX(0deg) !important;
+}
+.lg\:skew-x-1{
+transform: skewX(1deg) !important;
+}
+.lg\:skew-x-2{
+transform: skewX(2deg) !important;
+}
+.lg\:skew-x-3{
+transform: skewX(3deg) !important;
+}
+.lg\:skew-x-4{
+transform: skewX(4deg) !important;
+}
+.lg\:skew-x-5{
+transform: skewX(5deg) !important;
+}
+.lg\:skew-x-6{
+transform: skewX(6deg) !important;
+}
+.lg\:skew-x-7{
+transform: skewX(7deg) !important;
+}
+.lg\:skew-x-8{
+transform: skewX(8deg) !important;
+}
+.lg\:skew-x-9{
+transform: skewX(9deg) !important;
+}
+.lg\:skew-x-10{
+transform: skewX(10deg) !important;
+}
+.lg\:skew-x-15{
+transform: skewX(15deg) !important;
+}
+.lg\:skew-x-30{
+transform: skewX(30deg) !important;
+}
+.lg\:skew-x-45{
+transform: skewX(45deg) !important;
+}
+.lg\:skew-x-60{
+transform: skewX(60deg) !important;
+}
+.lg\:skew-x-75{
+transform: skewX(75deg) !important;
+}
+.lg\:skew-x-90{
+transform: skewX(90deg) !important;
+}
+.lg\:skew-x-105{
+transform: skewX(105deg) !important;
+}
+.lg\:skew-x-120{
+transform: skewX(120deg) !important;
+}
+.lg\:skew-x-135{
+transform: skewX(135deg) !important;
+}
+.lg\:skew-x-150{
+transform: skewX(150deg) !important;
+}
+.lg\:skew-x-165{
+transform: skewX(165deg) !important;
+}
+.lg\:skew-x-180{
+transform: skewX(180deg) !important;
+}
+.lg\:skew-x-360{
+transform: skewX(360deg) !important;
+}
+
+
+.lg\:skew-y-0{
+transform: skewY(0deg) !important;
+}
+.lg\:skew-y-1{
+transform: skewY(1deg) !important;
+}
+.lg\:skew-y-2{
+transform: skewY(2deg) !important;
+}
+.lg\:skew-y-3{
+transform: skewY(3deg) !important;
+}
+.lg\:skew-y-4{
+transform: skewY(4deg) !important;
+}
+.lg\:skew-y-5{
+transform: skewY(5deg) !important;
+}
+.lg\:skew-y-6{
+transform: skewY(6deg) !important;
+}
+.lg\:skew-y-7{
+transform: skewY(7deg) !important;
+}
+.lg\:skew-y-8{
+transform: skewY(8deg) !important;
+}
+.lg\:skew-y-9{
+transform: skewY(9deg) !important;
+}
+.lg\:skew-y-10{
+transform: skewY(10deg) !important;
+}
+.lg\:skew-y-15{
+transform: skewY(15deg) !important;
+}
+.lg\:skew-y-30{
+transform: skewY(30deg) !important;
+}
+.lg\:skew-y-45{
+transform: skewY(45deg) !important;
+}
+.lg\:skew-y-60{
+transform: skewY(60deg) !important;
+}
+.lg\:skew-y-75{
+transform: skewY(75deg) !important;
+}
+.lg\:skew-y-90{
+transform: skewY(90deg) !important;
+}
+.lg\:skew-y-105{
+transform: skewY(105deg) !important;
+}
+.lg\:skew-y-120{
+transform: skewY(120deg) !important;
+}
+.lg\:skew-y-135{
+transform: skewY(135deg) !important;
+}
+.lg\:skew-y-150{
+transform: skewY(150deg) !important;
+}
+.lg\:skew-y-165{
+transform: skewY(165deg) !important;
+}
+.lg\:skew-y-180{
+transform: skewY(180deg) !important;
+}
+.lg\:skew-y-360{
+transform: skewY(360deg) !important;
+}
+}
+
+
+@media(min-width:1200px){
+.xl\:skew-x-0{
+transform: skewX(0deg) !important;
+}
+.xl\:skew-x-1{
+transform: skewX(1deg) !important;
+}
+.xl\:skew-x-2{
+transform: skewX(2deg) !important;
+}
+.xl\:skew-x-3{
+transform: skewX(3deg) !important;
+}
+.xl\:skew-x-4{
+transform: skewX(4deg) !important;
+}
+.xl\:skew-x-5{
+transform: skewX(5deg) !important;
+}
+.xl\:skew-x-6{
+transform: skewX(6deg) !important;
+}
+.xl\:skew-x-7{
+transform: skewX(7deg) !important;
+}
+.xl\:skew-x-8{
+transform: skewX(8deg) !important;
+}
+.xl\:skew-x-9{
+transform: skewX(9deg) !important;
+}
+.xl\:skew-x-10{
+transform: skewX(10deg) !important;
+}
+.xl\:skew-x-15{
+transform: skewX(15deg) !important;
+}
+.xl\:skew-x-30{
+transform: skewX(30deg) !important;
+}
+.xl\:skew-x-45{
+transform: skewX(45deg) !important;
+}
+.xl\:skew-x-60{
+transform: skewX(60deg) !important;
+}
+.xl\:skew-x-75{
+transform: skewX(75deg) !important;
+}
+.xl\:skew-x-90{
+transform: skewX(90deg) !important;
+}
+.xl\:skew-x-105{
+transform: skewX(105deg) !important;
+}
+.xl\:skew-x-120{
+transform: skewX(120deg) !important;
+}
+.xl\:skew-x-135{
+transform: skewX(135deg) !important;
+}
+.xl\:skew-x-150{
+transform: skewX(150deg) !important;
+}
+.xl\:skew-x-165{
+transform: skewX(165deg) !important;
+}
+.xl\:skew-x-180{
+transform: skewX(180deg) !important;
+}
+.xl\:skew-x-360{
+transform: skewX(360deg) !important;
+}
+
+
+.xl\:skew-y-0{
+transform: skewY(0deg) !important;
+}
+.xl\:skew-y-1{
+transform: skewY(1deg) !important;
+}
+.xl\:skew-y-2{
+transform: skewY(2deg) !important;
+}
+.xl\:skew-y-3{
+transform: skewY(3deg) !important;
+}
+.xl\:skew-y-4{
+transform: skewY(4deg) !important;
+}
+.xl\:skew-y-5{
+transform: skewY(5deg) !important;
+}
+.xl\:skew-y-6{
+transform: skewY(6deg) !important;
+}
+.xl\:skew-y-7{
+transform: skewY(7deg) !important;
+}
+.xl\:skew-y-8{
+transform: skewY(8deg) !important;
+}
+.xl\:skew-y-9{
+transform: skewY(9deg) !important;
+}
+.xl\:skew-y-10{
+transform: skewY(10deg) !important;
+}
+.xl\:skew-y-15{
+transform: skewY(15deg) !important;
+}
+.xl\:skew-y-30{
+transform: skewY(30deg) !important;
+}
+.xl\:skew-y-45{
+transform: skewY(45deg) !important;
+}
+.xl\:skew-y-60{
+transform: skewY(60deg) !important;
+}
+.xl\:skew-y-75{
+transform: skewY(75deg) !important;
+}
+.xl\:skew-y-90{
+transform: skewY(90deg) !important;
+}
+.xl\:skew-y-105{
+transform: skewY(105deg) !important;
+}
+.xl\:skew-y-120{
+transform: skewY(120deg) !important;
+}
+.xl\:skew-y-135{
+transform: skewY(135deg) !important;
+}
+.xl\:skew-y-150{
+transform: skewY(150deg) !important;
+}
+.xl\:skew-y-165{
+transform: skewY(165deg) !important;
+}
+.xl\:skew-y-180{
+transform: skewY(180deg) !important;
+}
+.xl\:skew-y-360{
+transform: skewY(360deg) !important;
+}
+}
+
+
+/* skew property ended 🥲 */
+
+
+
+
+
+
+
+/* translate property started */
+.translate-0{
+transform: translate(0) !important;
+}
+.translate-1{
+transform: translate(0.8rem) !important;
+}
+.translate-2{
+transform: translate(1.6rem) !important;
+}
+.translate-3{
+transform: translate(2.4rem) !important;
+}
+.translate-4{
+transform: translate(3.2rem) !important;
+}
+.translate-5{
+transform: translate(4rem) !important;
+}
+.translate-6{
+transform: translate(4.8rem) !important;
+}
+.translate-7{
+transform: translate(5.6rem) !important;
+}
+.translate-8{
+transform: translate(6.4rem) !important;
+}
+.translate-9{
+transform: translate(7.2rem) !important;
+}
+.translate-10{
+transform: translate(8rem) !important;
+}
+.translate-10\%{
+transform: translate(10%) !important;
+}
+.translate-20\%{
+transform: translate(20%) !important;
+}
+.translate-30\%{
+transform: translate(30%) !important;
+}
+.translate-40\%{
+transform: translate(40%) !important;
+}
+.translate-50\%{
+transform: translate(50%) !important;
+}
+.translate-60\%{
+transform: translate(60%) !important;
+}
+.translate-70\%{
+transform: translate(70%) !important;
+}
+.translate-80\%{
+transform: translate(80%) !important;
+}
+.translate-90\%{
+transform: translate(90%) !important;
+}
+.translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.translate-x-0{
+transform: translateX(0) !important;
+}
+.translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.translate-x-5{
+transform: translateX(4rem) !important;
+}
+.translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.translate-x-10{
+transform: translateX(8rem) !important;
+}
+.translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.translate-y-0{
+transform: translateY(0) !important;
+}
+.translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.translate-y-5{
+transform: translateY(4rem) !important;
+}
+.translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.translate-y-10{
+transform: translateY(8rem) !important;
+}
+.translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.translate-z-0{
+transform: translateZ(0) !important;
+}
+.translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.translate-3d-0{
+transform: translate3d(0) !important;
+}
+.translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+
+
+
+
+
+
+
+
+.hover\:translate-0:hover{
+transform: translate(0) !important;
+}
+.hover\:translate-1:hover{
+transform: translate(0.8rem) !important;
+}
+.hover\:translate-2:hover{
+transform: translate(1.6rem) !important;
+}
+.hover\:translate-3:hover{
+transform: translate(2.4rem) !important;
+}
+.hover\:translate-4:hover{
+transform: translate(3.2rem) !important;
+}
+.hover\:translate-5:hover{
+transform: translate(4rem) !important;
+}
+.hover\:translate-6:hover{
+transform: translate(4.8rem) !important;
+}
+.hover\:translate-7:hover{
+transform: translate(5.6rem) !important;
+}
+.hover\:translate-8:hover{
+transform: translate(6.4rem) !important;
+}
+.hover\:translate-9:hover{
+transform: translate(7.2rem) !important;
+}
+.hover\:translate-10:hover{
+transform: translate(8rem) !important;
+}
+.hover\:translate-10\%:hover{
+transform: translate(10%) !important;
+}
+.hover\:translate-20\%:hover{
+transform: translate(20%) !important;
+}
+.hover\:translate-30\%:hover{
+transform: translate(30%) !important;
+}
+.hover\:translate-40\%:hover{
+transform: translate(40%) !important;
+}
+.hover\:translate-50\%:hover{
+transform: translate(50%) !important;
+}
+.hover\:translate-60\%:hover{
+transform: translate(60%) !important;
+}
+.hover\:translate-70\%:hover{
+transform: translate(70%) !important;
+}
+.hover\:translate-80\%:hover{
+transform: translate(80%) !important;
+}
+.hover\:translate-90\%:hover{
+transform: translate(90%) !important;
+}
+.hover\:translate-100\%:hover{
+transform: translate(100%) !important;
+}
+
+
+.hover\:translate-x-0:hover{
+transform: translateX(0) !important;
+}
+.hover\:translate-x-1:hover{
+transform: translateX(0.8rem) !important;
+}
+.hover\:translate-x-2:hover{
+transform: translateX(1.6rem) !important;
+}
+.hover\:translate-x-3:hover{
+transform: translateX(2.4rem) !important;
+}
+.hover\:translate-x-4:hover{
+transform: translateX(3.2rem) !important;
+}
+.hover\:translate-x-5:hover{
+transform: translateX(4rem) !important;
+}
+.hover\:translate-x-6:hover{
+transform: translateX(4.8rem) !important;
+}
+.hover\:translate-x-7:hover{
+transform: translateX(5.6rem) !important;
+}
+.hover\:translate-x-8:hover{
+transform: translateX(6.4rem) !important;
+}
+.hover\:translate-x-9:hover{
+transform: translateX(7.2rem) !important;
+}
+.hover\:translate-x-10:hover{
+transform: translateX(8rem) !important;
+}
+.hover\:translate-x-10\%:hover{
+transform: translateX(10%) !important;
+}
+.hover\:translate-x-20\%:hover{
+transform: translateX(20%) !important;
+}
+.hover\:translate-x-30\%:hover{
+transform: translateX(30%) !important;
+}
+.hover\:translate-x-40\%:hover{
+transform: translateX(40%) !important;
+}
+.hover\:translate-x-50\%:hover{
+transform: translateX(50%) !important;
+}
+.hover\:translate-x-60\%:hover{
+transform: translateX(60%) !important;
+}
+.hover\:translate-x-70\%:hover{
+transform: translateX(70%) !important;
+}
+.hover\:translate-x-80\%:hover{
+transform: translateX(80%) !important;
+}
+.hover\:translate-x-90\%:hover{
+transform: translateX(90%) !important;
+}
+.hover\:translate-x-100\%:hover{
+transform: translateX(100%) !important;
+}
+
+
+.hover\:translate-y-0:hover{
+transform: translateY(0) !important;
+}
+.hover\:translate-y-1:hover{
+transform: translateY(0.8rem) !important;
+}
+.hover\:translate-y-2:hover{
+transform: translateY(1.6rem) !important;
+}
+.hover\:translate-y-3:hover{
+transform: translateY(2.4rem) !important;
+}
+.hover\:translate-y-4:hover{
+transform: translateY(3.2rem) !important;
+}
+.hover\:translate-y-5:hover{
+transform: translateY(4rem) !important;
+}
+.hover\:translate-y-6:hover{
+transform: translateY(4.8rem) !important;
+}
+.hover\:translate-y-7:hover{
+transform: translateY(5.6rem) !important;
+}
+.hover\:translate-y-8:hover{
+transform: translateY(6.4rem) !important;
+}
+.hover\:translate-y-9:hover{
+transform: translateY(7.2rem) !important;
+}
+.hover\:translate-y-10:hover{
+transform: translateY(8rem) !important;
+}
+.hover\:translate-y-10\%:hover{
+transform: translateY(10%) !important;
+}
+.hover\:translate-y-20\%:hover{
+transform: translateY(20%) !important;
+}
+.hover\:translate-y-30\%:hover{
+transform: translateY(30%) !important;
+}
+.hover\:translate-y-40\%:hover{
+transform: translateY(40%) !important;
+}
+.hover\:translate-y-50\%:hover{
+transform: translateY(50%) !important;
+}
+.hover\:translate-y-60\%:hover{
+transform: translateY(60%) !important;
+}
+.hover\:translate-y-70\%:hover{
+transform: translateY(70%) !important;
+}
+.hover\:translate-y-80\%:hover{
+transform: translateY(80%) !important;
+}
+.hover\:translate-y-90\%:hover{
+transform: translateY(90%) !important;
+}
+.hover\:translate-y-100\%:hover{
+transform: translateY(100%) !important;
+}
+
+
+.hover\:translate-z-0:hover{
+transform: translateZ(0) !important;
+}
+.hover\:translate-z-1:hover{
+transform: translateZ(0.8rem) !important;
+}
+.hover\:translate-z-2:hover{
+transform: translateZ(1.6rem) !important;
+}
+.hover\:translate-z-3:hover{
+transform: translateZ(2.4rem) !important;
+}
+.hover\:translate-z-4:hover{
+transform: translateZ(3.2rem) !important;
+}
+.hover\:translate-z-5:hover{
+transform: translateZ(4rem) !important;
+}
+.hover\:translate-z-6:hover{
+transform: translateZ(4.8rem) !important;
+}
+.hover\:translate-z-7:hover{
+transform: translateZ(5.6rem) !important;
+}
+.hover\:translate-z-8:hover{
+transform: translateZ(6.4rem) !important;
+}
+.hover\:translate-z-9:hover{
+transform: translateZ(7.2rem) !important;
+}
+.hover\:translate-z-10:hover{
+transform: translateZ(8rem) !important;
+}
+.hover\:translate-z-10\%:hover{
+transform: translateZ(10%) !important;
+}
+.hover\:translate-z-20\%:hover{
+transform: translateZ(20%) !important;
+}
+.hover\:translate-z-30\%:hover{
+transform: translateZ(30%) !important;
+}
+.hover\:translate-z-40\%:hover{
+transform: translateZ(40%) !important;
+}
+.hover\:translate-z-50\%:hover{
+transform: translateZ(50%) !important;
+}
+.hover\:translate-z-60\%:hover{
+transform: translateZ(60%) !important;
+}
+.hover\:translate-z-70\%:hover{
+transform: translateZ(70%) !important;
+}
+.hover\:translate-z-80\%:hover{
+transform: translateZ(80%) !important;
+}
+.hover\:translate-z-90\%:hover{
+transform: translateZ(90%) !important;
+}
+.hover\:translate-z-100\%:hover{
+transform: translateZ(100%) !important;
+}
+
+
+.hover\:translate-3d-0:hover{
+transform: translate3d(0) !important;
+}
+.hover\:translate-3d-1:hover{
+transform: translate3d(0.8rem) !important;
+}
+.hover\:translate-3d-2:hover{
+transform: translate3d(1.6rem) !important;
+}
+.hover\:translate-3d-3:hover{
+transform: translate3d(2.4rem) !important;
+}
+.hover\:translate-3d-4:hover{
+transform: translate3d(3.2rem) !important;
+}
+.hover\:translate-3d-5:hover{
+transform: translate3d(4rem) !important;
+}
+.hover\:translate-3d-6:hover{
+transform: translate3d(4.8rem) !important;
+}
+.hover\:translate-3d-7:hover{
+transform: translate3d(5.6rem) !important;
+}
+.hover\:translate-3d-8:hover{
+transform: translate3d(6.4rem) !important;
+}
+.hover\:translate-3d-9:hover{
+transform: translate3d(7.2rem) !important;
+}
+.hover\:translate-3d-10:hover{
+transform: translate3d(8rem) !important;
+}
+.hover\:translate-3d-10\%:hover{
+transform: translate3d(10%) !important;
+}
+.hover\:translate-3d-20\%:hover{
+transform: translate3d(20%) !important;
+}
+.hover\:translate-3d-30\%:hover{
+transform: translate3d(30%) !important;
+}
+.hover\:translate-3d-40\%:hover{
+transform: translate3d(40%) !important;
+}
+.hover\:translate-3d-50\%:hover{
+transform: translate3d(50%) !important;
+}
+.hover\:translate-3d-60\%:hover{
+transform: translate3d(60%) !important;
+}
+.hover\:translate-3d-70\%:hover{
+transform: translate3d(70%) !important;
+}
+.hover\:translate-3d-80\%:hover{
+transform: translate3d(80%) !important;
+}
+.hover\:translate-3d-90\%:hover{
+transform: translate3d(90%) !important;
+}
+.hover\:translate-3d-100\%:hover{
+transform: translate3d(100%) !important;
+}
+
+
+
+
+@media(min-width:576px){
+.sm\:translate-0{
+transform: translate(0) !important;
+}
+.sm\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.sm\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.sm\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.sm\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.sm\:translate-5{
+transform: translate(4rem) !important;
+}
+.sm\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.sm\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.sm\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.sm\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.sm\:translate-10{
+transform: translate(8rem) !important;
+}
+.sm\:translate-10\%{
+transform: translate(10%) !important;
+}
+.sm\:translate-20\%{
+transform: translate(20%) !important;
+}
+.sm\:translate-30\%{
+transform: translate(30%) !important;
+}
+.sm\:translate-40\%{
+transform: translate(40%) !important;
+}
+.sm\:translate-50\%{
+transform: translate(50%) !important;
+}
+.sm\:translate-60\%{
+transform: translate(60%) !important;
+}
+.sm\:translate-70\%{
+transform: translate(70%) !important;
+}
+.sm\:translate-80\%{
+transform: translate(80%) !important;
+}
+.sm\:translate-90\%{
+transform: translate(90%) !important;
+}
+.sm\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.sm\:translate-x-0{
+transform: translateX(0) !important;
+}
+.sm\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.sm\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.sm\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.sm\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.sm\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.sm\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.sm\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.sm\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.sm\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.sm\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.sm\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.sm\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.sm\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.sm\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.sm\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.sm\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.sm\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.sm\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.sm\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.sm\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.sm\:translate-y-0{
+transform: translateY(0) !important;
+}
+.sm\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.sm\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.sm\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.sm\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.sm\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.sm\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.sm\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.sm\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.sm\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.sm\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.sm\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.sm\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.sm\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.sm\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.sm\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.sm\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.sm\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.sm\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.sm\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.sm\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.sm\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.sm\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.sm\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.sm\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.sm\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.sm\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.sm\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.sm\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.sm\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.sm\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.sm\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.sm\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.sm\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.sm\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.sm\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.sm\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.sm\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.sm\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.sm\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.sm\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.sm\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.sm\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.sm\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.sm\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.sm\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.sm\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.sm\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.sm\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.sm\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.sm\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.sm\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.sm\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.sm\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.sm\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.sm\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.sm\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.sm\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.sm\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.sm\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.sm\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.sm\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.sm\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+
+@media(min-width:768px){
+.md\:translate-0{
+transform: translate(0) !important;
+}
+.md\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.md\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.md\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.md\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.md\:translate-5{
+transform: translate(4rem) !important;
+}
+.md\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.md\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.md\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.md\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.md\:translate-10{
+transform: translate(8rem) !important;
+}
+.md\:translate-10\%{
+transform: translate(10%) !important;
+}
+.md\:translate-20\%{
+transform: translate(20%) !important;
+}
+.md\:translate-30\%{
+transform: translate(30%) !important;
+}
+.md\:translate-40\%{
+transform: translate(40%) !important;
+}
+.md\:translate-50\%{
+transform: translate(50%) !important;
+}
+.md\:translate-60\%{
+transform: translate(60%) !important;
+}
+.md\:translate-70\%{
+transform: translate(70%) !important;
+}
+.md\:translate-80\%{
+transform: translate(80%) !important;
+}
+.md\:translate-90\%{
+transform: translate(90%) !important;
+}
+.md\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.md\:translate-x-0{
+transform: translateX(0) !important;
+}
+.md\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.md\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.md\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.md\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.md\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.md\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.md\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.md\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.md\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.md\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.md\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.md\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.md\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.md\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.md\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.md\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.md\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.md\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.md\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.md\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.md\:translate-y-0{
+transform: translateY(0) !important;
+}
+.md\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.md\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.md\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.md\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.md\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.md\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.md\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.md\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.md\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.md\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.md\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.md\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.md\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.md\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.md\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.md\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.md\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.md\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.md\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.md\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.md\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.md\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.md\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.md\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.md\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.md\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.md\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.md\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.md\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.md\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.md\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.md\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.md\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.md\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.md\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.md\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.md\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.md\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.md\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.md\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.md\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.md\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.md\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.md\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.md\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.md\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.md\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.md\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.md\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.md\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.md\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.md\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.md\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.md\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.md\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.md\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.md\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.md\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.md\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.md\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.md\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.md\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+@media(min-width:992px){
+.lg\:translate-0{
+transform: translate(0) !important;
+}
+.lg\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.lg\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.lg\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.lg\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.lg\:translate-5{
+transform: translate(4rem) !important;
+}
+.lg\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.lg\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.lg\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.lg\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.lg\:translate-10{
+transform: translate(8rem) !important;
+}
+.lg\:translate-10\%{
+transform: translate(10%) !important;
+}
+.lg\:translate-20\%{
+transform: translate(20%) !important;
+}
+.lg\:translate-30\%{
+transform: translate(30%) !important;
+}
+.lg\:translate-40\%{
+transform: translate(40%) !important;
+}
+.lg\:translate-50\%{
+transform: translate(50%) !important;
+}
+.lg\:translate-60\%{
+transform: translate(60%) !important;
+}
+.lg\:translate-70\%{
+transform: translate(70%) !important;
+}
+.lg\:translate-80\%{
+transform: translate(80%) !important;
+}
+.lg\:translate-90\%{
+transform: translate(90%) !important;
+}
+.lg\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.lg\:translate-x-0{
+transform: translateX(0) !important;
+}
+.lg\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.lg\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.lg\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.lg\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.lg\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.lg\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.lg\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.lg\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.lg\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.lg\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.lg\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.lg\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.lg\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.lg\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.lg\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.lg\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.lg\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.lg\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.lg\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.lg\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.lg\:translate-y-0{
+transform: translateY(0) !important;
+}
+.lg\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.lg\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.lg\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.lg\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.lg\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.lg\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.lg\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.lg\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.lg\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.lg\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.lg\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.lg\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.lg\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.lg\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.lg\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.lg\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.lg\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.lg\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.lg\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.lg\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.lg\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.lg\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.lg\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.lg\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.lg\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.lg\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.lg\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.lg\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.lg\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.lg\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.lg\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.lg\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.lg\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.lg\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.lg\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.lg\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.lg\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.lg\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.lg\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.lg\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.lg\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.lg\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.lg\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.lg\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.lg\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.lg\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.lg\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.lg\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.lg\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.lg\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.lg\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.lg\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.lg\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.lg\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.lg\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.lg\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.lg\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.lg\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.lg\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.lg\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.lg\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.lg\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:translate-0{
+transform: translate(0) !important;
+}
+.xl\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.xl\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.xl\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.xl\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.xl\:translate-5{
+transform: translate(4rem) !important;
+}
+.xl\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.xl\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.xl\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.xl\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.xl\:translate-10{
+transform: translate(8rem) !important;
+}
+.xl\:translate-10\%{
+transform: translate(10%) !important;
+}
+.xl\:translate-20\%{
+transform: translate(20%) !important;
+}
+.xl\:translate-30\%{
+transform: translate(30%) !important;
+}
+.xl\:translate-40\%{
+transform: translate(40%) !important;
+}
+.xl\:translate-50\%{
+transform: translate(50%) !important;
+}
+.xl\:translate-60\%{
+transform: translate(60%) !important;
+}
+.xl\:translate-70\%{
+transform: translate(70%) !important;
+}
+.xl\:translate-80\%{
+transform: translate(80%) !important;
+}
+.xl\:translate-90\%{
+transform: translate(90%) !important;
+}
+.xl\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.xl\:translate-x-0{
+transform: translateX(0) !important;
+}
+.xl\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.xl\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.xl\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.xl\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.xl\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.xl\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.xl\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.xl\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.xl\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.xl\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.xl\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.xl\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.xl\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.xl\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.xl\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.xl\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.xl\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.xl\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.xl\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.xl\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.xl\:translate-y-0{
+transform: translateY(0) !important;
+}
+.xl\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.xl\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.xl\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.xl\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.xl\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.xl\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.xl\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.xl\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.xl\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.xl\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.xl\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.xl\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.xl\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.xl\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.xl\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.xl\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.xl\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.xl\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.xl\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.xl\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.xl\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.xl\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.xl\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.xl\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.xl\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.xl\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.xl\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.xl\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.xl\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.xl\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.xl\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.xl\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.xl\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.xl\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.xl\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.xl\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.xl\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.xl\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.xl\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.xl\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.xl\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.xl\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.xl\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.xl\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.xl\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.xl\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.xl\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.xl\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.xl\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.xl\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.xl\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.xl\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.xl\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.xl\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.xl\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.xl\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.xl\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.xl\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.xl\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.xl\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.xl\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.xl\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+
+/* translate property ended 🥲*/
+
+
+
+
+/* transform-origin property started*/
+.origin-center{
+transform-origin: center !important;
+}
+.origin-top{
+transform-origin: top !important;
+}
+.origin-top-right{
+transform-origin: top right !important;
+}
+.origin-top-left{
+transform-origin: top left !important;
+}
+.origin-right{
+transform-origin: right !important;
+}
+.origin-bottom{
+transform-origin: bottom !important;
+}
+.origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.origin-left{
+transform-origin: left !important;
+}
+
+
+
+.hover\:origin-center:hover{
+transform-origin: center !important;
+}
+.hover\:origin-top:hover{
+transform-origin: top !important;
+}
+.hover\:origin-top-right:hover{
+transform-origin: top right !important;
+}
+.hover\:origin-top-left:hover{
+transform-origin: top left !important;
+}
+.hover\:origin-right:hover{
+transform-origin: right !important;
+}
+.hover\:origin-bottom:hover{
+transform-origin: bottom !important;
+}
+.hover\:origin-bottom-right:hover{
+transform-origin: bottom right !important;
+}
+.hover\:origin-bottom-left:hover{
+transform-origin: bottom left !important;
+}
+.hover\:origin-left:hover{
+transform-origin: left !important;
+}
+
+
+@media(min-width:576px){
+.sm\:origin-center{
+transform-origin: center !important;
+}
+.sm\:origin-top{
+transform-origin: top !important;
+}
+.sm\:origin-top-right{
+transform-origin: top right !important;
+}
+.sm\:origin-top-left{
+transform-origin: top left !important;
+}
+.sm\:origin-right{
+transform-origin: right !important;
+}
+.sm\:origin-bottom{
+transform-origin: bottom !important;
+}
+.sm\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.sm\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.sm\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:origin-center{
+transform-origin: center !important;
+}
+.md\:origin-top{
+transform-origin: top !important;
+}
+.md\:origin-top-right{
+transform-origin: top right !important;
+}
+.md\:origin-top-left{
+transform-origin: top left !important;
+}
+.md\:origin-right{
+transform-origin: right !important;
+}
+.md\:origin-bottom{
+transform-origin: bottom !important;
+}
+.md\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.md\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.md\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:origin-center{
+transform-origin: center !important;
+}
+.lg\:origin-top{
+transform-origin: top !important;
+}
+.lg\:origin-top-right{
+transform-origin: top right !important;
+}
+.lg\:origin-top-left{
+transform-origin: top left !important;
+}
+.lg\:origin-right{
+transform-origin: right !important;
+}
+.lg\:origin-bottom{
+transform-origin: bottom !important;
+}
+.lg\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.lg\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.lg\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:origin-center{
+transform-origin: center !important;
+}
+.xl\:origin-top{
+transform-origin: top !important;
+}
+.xl\:origin-top-right{
+transform-origin: top right !important;
+}
+.xl\:origin-top-left{
+transform-origin: top left !important;
+}
+.xl\:origin-right{
+transform-origin: right !important;
+}
+.xl\:origin-bottom{
+transform-origin: bottom !important;
+}
+.xl\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.xl\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.xl\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+/* transform-origin property ended */

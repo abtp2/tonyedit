@@ -1,0 +1,4772 @@
+*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){
+:root{scroll-behavior:smooth}}
+
+.row{display:flex;flex-wrap:wrap;width:100%;}
+.row>*{flex-shrink:0;width:100%;max-width:100%;}
+
+.col{flex:1 0 0%}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2{flex:0 0 auto;width:16.66666667%}.col-3{flex:0 0 auto;width:25%}.col-4{flex:0 0 auto;width:33.33333333%}.col-5{flex:0 0 auto;width:41.66666667%}.col-6{flex:0 0 auto;width:50%}.col-7{flex:0 0 auto;width:58.33333333%}.col-8{flex:0 0 auto;width:66.66666667%}.col-9{flex:0 0 auto;width:75%}.col-10{flex:0 0 auto;width:83.33333333%}.col-11{flex:0 0 auto;width:91.66666667%}.col-12{flex:0 0 auto;width:100%}
+
+
+
+
+.hover\:col-auto:hover{flex:0 0 auto;width:auto}
+.hover\:col-1:hover{flex:0 0 auto;width:8.33333333%}
+.hover\:col-2:hover{flex:0 0 auto;width:16.66666667%}
+.hover\:col-3:hover{flex:0 0 auto;width:25%}
+.hover\:col-4:hover{flex:0 0 auto;width:33.33333333%}
+.hover\:col-5:hover{flex:0 0 auto;width:41.66666667%}
+.hover\:col-6:hover{flex:0 0 auto;width:50%}
+.hover\:col-7:hover{flex:0 0 auto;width:58.33333333%}
+.hover\:col-8:hover{flex:0 0 auto;width:66.66666667%}
+.hover\:col-9:hover{flex:0 0 auto;width:75%}
+.hover\:col-10:hover{flex:0 0 auto;width:83.33333333%}
+.hover\:col-11:hover{flex:0 0 auto;width:91.66666667%}
+.hover\:col-12:hover{flex:0 0 auto;width:100%}}
+
+
+
+
+@media (min-width:576px){.col-sm{flex:1 0 0%}.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}
+
+.sm\:col-auto{flex:0 0 auto;width:auto}
+.sm\:col-1{flex:0 0 auto;width:8.33333333%}
+.sm\:col-2{flex:0 0 auto;width:16.66666667%}
+.sm\:col-3{flex:0 0 auto;width:25%}
+.sm\:col-4{flex:0 0 auto;width:33.33333333%}
+.sm\:col-5{flex:0 0 auto;width:41.66666667%}
+.sm\:col-6{flex:0 0 auto;width:50%}
+.sm\:col-7{flex:0 0 auto;width:58.33333333%}
+.sm\:col-8{flex:0 0 auto;width:66.66666667%}
+.sm\:col-9{flex:0 0 auto;width:75%}
+.sm\:col-10{flex:0 0 auto;width:83.33333333%}
+.sm\:col-11{flex:0 0 auto;width:91.66666667%}
+.sm\:col-12{flex:0 0 auto;width:100%}}
+
+
+
+
+@media (min-width:768px){.col-md{flex:1 0 0%}.row-cols-md-auto>*{flex:0 0 auto;width:auto}.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+
+.md\:col-auto{flex:0 0 auto;width:auto}
+.md\:col-1{flex:0 0 auto;width:8.33333333%}
+.md\:col-2{flex:0 0 auto;width:16.66666667%}
+.md\:col-3{flex:0 0 auto;width:25%}
+.md\:col-4{flex:0 0 auto;width:33.33333333%}
+.md\:col-5{flex:0 0 auto;width:41.66666667%}
+.md\:col-6{flex:0 0 auto;width:50%}
+.md\:col-7{flex:0 0 auto;width:58.33333333%}
+.md\:col-8{flex:0 0 auto;width:66.66666667%}
+.md\:col-9{flex:0 0 auto;width:75%}
+.md\:col-10{flex:0 0 auto;width:83.33333333%}
+.md\:col-11{flex:0 0 auto;width:91.66666667%}
+.md\:col-12{flex:0 0 auto;width:100%}}
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){.col-lg{flex:1 0 0%}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+
+
+.lg\:col-auto{flex:0 0 auto;width:auto}
+.lg\:col-1{flex:0 0 auto;width:8.33333333%}
+.lg\:col-2{flex:0 0 auto;width:16.66666667%}
+.lg\:col-3{flex:0 0 auto;width:25%}
+.lg\:col-4{flex:0 0 auto;width:33.33333333%}
+.lg\:col-5{flex:0 0 auto;width:41.66666667%}
+.lg\:col-6{flex:0 0 auto;width:50%}
+.lg\:col-7{flex:0 0 auto;width:58.33333333%}
+.lg\:col-8{flex:0 0 auto;width:66.66666667%}
+.lg\:col-9{flex:0 0 auto;width:75%}
+.lg\:col-10{flex:0 0 auto;width:83.33333333%}
+.lg\:col-11{flex:0 0 auto;width:91.66666667%}
+.lg\:col-12{flex:0 0 auto;width:100%}}
+
+
+
+@media (min-width:1200px){.col-xl{flex:1 0 0%}.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}
+
+
+.xl\:col-auto{flex:0 0 auto;width:auto}
+.xl\:col-1{flex:0 0 auto;width:8.33333333%}
+.xl\:col-2{flex:0 0 auto;width:16.66666667%}
+.xl\:col-3{flex:0 0 auto;width:25%}
+.xl\:col-4{flex:0 0 auto;width:33.33333333%}
+.xl\:col-5{flex:0 0 auto;width:41.66666667%}
+.xl\:col-6{flex:0 0 auto;width:50%}
+.xl\:col-7{flex:0 0 auto;width:58.33333333%}
+.xl\:col-8{flex:0 0 auto;width:66.66666667%}
+.xl\:col-9{flex:0 0 auto;width:75%}
+.xl\:col-10{flex:0 0 auto;width:83.33333333%}
+.xl\:col-11{flex:0 0 auto;width:91.66666667%}
+.xl\:col-12{flex:0 0 auto;width:100%}}
+
+
+
+
+
+
+
+
+
+/* row-col ended */
+
+
+
+
+
+/* border-radius */
+.round-0{
+border-radius: 0rem !important;
+}
+.round-1{
+border-radius: 0.3rem !important;
+}
+.round-2{
+border-radius: 0.6rem !important;
+}
+.round-3{
+border-radius: 0.9rem !important;
+}
+.round-4{
+border-radius: 1.2rem !important;
+}
+.round-5{
+border-radius: 1.5rem !important;
+}
+.round-6{
+border-radius: 1.8rem !important;
+}
+.round-7{
+border-radius: 2.1rem !important;
+}
+.round-8{
+border-radius: 2.4rem !important;
+}
+.round-9{
+border-radius: 2.7rem !important;
+}
+.round-10{
+border-radius: 3rem !important;
+}
+.round-full{
+border-radius: 100% !important;
+}
+
+
+
+
+
+
+
+.hover\:round-0:hover{
+border-radius: 0rem !important;
+}
+.hover\:round-1:hover{
+border-radius: 0.3rem !important;
+}
+.hover\:round-2:hover{
+border-radius: 0.6rem !important;
+}
+.hover\:round-3:hover{
+border-radius: 0.9rem !important;
+}
+.hover\:round-4:hover{
+border-radius: 1.2rem !important;
+}
+.hover\:round-5:hover{
+border-radius: 1.5rem !important;
+}
+.hover\:round-6:hover{
+border-radius: 1.8rem !important;
+}
+.hover\:round-7:hover{
+border-radius: 2.1rem !important;
+}
+.hover\:round-8:hover{
+border-radius: 2.4rem !important;
+}
+.hover\:round-9:hover{
+border-radius: 2.7rem !important;
+}
+.hover\:round-10:hover{
+border-radius: 3rem !important;
+}
+.hover\:round-full:hover{
+border-radius: 100% !important;
+}
+
+
+
+
+
+
+@media(min-width:576px){
+.sm\:round-0{
+border-radius: 0rem !important;
+}
+.sm\:round-1{
+border-radius: 0.3rem !important;
+}
+.sm\:round-2{
+border-radius: 0.6rem !important;
+}
+.sm\:round-3{
+border-radius: 0.9rem !important;
+}
+.sm\:round-4{
+border-radius: 1.2rem !important;
+}
+.sm\:round-5{
+border-radius: 1.5rem !important;
+}
+.sm\:round-6{
+border-radius: 1.8rem !important;
+}
+.sm\:round-7{
+border-radius: 2.1rem !important;
+}
+.sm\:round-8{
+border-radius: 2.4rem !important;
+}
+.sm\:round-9{
+border-radius: 2.7rem !important;
+}
+.sm\:round-10{
+border-radius: 3rem !important;
+}
+.sm\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+
+@media(min-width:768px){
+.md\:round-0{
+border-radius: 0rem !important;
+}
+.md\:round-1{
+border-radius: 0.3rem !important;
+}
+.md\:round-2{
+border-radius: 0.6rem !important;
+}
+.md\:round-3{
+border-radius: 0.9rem !important;
+}
+.md\:round-4{
+border-radius: 1.2rem !important;
+}
+.md\:round-5{
+border-radius: 1.5rem !important;
+}
+.md\:round-6{
+border-radius: 1.8rem !important;
+}
+.md\:round-7{
+border-radius: 2.1rem !important;
+}
+.md\:round-8{
+border-radius: 2.4rem !important;
+}
+.md\:round-9{
+border-radius: 2.7rem !important;
+}
+.md\:round-10{
+border-radius: 3rem !important;
+}
+.md\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:round-0{
+border-radius: 0rem !important;
+}
+.lg\:round-1{
+border-radius: 0.3rem !important;
+}
+.lg\:round-2{
+border-radius: 0.6rem !important;
+}
+.lg\:round-3{
+border-radius: 0.9rem !important;
+}
+.lg\:round-4{
+border-radius: 1.2rem !important;
+}
+.lg\:round-5{
+border-radius: 1.5rem !important;
+}
+.lg\:round-6{
+border-radius: 1.8rem !important;
+}
+.lg\:round-7{
+border-radius: 2.1rem !important;
+}
+.lg\:round-8{
+border-radius: 2.4rem !important;
+}
+.lg\:round-9{
+border-radius: 2.7rem !important;
+}
+.lg\:round-10{
+border-radius: 3rem !important;
+}
+.lg\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:round-0{
+border-radius: 0rem !important;
+}
+.xl\:round-1{
+border-radius: 0.3rem !important;
+}
+.xl\:round-2{
+border-radius: 0.6rem !important;
+}
+.xl\:round-3{
+border-radius: 0.9rem !important;
+}
+.xl\:round-4{
+border-radius: 1.2rem !important;
+}
+.xl\:round-5{
+border-radius: 1.5rem !important;
+}
+.xl\:round-6{
+border-radius: 1.8rem !important;
+}
+.xl\:round-7{
+border-radius: 2.1rem !important;
+}
+.xl\:round-8{
+border-radius: 2.4rem !important;
+}
+.xl\:round-9{
+border-radius: 2.7rem !important;
+}
+.xl\:round-10{
+border-radius: 3rem !important;
+}
+.xl\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+/* border-radius ended */
+
+
+
+
+/* line-height */
+.line-space-1{
+line-height: 1 !important;	
+}
+.line-space-2{
+line-height: 1.2 !important;				
+}
+.line-space-3{
+line-height: 1.4 !important;	
+}
+.line-space-4{
+line-height: 1.6 !important;				
+}
+.line-space-5{
+line-height: 1.8 !important;	
+}
+.line-space-6{
+line-height: 2 !important;				
+}
+.line-space-7{
+line-height: 2.2 !important;	
+}
+.line-space-8{
+line-height: 2.4 !important;				
+}
+.line-space-9{
+line-height: 2.6 !important;	
+}
+.line-space-10{
+line-height: 2.8 !important;				
+}
+
+
+
+
+
+.hover\:line-space-1:hover{
+line-height: 1 !important;	
+}
+.hover\:line-space-2:hover{
+line-height: 1.2 !important;				
+}
+.hover\:line-space-3:hover{
+line-height: 1.4 !important;	
+}
+.hover\:line-space-4:hover{
+line-height: 1.6 !important;				
+}
+.hover\:line-space-5:hover{
+line-height: 1.8 !important;	
+}
+.hover\:line-space-6:hover{
+line-height: 2 !important;				
+}
+.hover\:line-space-7:hover{
+line-height: 2.2 !important;	
+}
+.hover\:line-space-8:hover{
+line-height: 2.4 !important;				
+}
+.hover\:line-space-9:hover{
+line-height: 2.6 !important;	
+}
+.hover\:line-space-10:hover{
+line-height: 2.8 !important;				
+}
+
+
+
+
+@media(min-width:576px){
+.sm\:line-space-1{
+line-height: 1 !important;	
+}
+.sm\:line-space-2{
+line-height: 1.2 !important;				
+}
+.sm\:line-space-3{
+line-height: 1.4 !important;	
+}
+.sm\:line-space-4{
+line-height: 1.6 !important;				
+}
+.sm\:line-space-5{
+line-height: 1.8 !important;	
+}
+.sm\:line-space-6{
+line-height: 2 !important;				
+}
+.sm\:line-space-7{
+line-height: 2.2 !important;	
+}
+.sm\:line-space-8{
+line-height: 2.4 !important;				
+}
+.sm\:line-space-9{
+line-height: 2.6 !important;	
+}
+.sm\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+
+
+
+@media(min-width:768px){
+.md\:line-space-1{
+line-height: 1 !important;	
+}
+.md\:line-space-2{
+line-height: 1.2 !important;				
+}
+.md\:line-space-3{
+line-height: 1.4 !important;	
+}
+.md\:line-space-4{
+line-height: 1.6 !important;				
+}
+.md\:line-space-5{
+line-height: 1.8 !important;	
+}
+.md\:line-space-6{
+line-height: 2 !important;				
+}
+.md\:line-space-7{
+line-height: 2.2 !important;	
+}
+.md\:line-space-8{
+line-height: 2.4 !important;				
+}
+.md\:line-space-9{
+line-height: 2.6 !important;	
+}
+.md\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:line-space-1{
+line-height: 1 !important;	
+}
+.lg\:line-space-2{
+line-height: 1.2 !important;				
+}
+.lg\:line-space-3{
+line-height: 1.4 !important;	
+}
+.lg\:line-space-4{
+line-height: 1.6 !important;				
+}
+.lg\:line-space-5{
+line-height: 1.8 !important;	
+}
+.lg\:line-space-6{
+line-height: 2 !important;				
+}
+.lg\:line-space-7{
+line-height: 2.2 !important;	
+}
+.lg\:line-space-8{
+line-height: 2.4 !important;				
+}
+.lg\:line-space-9{
+line-height: 2.6 !important;	
+}
+.lg\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+
+@media(min-width:1200px){
+.xl\:line-space-1{
+line-height: 1 !important;	
+}
+.xl\:line-space-2{
+line-height: 1.2 !important;				
+}
+.xl\:line-space-3{
+line-height: 1.4 !important;	
+}
+.xl\:line-space-4{
+line-height: 1.6 !important;				
+}
+.xl\:line-space-5{
+line-height: 1.8 !important;	
+}
+.xl\:line-space-6{
+line-height: 2 !important;				
+}
+.xl\:line-space-7{
+line-height: 2.2 !important;	
+}
+.xl\:line-space-8{
+line-height: 2.4 !important;				
+}
+.xl\:line-space-9{
+line-height: 2.6 !important;	
+}
+.xl\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+/* line-height ended */
+
+
+
+
+
+
+
+/* container property */
+.container{
+width: 100% !important;
+}
+@media(min-width:576px){
+.container{
+max-width: 576px;
+}				
+}
+media(min-width:768px){
+.container{
+max-width: 768px;
+}				
+}
+media(min-width:992px){
+.container{
+max-width: 992px;
+}				
+}
+media(min-width:1200px){
+.container{
+max-width: 1200px;
+}				
+}
+/* container property ended */
+
+
+
+/* float */
+.float-left{
+float: left !important;
+}
+.float-right{
+float: right !important;
+}
+.float-none{
+float: none !important;
+}
+
+.hover\:float-left:hover{
+float: left !important;
+}
+.hover\:float-right:hover{
+float: right !important;
+}
+.hover\:float-none:hover{
+float: none !important;
+}
+
+@media(min-width:576px){
+.sm\:float-left{
+float: left !important;
+}
+.sm\:float-right{
+float: right !important;
+}
+.sm\:float-none{
+float: none !important;
+}				
+}
+@media(min-width:768px){
+.md\:float-left{
+float: left !important;
+}
+.md\:float-right{
+float: right !important;
+}
+.md\:float-none{
+float: none !important;
+}				
+}
+@media(min-width:992px){
+.lg\:float-left{
+float: left !important;
+}
+.lg\:float-right{
+float: right !important;
+}
+.lg\:float-none{
+float: none !important;
+}				
+}
+@media(min-width:1200px){
+.xl\:float-left{
+float: left !important;
+}
+.xl\:float-right{
+float: right !important;
+}
+.xl\:float-none{
+float: none !important;
+}				
+}
+
+/* float ended */
+
+
+/* visibility */
+.visible{
+visibility: visible !important;
+}
+.invisible{
+visibility: hidden !important;
+}
+
+.hover\:visible:hover{
+visibility: visible !important;
+}
+.hover\:invisible:hover{
+visibility: hidden !important;
+}
+
+@media(min-width:576px){
+.sm\:visible{
+visibility: visible !important;
+}
+.sm\:invisible{
+visibility: hidden !important;
+}				
+}
+@media(min-width:768px){
+.md\:visible{
+visibility: visible !important;
+}
+.md\:invisible{
+visibility: hidden !important;
+}				
+}
+@media(min-width:992px){
+.lg\:visible{
+visibility: visible !important;
+}
+.lg\:invisible{
+visibility: hidden !important;
+}				
+}
+@media(min-width:1200px){
+.xl\:visible{
+visibility: visible !important;
+}
+.xl\:invisible{
+visibility: hidden !important;
+}				
+}
+/* visibility ended */
+
+
+/* z-index */
+.z-0{
+z-index: 0 !important;
+}
+.z-auto{
+z-index: auto !important;
+}
+.z-1{
+z-index: 10 !important;
+}
+.z-2{
+z-index: 20 !important;
+}
+.z-3{
+z-index: 30 !important;
+}
+.z-4{
+z-index: 40 !important;
+}
+.z-5{
+z-index: 50 !important;
+}
+.z-6{
+z-index: 60 !important;
+}
+.z-7{
+z-index: 70 !important;
+}
+.z-8{
+z-index: 80 !important;
+}
+.z-9{
+z-index: 90 !important;
+}
+.z-10{
+z-index: 100 !important;
+}
+.z-full{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}
+
+
+
+
+
+.hover\:z-0:hover{
+z-index: 0 !important;
+}
+.hover\:z-auto:hover{ 
+z-index: auto !important;
+}
+.hover\:z-1:hover{
+z-index: 10 !important;
+}
+.hover\:z-2:hover{
+z-index: 20 !important;
+}
+.hover\:z-3:hover{
+z-index: 30 !important;
+}
+.hover\:z-4:hover{
+z-index: 40 !important;
+}
+.hover\:z-5:hover{
+z-index: 40 !important;
+}
+.hover\:z-6:hover{
+z-index: 60 !important;
+}
+.hover\:z-7:hover{
+z-index: 70 !important;
+}
+.hover\:z-8:hover{
+z-index: 80 !important;
+}
+.hover\:z-9:hover{
+z-index: 90 !important;
+}
+.hover\:z-10:hover{
+z-index: 100 !important;
+}
+.hover\:z-full:hover{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}
+
+
+
+
+@media(min-width:576px){
+.sm\:z-0{
+z-index: 0 !important;
+}
+.sm\:z-auto{
+z-index: auto !important;
+}
+.sm\:z-1{
+z-index: 10 !important;
+}
+.sm\:z-2{
+z-index: 20 !important;
+}
+.sm\:z-3{
+z-index: 30 !important;
+}
+.sm\:z-4{
+z-index: 40 !important;
+}
+.sm\:z-5{
+z-index: 40 !important;
+}
+.sm\:z-6{
+z-index: 60 !important;
+}
+.sm\:z-7{
+z-index: 70 !important;
+}
+.sm\:z-8{
+z-index: 80 !important;
+}
+.sm\:z-9{
+z-index: 90 !important;
+}
+.sm\:z-10{
+z-index: 100 !important;
+}
+.sm\:z-full{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:z-0{
+z-index: 0 !important;
+}
+.md\:z-auto{
+z-index: auto !important;
+}
+.md\:z-1{
+z-index: 10 !important;
+}
+.md\:z-2{
+z-index: 20 !important;
+}
+.md\:z-3{
+z-index: 30 !important;
+}
+.md\:z-4{
+z-index: 40 !important;
+}
+.md\:z-5{
+z-index: 40 !important;
+}
+.md\:z-6{
+z-index: 60 !important;
+}
+.md\:z-7{
+z-index: 70 !important;
+}
+.md\:z-8{
+z-index: 80 !important;
+}
+.md\:z-9{
+z-index: 90 !important;
+}
+.md\:z-10{
+z-index: 100 !important;
+}
+.md\:z-full{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:z-0{
+z-index: 0 !important;
+}
+.lg\:z-auto{
+z-index: auto !important;
+}
+.lg\:z-1{
+z-index: 10 !important;
+}
+.lg\:z-2{
+z-index: 20 !important;
+}
+.lg\:z-3{
+z-index: 30 !important;
+}
+.lg\:z-4{
+z-index: 40 !important;
+}
+.lg\:z-5{
+z-index: 40 !important;
+}
+.lg\:z-6{
+z-index: 60 !important;
+}
+.lg\:z-7{
+z-index: 70 !important;
+}
+.lg\:z-8{
+z-index: 80 !important;
+}
+.lg\:z-9{
+z-index: 90 !important;
+}
+.lg\:z-10{
+z-index: 100 !important;
+}
+.lg\:z-full{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:z-0{
+z-index: 0 !important;
+}
+.xl\:z-auto{
+z-index: auto !important;
+}
+.xl\:z-1{
+z-index: 10 !important;
+}
+.xl\:z-2{
+z-index: 20 !important;
+}
+.xl\:z-3{
+z-index: 30 !important;
+}
+.xl\:z-4{
+z-index: 40 !important;
+}
+.xl\:z-5{
+z-index: 40 !important;
+}
+.xl\:z-6{
+z-index: 60 !important;
+}
+.xl\:z-7{
+z-index: 70 !important;
+}
+.xl\:z-8{
+z-index: 80 !important;
+}
+.xl\:z-9{
+z-index: 90 !important;
+}
+.xl\:z-10{
+z-index: 100 !important;
+}
+.xl\:z-full{
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+}				
+}
+
+/* z-index ended */
+
+
+
+
+
+/* box-shadow */
+.shadow-none{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.shadow-1{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.shadow-2{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.shadow-3{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.shadow-4{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.shadow-5{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.shadow-6{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.shadow-7{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.shadow-8{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.shadow-9{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.shadow-10{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}
+
+
+
+
+
+
+
+.hover\:shadow-none:hover{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.hover\:shadow-1:hover{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.hover\:shadow-2:hover{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.hover\:shadow-3:hover{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.hover\:shadow-4:hover{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.hover\:shadow-5:hover{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.hover\:shadow-6:hover{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.hover\:shadow-7:hover{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.hover\:shadow-8:hover{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.hover\:shadow-9:hover{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.hover\:shadow-10:hover{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}
+
+
+
+@media(min-width:576px){
+.sm\:shadow-none{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.sm\:shadow-1{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.sm\:shadow-2{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.sm\:shadow-3{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.sm\:shadow-4{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.sm\:shadow-5{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.sm\:shadow-6{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.sm\:shadow-7{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.sm\:shadow-8{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.sm\:shadow-9{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.sm\:shadow-10{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}				
+}
+
+@media(min-width:768px){
+.md\:shadow-none{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.md\:shadow-1{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.md\:shadow-2{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.md\:shadow-3{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.md\:shadow-4{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.md\:shadow-5{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.md\:shadow-6{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.md\:shadow-7{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.md\:shadow-8{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.md\:shadow-9{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.md\:shadow-10{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}				
+}
+
+@media(min-width:992px){
+.lg\:shadow-none{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.lg\:shadow-1{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.lg\:shadow-2{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.lg\:shadow-3{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.lg\:shadow-4{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.lg\:shadow-5{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.lg\:shadow-6{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.lg\:shadow-7{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.lg\:shadow-8{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.lg\:shadow-9{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.lg\:shadow-10{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}				
+}
+@media(min-width:1200px){
+.xl\:shadow-none{
+box-shadow: 0 0px 0px 0 var(--shadow) !important;
+}
+.xl\:shadow-1{
+box-shadow: 0 1px 2px 0 var(--shadow) !important;
+}
+.xl\:shadow-2{
+box-shadow: 0 1px 3px 0 var(--shadow), 0 1px 2px -1px var(--shadow) !important;	
+}
+.xl\:shadow-3{
+box-shadow: 0 4px 6px -1px var(--shadow), 0 2px 4px -2px var(--shadow) !important;
+}
+.xl\:shadow-4{
+box-shadow: 0 7px 10px -2px var(--shadow), 0 4px 6px -2px var(--shadow) !important;
+}
+.xl\:shadow-5{
+box-shadow: 0 10px 15px -3px var(--shadow), 0 4px 6px -4px var(--shadow) !important;
+}
+.xl\:shadow-6{
+box-shadow: 0 15px 20px -4px var(--shadow), 0 5px 8px -6px var(--shadow) !important;
+}
+.xl\:shadow-7{
+box-shadow: 0 20px 25px -5px var(--shadow), 0 8px 10px -6px var(--shadow) !important;
+}
+.xl\:shadow-8{
+box-shadow: 0 25px 50px -8px var(--shadow) !important;
+}
+.xl\:shadow-9{
+box-shadow: 0 25px 50px -12px var(--shadow) !important;	
+}
+.xl\:shadow-10{
+box-shadow: 0 25px 70px -12px var(--shadow) !important;	
+}				
+}
+
+
+
+
+
+
+
+
+/* filter */
+/* blur filter */
+.blur-0{
+filter: blur(0px) !important;
+}
+.blur-1{
+filter: blur(2px) !important;
+}
+.blur-2{
+filter: blur(4px) !important;
+}
+.blur-3{
+filter: blur(8px) !important;
+}
+.blur-4{
+filter: blur(14px) !important;
+}
+.blur-5{
+filter: blur(22px) !important;
+}
+.blur-6{
+filter: blur(32px) !important;
+}
+.blur-7{
+filter: blur(44px) !important;
+}
+.blur-8{
+filter: blur(58px) !important;
+}
+.blur-9{
+filter: blur(74px) !important;
+}
+.blur-10{
+filter: blur(92px) !important;
+}
+
+
+
+.hover\:blur-0:hover{
+filter: blur(0px) !important;
+}
+.hover\:blur-1:hover{
+filter: blur(2px) !important;
+}
+.hover\:blur-2:hover{
+filter: blur(4px) !important;
+}
+.hover\:blur-3:hover{
+filter: blur(8px) !important;
+}
+.hover\:blur-4:hover{
+filter: blur(14px) !important;
+}
+.hover\:blur-5:hover{
+filter: blur(22px) !important;
+}
+.hover\:blur-6:hover{
+filter: blur(32px) !important;
+}
+.hover\:blur-7:hover{
+filter: blur(44px) !important;
+}
+.hover\:blur-8:hover{
+filter: blur(58px) !important;
+}
+.hover\:blur-9:hover{
+filter: blur(74px) !important;
+}
+.hover\:blur-10:hover{
+filter: blur(92px) !important;
+}
+
+
+
+@media(min-width:576px){
+.sm\:blur-0{
+filter: blur(0px) !important;
+}
+.sm\:blur-1{
+filter: blur(2px) !important;
+}
+.sm\:blur-2{
+filter: blur(4px) !important;
+}
+.sm\:blur-3{
+filter: blur(8px) !important;
+}
+.sm\:blur-4{
+filter: blur(14px) !important;
+}
+.sm\:blur-5{
+filter: blur(22px) !important;
+}
+.sm\:blur-6{
+filter: blur(32px) !important;
+}
+.sm\:blur-7{
+filter: blur(44px) !important;
+}
+.sm\:blur-8{
+filter: blur(58px) !important;
+}
+.sm\:blur-9{
+filter: blur(74px) !important;
+}
+.sm\:blur-10{
+filter: blur(92px) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:blur-0{
+filter: blur(0px) !important;
+}
+.md\:blur-1{
+filter: blur(2px) !important;
+}
+.md\:blur-2{
+filter: blur(4px) !important;
+}
+.md\:blur-3{
+filter: blur(8px) !important;
+}
+.md\:blur-4{
+filter: blur(14px) !important;
+}
+.md\:blur-5{
+filter: blur(22px) !important;
+}
+.md\:blur-6{
+filter: blur(32px) !important;
+}
+.md\:blur-7{
+filter: blur(44px) !important;
+}
+.md\:blur-8{
+filter: blur(58px) !important;
+}
+.md\:blur-9{
+filter: blur(74px) !important;
+}
+.md\:blur-10{
+filter: blur(92px) !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:blur-0{
+filter: blur(0px) !important;
+}
+.lg\:blur-1{
+filter: blur(2px) !important;
+}
+.lg\:blur-2{
+filter: blur(4px) !important;
+}
+.lg\:blur-3{
+filter: blur(8px) !important;
+}
+.lg\:blur-4{
+filter: blur(14px) !important;
+}
+.lg\:blur-5{
+filter: blur(22px) !important;
+}
+.lg\:blur-6{
+filter: blur(32px) !important;
+}
+.lg\:blur-7{
+filter: blur(44px) !important;
+}
+.lg\:blur-8{
+filter: blur(58px) !important;
+}
+.lg\:blur-9{
+filter: blur(74px) !important;
+}
+.lg\:blur-10{
+filter: blur(92px) !important;
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:blur-0{
+filter: blur(0px) !important;
+}
+.xl\:blur-1{
+filter: blur(2px) !important;
+}
+.xl\:blur-2{
+filter: blur(4px) !important;
+}
+.xl\:blur-3{
+filter: blur(8px) !important;
+}
+.xl\:blur-4{
+filter: blur(14px) !important;
+}
+.xl\:blur-5{
+filter: blur(22px) !important;
+}
+.xl\:blur-6{
+filter: blur(32px) !important;
+}
+.xl\:blur-7{
+filter: blur(44px) !important;
+}
+.xl\:blur-8{
+filter: blur(58px) !important;
+}
+.xl\:blur-9{
+filter: blur(74px) !important;
+}
+.xl\:blur-10{
+filter: blur(92px) !important;
+}				
+}
+
+/* blur ended */
+
+/* contrast */
+.contrast-0{
+filter: contrast(0) !important;
+}
+.contrast-1{
+filter: contrast(0.2) !important;
+}
+.contrast-2{
+filter: contrast(0.4) !important;
+}
+.contrast-3{
+filter: contrast(0.6) !important;
+}
+.contrast-4{
+filter: contrast(0.8) !important;
+}
+.contrast-5{
+filter: contrast(1) !important;
+}
+.contrast-6{
+filter: contrast(1.2) !important;
+}
+.contrast-7{
+filter: contrast(1.4) !important;
+}
+.contrast-8{
+filter: contrast(1.6) !important;
+}
+.contrast-9{
+filter: contrast(1.8) !important;
+}
+.contrast-10{
+filter: contrast(2) !important;
+}
+
+
+
+
+
+.hover\:contrast-0:hover{
+filter: contrast(0) !important;
+}
+.hover\:contrast-1:hover{
+filter: contrast(0.2) !important;
+}
+.hover\:contrast-2:hover{
+filter: contrast(0.4) !important;
+}
+.hover\:contrast-3:hover{
+filter: contrast(0.6) !important;
+}
+.hover\:contrast-4:hover{
+filter: contrast(0.8) !important;
+}
+.hover\:contrast-5:hover{
+filter: contrast(1) !important;
+}
+.hover\:contrast-6:hover{
+filter: contrast(1.2) !important;
+}
+.hover\:contrast-7:hover{
+filter: contrast(1.4) !important;
+}
+.hover\:contrast-8:hover{
+filter: contrast(1.6) !important;
+}
+.hover\:contrast-9:hover{
+filter: contrast(1.8) !important;
+}
+.hover\:contrast-10:hover{
+filter: contrast(2) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:contrast-0{
+filter: contrast(0) !important;
+}
+.sm\:contrast-1{
+filter: contrast(0.2) !important;
+}
+.sm\:contrast-2{
+filter: contrast(0.4) !important;
+}
+.sm\:contrast-3{
+filter: contrast(0.6) !important;
+}
+.sm\:contrast-4{
+filter: contrast(0.8) !important;
+}
+.sm\:contrast-5{
+filter: contrast(1) !important;
+}
+.sm\:contrast-6{
+filter: contrast(1.2) !important;
+}
+.sm\:contrast-7{
+filter: contrast(1.4) !important;
+}
+.sm\:contrast-8{
+filter: contrast(1.6) !important;
+}
+.sm\:contrast-9{
+filter: contrast(1.8) !important;
+}
+.sm\:contrast-10{
+filter: contrast(2) !important;
+}
+}
+
+@media(min-width:768px){
+.md\:contrast-0{
+filter: contrast(0) !important;
+}
+.md\:contrast-1{
+filter: contrast(0.2) !important;
+}
+.md\:contrast-2{
+filter: contrast(0.4) !important;
+}
+.md\:contrast-3{
+filter: contrast(0.6) !important;
+}
+.md\:contrast-4{
+filter: contrast(0.8) !important;
+}
+.md\:contrast-5{
+filter: contrast(1) !important;
+}
+.md\:contrast-6{
+filter: contrast(1.2) !important;
+}
+.md\:contrast-7{
+filter: contrast(1.4) !important;
+}
+.md\:contrast-8{
+filter: contrast(1.6) !important;
+}
+.md\:contrast-9{
+filter: contrast(1.8) !important;
+}
+.md\:contrast-10{
+filter: contrast(2) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:contrast-0{
+filter: contrast(0) !important;
+}
+.lg\:contrast-1{
+filter: contrast(0.2) !important;
+}
+.lg\:contrast-2{
+filter: contrast(0.4) !important;
+}
+.lg\:contrast-3{
+filter: contrast(0.6) !important;
+}
+.lg\:contrast-4{
+filter: contrast(0.8) !important;
+}
+.lg\:contrast-5{
+filter: contrast(1) !important;
+}
+.lg\:contrast-6{
+filter: contrast(1.2) !important;
+}
+.lg\:contrast-7{
+filter: contrast(1.4) !important;
+}
+.lg\:contrast-8{
+filter: contrast(1.6) !important;
+}
+.lg\:contrast-9{
+filter: contrast(1.8) !important;
+}
+.lg\:contrast-10{
+filter: contrast(2) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:contrast-0{
+filter: contrast(0) !important;
+}
+.xl\:contrast-1{
+filter: contrast(0.2) !important;
+}
+.xl\:contrast-2{
+filter: contrast(0.4) !important;
+}
+.xl\:contrast-3{
+filter: contrast(0.6) !important;
+}
+.xl\:contrast-4{
+filter: contrast(0.8) !important;
+}
+.xl\:contrast-5{
+filter: contrast(1) !important;
+}
+.xl\:contrast-6{
+filter: contrast(1.2) !important;
+}
+.xl\:contrast-7{
+filter: contrast(1.4) !important;
+}
+.xl\:contrast-8{
+filter: contrast(1.6) !important;
+}
+.xl\:contrast-9{
+filter: contrast(1.8) !important;
+}
+.xl\:contrast-10{
+filter: contrast(2) !important;
+}
+}
+
+/* contrast ended */
+
+
+/* brightness */
+.brightness-0{
+filter: brightness(0) !important;
+}
+.brightness-1{
+filter: brightness(0.2) !important;
+}
+.brightness-2{
+filter: brightness(0.4) !important;
+}
+.brightness-3{
+filter: brightness(0.6) !important;
+}
+.brightness-4{
+filter: brightness(0.8) !important;
+}
+.brightness-5{
+filter: brightness(1) !important;
+}
+.brightness-6{
+filter: brightness(1.2) !important;
+}
+.brightness-7{
+filter: brightness(1.4) !important;
+}
+.brightness-8{
+filter: brightness(1.6) !important;
+}
+.brightness-9{
+filter: brightness(1.8) !important;
+}
+.brightness-10{
+filter: brightness(2) !important;
+}
+
+
+
+.hover\:brightness-0:hover{
+filter: brightness(0) !important;
+}
+.hover\:brightness-1:hover{
+filter: brightness(0.2) !important;
+}
+.hover\:brightness-2:hover{
+filter: brightness(0.4) !important;
+}
+.hover\:brightness-3:hover{
+filter: brightness(0.6) !important;
+}
+.hover\:brightness-4:hover{
+filter: brightness(0.8) !important;
+}
+.hover\:brightness-5:hover{
+filter: brightness(1) !important;
+}
+.hover\:brightness-6:hover{
+filter: brightness(1.2) !important;
+}
+.hover\:brightness-7:hover{
+filter: brightness(1.4) !important;
+}
+.hover\:brightness-8:hover{
+filter: brightness(1.6) !important;
+}
+.hover\:brightness-9:hover{
+filter: brightness(1.8) !important;
+}
+.hover\:brightness-10:hover{
+filter: brightness(2) !important;
+}
+
+
+
+@media(min-width:576px){
+.sm\:brightness-0{
+filter: brightness(0) !important;
+}
+.sm\:brightness-1{
+filter: brightness(0.2) !important;
+}
+.sm\:brightness-2{
+filter: brightness(0.4) !important;
+}
+.sm\:brightness-3{
+filter: brightness(0.6) !important;
+}
+.sm\:brightness-4{
+filter: brightness(0.8) !important;
+}
+.sm\:brightness-5{
+filter: brightness(1) !important;
+}
+.sm\:brightness-6{
+filter: brightness(1.2) !important;
+}
+.sm\:brightness-7{
+filter: brightness(1.4) !important;
+}
+.sm\:brightness-8{
+filter: brightness(1.6) !important;
+}
+.sm\:brightness-9{
+filter: brightness(1.8) !important;
+}
+.sm\:brightness-10{
+filter: brightness(2) !important;
+}				
+}
+
+
+@media(min-width:768px){
+.md\:brightness-0{
+filter: brightness(0) !important;
+}
+.md\:brightness-1{
+filter: brightness(0.2) !important;
+}
+.md\:brightness-2{
+filter: brightness(0.4) !important;
+}
+.md\:brightness-3{
+filter: brightness(0.6) !important;
+}
+.md\:brightness-4{
+filter: brightness(0.8) !important;
+}
+.md\:brightness-5{
+filter: brightness(1) !important;
+}
+.md\:brightness-6{
+filter: brightness(1.2) !important;
+}
+.md\:brightness-7{
+filter: brightness(1.4) !important;
+}
+.md\:brightness-8{
+filter: brightness(1.6) !important;
+}
+.md\:brightness-9{
+filter: brightness(1.8) !important;
+}
+.md\:brightness-10{
+filter: brightness(2) !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:brightness-0{
+filter: brightness(0) !important;
+}
+.lg\:brightness-1{
+filter: brightness(0.2) !important;
+}
+.lg\:brightness-2{
+filter: brightness(0.4) !important;
+}
+.lg\:brightness-3{
+filter: brightness(0.6) !important;
+}
+.lg\:brightness-4{
+filter: brightness(0.8) !important;
+}
+.lg\:brightness-5{
+filter: brightness(1) !important;
+}
+.lg\:brightness-6{
+filter: brightness(1.2) !important;
+}
+.lg\:brightness-7{
+filter: brightness(1.4) !important;
+}
+.lg\:brightness-8{
+filter: brightness(1.6) !important;
+}
+.lg\:brightness-9{
+filter: brightness(1.8) !important;
+}
+.lg\:brightness-10{
+filter: brightness(2) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:brightness-0{
+filter: brightness(0) !important;
+}
+.xl\:brightness-1{
+filter: brightness(0.2) !important;
+}
+.xl\:brightness-2{
+filter: brightness(0.4) !important;
+}
+.xl\:brightness-3{
+filter: brightness(0.6) !important;
+}
+.xl\:brightness-4{
+filter: brightness(0.8) !important;
+}
+.xl\:brightness-5{
+filter: brightness(1) !important;
+}
+.xl\:brightness-6{
+filter: brightness(1.2) !important;
+}
+.xl\:brightness-7{
+filter: brightness(1.4) !important;
+}
+.xl\:brightness-8{
+filter: brightness(1.6) !important;
+}
+.xl\:brightness-9{
+filter: brightness(1.8) !important;
+}
+.xl\:brightness-10{
+filter: brightness(2) !important;
+}				
+}
+
+/* brightness ended */
+
+
+/* grayscale */
+.grayscale-0{
+filter: grayscale(0%) !important;
+}
+.grayscale-1{
+filter: grayscale(10%) !important;
+}
+.grayscale-2{
+filter: grayscale(20%) !important;
+}
+.grayscale-3{
+filter: grayscale(30%) !important;
+}
+.grayscale-4{
+filter: grayscale(40%) !important;
+}
+.grayscale-5{
+filter: grayscale(50%) !important;
+}
+.grayscale-6{
+filter: grayscale(60%) !important;
+}
+.grayscale-7{
+filter: grayscale(70%) !important;
+}
+.grayscale-8{
+filter: grayscale(80%) !important;
+}
+.grayscale-9{
+filter: grayscale(90%) !important;
+}
+.grayscale-10{
+filter: grayscale(100%) !important;
+}
+
+
+
+.hover\:grayscale-0:hover{
+filter: grayscale(0%) !important;
+}
+.hover\:grayscale-1:hover{
+filter: grayscale(10%) !important;
+}
+.hover\:grayscale-2:hover{
+filter: grayscale(20%) !important;
+}
+.hover\:grayscale-3:hover{
+filter: grayscale(30%) !important;
+}
+.hover\:grayscale-4:hover{
+filter: grayscale(40%) !important;
+}
+.hover\:grayscale-5:hover{
+filter: grayscale(50%) !important;
+}
+.hover\:grayscale-6:hover{
+filter: grayscale(60%) !important;
+}
+.hover\:grayscale-7:hover{
+filter: grayscale(70%) !important;
+}
+.hover\:grayscale-8:hover{
+filter: grayscale(80%) !important;
+}
+.hover\:grayscale-9:hover{
+filter: grayscale(90%) !important;
+}
+.hover\:grayscale-10:hover{
+filter: grayscale(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:grayscale-0{
+filter: grayscale(0%) !important;
+}
+.sm\:grayscale-1{
+filter: grayscale(10%) !important;
+}
+.sm\:grayscale-2{
+filter: grayscale(20%) !important;
+}
+.sm\:grayscale-3{
+filter: grayscale(30%) !important;
+}
+.sm\:grayscale-4{
+filter: grayscale(40%) !important;
+}
+.sm\:grayscale-5{
+filter: grayscale(50%) !important;
+}
+.sm\:grayscale-6{
+filter: grayscale(60%) !important;
+}
+.sm\:grayscale-7{
+filter: grayscale(70%) !important;
+}
+.sm\:grayscale-8{
+filter: grayscale(80%) !important;
+}
+.sm\:grayscale-9{
+filter: grayscale(90%) !important;
+}
+.sm\:grayscale-10{
+filter: grayscale(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:grayscale-0{
+filter: grayscale(0%) !important;
+}
+.md\:grayscale-1{
+filter: grayscale(10%) !important;
+}
+.md\:grayscale-2{
+filter: grayscale(20%) !important;
+}
+.md\:grayscale-3{
+filter: grayscale(30%) !important;
+}
+.md\:grayscale-4{
+filter: grayscale(40%) !important;
+}
+.md\:grayscale-5{
+filter: grayscale(50%) !important;
+}
+.md\:grayscale-6{
+filter: grayscale(60%) !important;
+}
+.md\:grayscale-7{
+filter: grayscale(70%) !important;
+}
+.md\:grayscale-8{
+filter: grayscale(80%) !important;
+}
+.md\:grayscale-9{
+filter: grayscale(90%) !important;
+}
+.md\:grayscale-10{
+filter: grayscale(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:grayscale-0{
+filter: grayscale(0%) !important;
+}
+.lg\:grayscale-1{
+filter: grayscale(10%) !important;
+}
+.lg\:grayscale-2{
+filter: grayscale(20%) !important;
+}
+.lg\:grayscale-3{
+filter: grayscale(30%) !important;
+}
+.lg\:grayscale-4{
+filter: grayscale(40%) !important;
+}
+.lg\:grayscale-5{
+filter: grayscale(50%) !important;
+}
+.lg\:grayscale-6{
+filter: grayscale(60%) !important;
+}
+.lg\:grayscale-7{
+filter: grayscale(70%) !important;
+}
+.lg\:grayscale-8{
+filter: grayscale(80%) !important;
+}
+.lg\:grayscale-9{
+filter: grayscale(90%) !important;
+}
+.lg\:grayscale-10{
+filter: grayscale(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:grayscale-0{
+filter: grayscale(0%) !important;
+}
+.xl\:grayscale-1{
+filter: grayscale(10%) !important;
+}
+.xl\:grayscale-2{
+filter: grayscale(20%) !important;
+}
+.xl\:grayscale-3{
+filter: grayscale(30%) !important;
+}
+.xl\:grayscale-4{
+filter: grayscale(40%) !important;
+}
+.xl\:grayscale-5{
+filter: grayscale(50%) !important;
+}
+.xl\:grayscale-6{
+filter: grayscale(60%) !important;
+}
+.xl\:grayscale-7{
+filter: grayscale(70%) !important;
+}
+.xl\:grayscale-8{
+filter: grayscale(80%) !important;
+}
+.xl\:grayscale-9{
+filter: grayscale(90%) !important;
+}
+.xl\:grayscale-10{
+filter: grayscale(100%) !important;
+}				
+}
+
+/* grayscale ended */
+
+
+
+
+/* invert */
+.invert-0{
+filter: invert(0%) !important;
+}
+.invert-1{
+filter: invert(10%) !important;
+}
+.invert-2{
+filter: invert(20%) !important;
+}
+.invert-3{
+filter: invert(30%) !important;
+}
+.invert-4{
+filter: invert(40%) !important;
+}
+.invert-5{
+filter: invert(50%) !important;
+}
+.invert-6{
+filter: invert(60%) !important;
+}
+.invert-7{
+filter: invert(70%) !important;
+}
+.invert-8{
+filter: invert(80%) !important;
+}
+.invert-9{
+filter: invert(90%) !important;
+}
+.invert-10{
+filter: invert(100%) !important;
+}
+
+
+
+.hover\:invert-0:hover{
+filter: invert(0%) !important;
+}
+.hover\:invert-1:hover{
+filter: invert(10%) !important;
+}
+.hover\:invert-2:hover{
+filter: invert(20%) !important;
+}
+.hover\:invert-3:hover{
+filter: invert(30%) !important;
+}
+.hover\:invert-4:hover{
+filter: invert(40%) !important;
+}
+.hover\:invert-5:hover{
+filter: invert(50%) !important;
+}
+.hover\:invert-6:hover{
+filter: invert(60%) !important;
+}
+.hover\:invert-7:hover{
+filter: invert(70%) !important;
+}
+.hover\:invert-8:hover{
+filter: invert(80%) !important;
+}
+.hover\:invert-9:hover{
+filter: invert(90%) !important;
+}
+.hover\:invert-10:hover{
+filter: invert(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:invert-0{
+filter: invert(0%) !important;
+}
+.sm\:invert-1{
+filter: invert(10%) !important;
+}
+.sm\:invert-2{
+filter: invert(20%) !important;
+}
+.sm\:invert-3{
+filter: invert(30%) !important;
+}
+.sm\:invert-4{
+filter: invert(40%) !important;
+}
+.sm\:invert-5{
+filter: invert(50%) !important;
+}
+.sm\:invert-6{
+filter: invert(60%) !important;
+}
+.sm\:invert-7{
+filter: invert(70%) !important;
+}
+.sm\:invert-8{
+filter: invert(80%) !important;
+}
+.sm\:invert-9{
+filter: invert(90%) !important;
+}
+.sm\:invert-10{
+filter: invert(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:invert-0{
+filter: invert(0%) !important;
+}
+.md\:invert-1{
+filter: invert(10%) !important;
+}
+.md\:invert-2{
+filter: invert(20%) !important;
+}
+.md\:invert-3{
+filter: invert(30%) !important;
+}
+.md\:invert-4{
+filter: invert(40%) !important;
+}
+.md\:invert-5{
+filter: invert(50%) !important;
+}
+.md\:invert-6{
+filter: invert(60%) !important;
+}
+.md\:invert-7{
+filter: invert(70%) !important;
+}
+.md\:invert-8{
+filter: invert(80%) !important;
+}
+.md\:invert-9{
+filter: invert(90%) !important;
+}
+.md\:invert-10{
+filter: invert(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:invert-0{
+filter: invert(0%) !important;
+}
+.lg\:invert-1{
+filter: invert(10%) !important;
+}
+.lg\:invert-2{
+filter: invert(20%) !important;
+}
+.lg\:invert-3{
+filter: invert(30%) !important;
+}
+.lg\:invert-4{
+filter: invert(40%) !important;
+}
+.lg\:invert-5{
+filter: invert(50%) !important;
+}
+.lg\:invert-6{
+filter: invert(60%) !important;
+}
+.lg\:invert-7{
+filter: invert(70%) !important;
+}
+.lg\:invert-8{
+filter: invert(80%) !important;
+}
+.lg\:invert-9{
+filter: invert(90%) !important;
+}
+.lg\:invert-10{
+filter: invert(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:invert-0{
+filter: invert(0%) !important;
+}
+.xl\:invert-1{
+filter: invert(10%) !important;
+}
+.xl\:invert-2{
+filter: invert(20%) !important;
+}
+.xl\:invert-3{
+filter: invert(30%) !important;
+}
+.xl\:invert-4{
+filter: invert(40%) !important;
+}
+.xl\:invert-5{
+filter: invert(50%) !important;
+}
+.xl\:invert-6{
+filter: invert(60%) !important;
+}
+.xl\:invert-7{
+filter: invert(70%) !important;
+}
+.xl\:invert-8{
+filter: invert(80%) !important;
+}
+.xl\:invert-9{
+filter: invert(90%) !important;
+}
+.xl\:invert-10{
+filter: invert(100%) !important;
+}				
+}
+
+/* invert ended */
+
+
+/* hue-rotate */
+.hue-rotate-0{
+filter: hue-rotate(0) !important;
+}
+.hue-rotate-1{
+filter: hue-rotate(18deg);
+}
+.hue-rotate-2{
+filter: hue-rotate(36deg);
+}
+.hue-rotate-3{
+filter: hue-rotate(54deg);
+}
+.hue-rotate-4{
+filter: hue-rotate(72deg);
+}
+.hue-rotate-5{
+filter: hue-rotate(90deg);
+}
+.hue-rotate-6{
+filter: hue-rotate(108deg);
+}
+.hue-rotate-7{
+filter: hue-rotate(126deg);
+}
+.hue-rotate-8{
+filter: hue-rotate(144deg);
+}
+.hue-rotate-9{
+filter: hue-rotate(162deg);
+}
+.hue-rotate-10{
+filter: hue-rotate(180deg);
+}
+
+
+
+.hover\:hue-rotate-0:hover{
+filter: hue-rotate(0) !important;
+}
+.hover\:hue-rotate-1:hover{
+filter: hue-rotate(18deg);
+}
+.hover\:hue-rotate-2:hover{
+filter: hue-rotate(36deg);
+}
+.hover\:hue-rotate-3:hover{
+filter: hue-rotate(54deg);
+}
+.hover\:hue-rotate-4:hover{
+filter: hue-rotate(72deg);
+}
+.hover\:hue-rotate-5:hover{
+filter: hue-rotate(90deg);
+}
+.hover\:hue-rotate-6:hover{
+filter: hue-rotate(108deg);
+}
+.hover\:hue-rotate-7:hover{
+filter: hue-rotate(126deg);
+}
+.hover\:hue-rotate-8:hover{
+filter: hue-rotate(144deg);
+}
+.hover\:hue-rotate-9:hover{
+filter: hue-rotate(162deg);
+}
+.hover\:hue-rotate-10:hover{
+filter: hue-rotate(180deg);
+}
+
+
+@media(min-width:576px){
+.sm\:hue-rotate-0{
+filter: hue-rotate(0) !important;
+}
+.sm\:hue-rotate-1{
+filter: hue-rotate(18deg);
+}
+.sm\:hue-rotate-2{
+filter: hue-rotate(36deg);
+}
+.sm\:hue-rotate-3{
+filter: hue-rotate(54deg);
+}
+.sm\:hue-rotate-4{
+filter: hue-rotate(72deg);
+}
+.sm\:hue-rotate-5{
+filter: hue-rotate(90deg);
+}
+.sm\:hue-rotate-6{
+filter: hue-rotate(108deg);
+}
+.sm\:hue-rotate-7{
+filter: hue-rotate(126deg);
+}
+.sm\:hue-rotate-8{
+filter: hue-rotate(144deg);
+}
+.sm\:hue-rotate-9{
+filter: hue-rotate(162deg);
+}
+.sm\:hue-rotate-10{
+filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:768px){
+.md\:hue-rotate-0{
+filter: hue-rotate(0) !important;
+}
+.md\:hue-rotate-1{
+filter: hue-rotate(18deg);
+}
+.md\:hue-rotate-2{
+filter: hue-rotate(36deg);
+}
+.md\:hue-rotate-3{
+filter: hue-rotate(54deg);
+}
+.md\:hue-rotate-4{
+filter: hue-rotate(72deg);
+}
+.md\:hue-rotate-5{
+filter: hue-rotate(90deg);
+}
+.md\:hue-rotate-6{
+filter: hue-rotate(108deg);
+}
+.md\:hue-rotate-7{
+filter: hue-rotate(126deg);
+}
+.md\:hue-rotate-8{
+filter: hue-rotate(144deg);
+}
+.md\:hue-rotate-9{
+filter: hue-rotate(162deg);
+}
+.md\:hue-rotate-10{
+filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:hue-rotate-0{
+filter: hue-rotate(0) !important;
+}
+.lg\:hue-rotate-1{
+filter: hue-rotate(18deg);
+}
+.lg\:hue-rotate-2{
+filter: hue-rotate(36deg);
+}
+.lg\:hue-rotate-3{
+filter: hue-rotate(54deg);
+}
+.lg\:hue-rotate-4{
+filter: hue-rotate(72deg);
+}
+.lg\:hue-rotate-5{
+filter: hue-rotate(90deg);
+}
+.lg\:hue-rotate-6{
+filter: hue-rotate(108deg);
+}
+.lg\:hue-rotate-7{
+filter: hue-rotate(126deg);
+}
+.lg\:hue-rotate-8{
+filter: hue-rotate(144deg);
+}
+.lg\:hue-rotate-9{
+filter: hue-rotate(162deg);
+}
+.lg\:hue-rotate-10{
+filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:hue-rotate-0{
+filter: hue-rotate(0) !important;
+}
+.xl\:hue-rotate-1{
+filter: hue-rotate(18deg);
+}
+.xl\:hue-rotate-2{
+filter: hue-rotate(36deg);
+}
+.xl\:hue-rotate-3{
+filter: hue-rotate(54deg);
+}
+.xl\:hue-rotate-4{
+filter: hue-rotate(72deg);
+}
+.xl\:hue-rotate-5{
+filter: hue-rotate(90deg);
+}
+.xl\:hue-rotate-6{
+filter: hue-rotate(108deg);
+}
+.xl\:hue-rotate-7{
+filter: hue-rotate(126deg);
+}
+.xl\:hue-rotate-8{
+filter: hue-rotate(144deg);
+}
+.xl\:hue-rotate-9{
+filter: hue-rotate(162deg);
+}
+.xl\:hue-rotate-10{
+filter: hue-rotate(180deg);
+}				
+}
+
+
+/* hue-rotate ended */
+
+
+/* saturate */
+.saturate-0{
+filter: saturate(0) !important;
+}
+.saturate-1{
+filter: saturate(0.2) !important;
+}
+.saturate-2{
+filter: saturate(0.4) !important;
+}
+.saturate-3{
+filter: saturate(0.6) !important;
+}
+.saturate-4{
+filter: saturate(0.8) !important;
+}
+.saturate-5{
+filter: saturate(1) !important;
+}
+.saturate-6{
+filter: saturate(1.2) !important;
+}
+.saturate-7{
+filter: saturate(1.4) !important;
+}
+.saturate-8{
+filter: saturate(1.6) !important;
+}
+.saturate-9{
+filter: saturate(1.8) !important;
+}
+.saturate-10{
+filter: saturate(2) !important;
+}
+
+
+
+.hover\:saturate-0:hover{
+filter: saturate(0) !important;
+}
+.hover\:saturate-1:hover{
+filter: saturate(0.2) !important;
+}
+.hover\:saturate-2:hover{
+filter: saturate(0.4) !important;
+}
+.hover\:saturate-3:hover{
+filter: saturate(0.6) !important;
+}
+.hover\:saturate-4:hover{
+filter: saturate(0.8) !important;
+}
+.hover\:saturate-5:hover{
+filter: saturate(1) !important;
+}
+.hover\:saturate-6:hover{
+filter: saturate(1.2) !important;
+}
+.hover\:saturate-7:hover{
+filter: saturate(1.4) !important;
+}
+.hover\:saturate-8:hover{
+filter: saturate(1.6) !important;
+}
+.hover\:saturate-9:hover{
+filter: saturate(1.8) !important;
+}
+.hover\:saturate-10:hover{
+filter: saturate(2) !important;
+}
+
+
+
+@media(min-width:576px){
+.sm\:saturate-0{
+filter: saturate(0) !important;
+}
+.sm\:saturate-1{
+filter: saturate(0.2) !important;
+}
+.sm\:saturate-2{
+filter: saturate(0.4) !important;
+}
+.sm\:saturate-3{
+filter: saturate(0.6) !important;
+}
+.sm\:saturate-4{
+filter: saturate(0.8) !important;
+}
+.sm\:saturate-5{
+filter: saturate(1) !important;
+}
+.sm\:saturate-6{
+filter: saturate(1.2) !important;
+}
+.sm\:saturate-7{
+filter: saturate(1.4) !important;
+}
+.sm\:saturate-8{
+filter: saturate(1.6) !important;
+}
+.sm\:saturate-9{
+filter: saturate(1.8) !important;
+}
+.sm\:saturate-10{
+filter: saturate(2) !important;
+}				
+}
+
+
+@media(min-width:768px){
+.md\:saturate-0{
+filter: saturate(0) !important;
+}
+.md\:saturate-1{
+filter: saturate(0.2) !important;
+}
+.md\:saturate-2{
+filter: saturate(0.4) !important;
+}
+.md\:saturate-3{
+filter: saturate(0.6) !important;
+}
+.md\:saturate-4{
+filter: saturate(0.8) !important;
+}
+.md\:saturate-5{
+filter: saturate(1) !important;
+}
+.md\:saturate-6{
+filter: saturate(1.2) !important;
+}
+.md\:saturate-7{
+filter: saturate(1.4) !important;
+}
+.md\:saturate-8{
+filter: saturate(1.6) !important;
+}
+.md\:saturate-9{
+filter: saturate(1.8) !important;
+}
+.md\:saturate-10{
+filter: saturate(2) !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:saturate-0{
+filter: saturate(0) !important;
+}
+.lg\:saturate-1{
+filter: saturate(0.2) !important;
+}
+.lg\:saturate-2{
+filter: saturate(0.4) !important;
+}
+.lg\:saturate-3{
+filter: saturate(0.6) !important;
+}
+.lg\:saturate-4{
+filter: saturate(0.8) !important;
+}
+.lg\:saturate-5{
+filter: saturate(1) !important;
+}
+.lg\:saturate-6{
+filter: saturate(1.2) !important;
+}
+.lg\:saturate-7{
+filter: saturate(1.4) !important;
+}
+.lg\:saturate-8{
+filter: saturate(1.6) !important;
+}
+.lg\:saturate-9{
+filter: saturate(1.8) !important;
+}
+.lg\:saturate-10{
+filter: saturate(2) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:saturate-0{
+filter: saturate(0) !important;
+}
+.xl\:saturate-1{
+filter: saturate(0.2) !important;
+}
+.xl\:saturate-2{
+filter: saturate(0.4) !important;
+}
+.xl\:saturate-3{
+filter: saturate(0.6) !important;
+}
+.xl\:saturate-4{
+filter: saturate(0.8) !important;
+}
+.xl\:saturate-5{
+filter: saturate(1) !important;
+}
+.xl\:saturate-6{
+filter: saturate(1.2) !important;
+}
+.xl\:saturate-7{
+filter: saturate(1.4) !important;
+}
+.xl\:saturate-8{
+filter: saturate(1.6) !important;
+}
+.xl\:saturate-9{
+filter: saturate(1.8) !important;
+}
+.xl\:saturate-10{
+filter: saturate(2) !important;
+}				
+}
+
+/* saturate ended */
+
+
+/* sepia */
+.sepia-0{
+filter: sepia(0%) !important;
+}
+.sepia-1{
+filter: sepia(10%) !important;
+}
+.sepia-2{
+filter: sepia(20%) !important;
+}
+.sepia-3{
+filter: sepia(30%) !important;
+}
+.sepia-4{
+filter: sepia(40%) !important;
+}
+.sepia-5{
+filter: sepia(50%) !important;
+}
+.sepia-6{
+filter: sepia(60%) !important;
+}
+.sepia-7{
+filter: sepia(70%) !important;
+}
+.sepia-8{
+filter: sepia(80%) !important;
+}
+.sepia-9{
+filter: sepia(90%) !important;
+}
+.sepia-10{
+filter: sepia(100%) !important;
+}
+
+
+
+.hover\:sepia-0:hover{
+filter: sepia(0%) !important;
+}
+.hover\:sepia-1:hover{
+filter: sepia(10%) !important;
+}
+.hover\:sepia-2:hover{
+filter: sepia(20%) !important;
+}
+.hover\:sepia-3:hover{
+filter: sepia(30%) !important;
+}
+.hover\:sepia-4:hover{
+filter: sepia(40%) !important;
+}
+.hover\:sepia-5:hover{
+filter: sepia(50%) !important;
+}
+.hover\:sepia-6:hover{
+filter: sepia(60%) !important;
+}
+.hover\:sepia-7:hover{
+filter: sepia(70%) !important;
+}
+.hover\:sepia-8:hover{
+filter: sepia(80%) !important;
+}
+.hover\:sepia-9:hover{
+filter: sepia(90%) !important;
+}
+.hover\:sepia-10:hover{
+filter: sepia(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:sepia-0{
+filter: sepia(0%) !important;
+}
+.sm\:sepia-1{
+filter: sepia(10%) !important;
+}
+.sm\:sepia-2{
+filter: sepia(20%) !important;
+}
+.sm\:sepia-3{
+filter: sepia(30%) !important;
+}
+.sm\:sepia-4{
+filter: sepia(40%) !important;
+}
+.sm\:sepia-5{
+filter: sepia(50%) !important;
+}
+.sm\:sepia-6{
+filter: sepia(60%) !important;
+}
+.sm\:sepia-7{
+filter: sepia(70%) !important;
+}
+.sm\:sepia-8{
+filter: sepia(80%) !important;
+}
+.sm\:sepia-9{
+filter: sepia(90%) !important;
+}
+.sm\:sepia-10{
+filter: sepia(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:sepia-0{
+filter: sepia(0%) !important;
+}
+.md\:sepia-1{
+filter: sepia(10%) !important;
+}
+.md\:sepia-2{
+filter: sepia(20%) !important;
+}
+.md\:sepia-3{
+filter: sepia(30%) !important;
+}
+.md\:sepia-4{
+filter: sepia(40%) !important;
+}
+.md\:sepia-5{
+filter: sepia(50%) !important;
+}
+.md\:sepia-6{
+filter: sepia(60%) !important;
+}
+.md\:sepia-7{
+filter: sepia(70%) !important;
+}
+.md\:sepia-8{
+filter: sepia(80%) !important;
+}
+.md\:sepia-9{
+filter: sepia(90%) !important;
+}
+.md\:sepia-10{
+filter: sepia(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:sepia-0{
+filter: sepia(0%) !important;
+}
+.lg\:sepia-1{
+filter: sepia(10%) !important;
+}
+.lg\:sepia-2{
+filter: sepia(20%) !important;
+}
+.lg\:sepia-3{
+filter: sepia(30%) !important;
+}
+.lg\:sepia-4{
+filter: sepia(40%) !important;
+}
+.lg\:sepia-5{
+filter: sepia(50%) !important;
+}
+.lg\:sepia-6{
+filter: sepia(60%) !important;
+}
+.lg\:sepia-7{
+filter: sepia(70%) !important;
+}
+.lg\:sepia-8{
+filter: sepia(80%) !important;
+}
+.lg\:sepia-9{
+filter: sepia(90%) !important;
+}
+.lg\:sepia-10{
+filter: sepia(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:sepia-0{
+filter: sepia(0%) !important;
+}
+.xl\:sepia-1{
+filter: sepia(10%) !important;
+}
+.xl\:sepia-2{
+filter: sepia(20%) !important;
+}
+.xl\:sepia-3{
+filter: sepia(30%) !important;
+}
+.xl\:sepia-4{
+filter: sepia(40%) !important;
+}
+.xl\:sepia-5{
+filter: sepia(50%) !important;
+}
+.xl\:sepia-6{
+filter: sepia(60%) !important;
+}
+.xl\:sepia-7{
+filter: sepia(70%) !important;
+}
+.xl\:sepia-8{
+filter: sepia(80%) !important;
+}
+.xl\:sepia-9{
+filter: sepia(90%) !important;
+}
+.xl\:sepia-10{
+filter: sepia(100%) !important;
+}				
+}
+
+/* sepia ended */
+
+
+
+
+
+
+
+
+
+
+
+
+/* backdrop-filters */
+
+/* blur backdrop-filter */
+.backdrop-blur-0{
+backdrop-filter: blur(0px) !important;
+}
+.backdrop-blur-1{
+backdrop-filter: blur(2px) !important;
+}
+.backdrop-blur-2{
+backdrop-filter: blur(4px) !important;
+}
+.backdrop-blur-3{
+backdrop-filter: blur(8px) !important;
+}
+.backdrop-blur-4{
+backdrop-filter: blur(14px) !important;
+}
+.backdrop-blur-5{
+backdrop-filter: blur(22px) !important;
+}
+.backdrop-blur-6{
+backdrop-filter: blur(32px) !important;
+}
+.backdrop-blur-7{
+backdrop-filter: blur(44px) !important;
+}
+.backdrop-blur-8{
+backdrop-filter: blur(58px) !important;
+}
+.backdrop-blur-9{
+backdrop-filter: blur(74px) !important;
+}
+.backdrop-blur-10{
+backdrop-filter: blur(92px) !important;
+}
+
+
+
+.hover\:backdrop-blur-0:hover{
+backdrop-filter: blur(0px) !important;
+}
+.hover\:backdrop-blur-1:hover{
+backdrop-filter: blur(2px) !important;
+}
+.hover\:backdrop-blur-2:hover{
+backdrop-filter: blur(4px) !important;
+}
+.hover\:backdrop-blur-3:hover{
+backdrop-filter: blur(8px) !important;
+}
+.hover\:backdrop-blur-4:hover{
+backdrop-filter: blur(14px) !important;
+}
+.hover\:backdrop-blur-5:hover{
+backdrop-filter: blur(22px) !important;
+}
+.hover\:backdrop-blur-6:hover{
+backdrop-filter: blur(32px) !important;
+}
+.hover\:backdrop-blur-7:hover{
+backdrop-filter: blur(44px) !important;
+}
+.hover\:backdrop-blur-8:hover{
+backdrop-filter: blur(58px) !important;
+}
+.hover\:backdrop-blur-9:hover{
+backdrop-filter: blur(74px) !important;
+}
+.hover\:backdrop-blur-10:hover{
+backdrop-filter: blur(92px) !important;
+}
+
+
+
+@media(min-width:576px){
+.sm\:backdrop-blur-0{
+backdrop-filter: blur(0px) !important;
+}
+.sm\:backdrop-blur-1{
+backdrop-filter: blur(2px) !important;
+}
+.sm\:backdrop-blur-2{
+backdrop-filter: blur(4px) !important;
+}
+.sm\:backdrop-blur-3{
+backdrop-filter: blur(8px) !important;
+}
+.sm\:backdrop-blur-4{
+backdrop-filter: blur(14px) !important;
+}
+.sm\:backdrop-blur-5{
+backdrop-filter: blur(22px) !important;
+}
+.sm\:backdrop-blur-6{
+backdrop-filter: blur(32px) !important;
+}
+.sm\:backdrop-blur-7{
+backdrop-filter: blur(44px) !important;
+}
+.sm\:backdrop-blur-8{
+backdrop-filter: blur(58px) !important;
+}
+.sm\:backdrop-blur-9{
+backdrop-filter: blur(74px) !important;
+}
+.sm\:backdrop-blur-10{
+backdrop-filter: blur(92px) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:backdrop-blur-0{
+backdrop-filter: blur(0px) !important;
+}
+.md\:backdrop-blur-1{
+backdrop-filter: blur(2px) !important;
+}
+.md\:backdrop-blur-2{
+backdrop-filter: blur(4px) !important;
+}
+.md\:backdrop-blur-3{
+backdrop-filter: blur(8px) !important;
+}
+.md\:backdrop-blur-4{
+backdrop-filter: blur(14px) !important;
+}
+.md\:backdrop-blur-5{
+backdrop-filter: blur(22px) !important;
+}
+.md\:backdrop-blur-6{
+backdrop-filter: blur(32px) !important;
+}
+.md\:backdrop-blur-7{
+backdrop-filter: blur(44px) !important;
+}
+.md\:backdrop-blur-8{
+backdrop-filter: blur(58px) !important;
+}
+.md\:backdrop-blur-9{
+backdrop-filter: blur(74px) !important;
+}
+.md\:backdrop-blur-10{
+backdrop-filter: blur(92px) !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:backdrop-blur-0{
+backdrop-filter: blur(0px) !important;
+}
+.lg\:backdrop-blur-1{
+backdrop-filter: blur(2px) !important;
+}
+.lg\:backdrop-blur-2{
+backdrop-filter: blur(4px) !important;
+}
+.lg\:backdrop-blur-3{
+backdrop-filter: blur(8px) !important;
+}
+.lg\:backdrop-blur-4{
+backdrop-filter: blur(14px) !important;
+}
+.lg\:backdrop-blur-5{
+backdrop-filter: blur(22px) !important;
+}
+.lg\:backdrop-blur-6{
+backdrop-filter: blur(32px) !important;
+}
+.lg\:backdrop-blur-7{
+backdrop-filter: blur(44px) !important;
+}
+.lg\:backdrop-blur-8{
+backdrop-filter: blur(58px) !important;
+}
+.lg\:backdrop-blur-9{
+backdrop-filter: blur(74px) !important;
+}
+.lg\:backdrop-blur-10{
+backdrop-filter: blur(92px) !important;
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:backdrop-blur-0{
+backdrop-filter: blur(0px) !important;
+}
+.xl\:backdrop-blur-1{
+backdrop-filter: blur(2px) !important;
+}
+.xl\:backdrop-blur-2{
+backdrop-filter: blur(4px) !important;
+}
+.xl\:backdrop-blur-3{
+backdrop-filter: blur(8px) !important;
+}
+.xl\:backdrop-blur-4{
+backdrop-filter: blur(14px) !important;
+}
+.xl\:backdrop-blur-5{
+backdrop-filter: blur(22px) !important;
+}
+.xl\:backdrop-blur-6{
+backdrop-filter: blur(32px) !important;
+}
+.xl\:backdrop-blur-7{
+backdrop-filter: blur(44px) !important;
+}
+.xl\:backdrop-blur-8{
+backdrop-filter: blur(58px) !important;
+}
+.xl\:backdrop-blur-9{
+backdrop-filter: blur(74px) !important;
+}
+.xl\:backdrop-blur-10{
+backdrop-filter: blur(92px) !important;
+}				
+}
+
+/* blur ended */
+
+
+/* contrast */
+.backdrop-contrast-0{
+backdrop-filter: contrast(0) !important;
+}
+.backdrop-contrast-1{
+backdrop-filter: contrast(0.2) !important;
+}
+.backdrop-contrast-2{
+backdrop-filter: contrast(0.4) !important;
+}
+.backdrop-contrast-3{
+backdrop-filter: contrast(0.6) !important;
+}
+.backdrop-contrast-4{
+backdrop-filter: contrast(0.8) !important;
+}
+.backdrop-contrast-5{
+backdrop-filter: contrast(1) !important;
+}
+.backdrop-contrast-6{
+backdrop-filter: contrast(1.2) !important;
+}
+.backdrop-contrast-7{
+backdrop-filter: contrast(1.4) !important;
+}
+.backdrop-contrast-8{
+backdrop-filter: contrast(1.6) !important;
+}
+.backdrop-contrast-9{
+backdrop-filter: contrast(1.8) !important;
+}
+.backdrop-contrast-10{
+backdrop-filter: contrast(2) !important;
+}
+
+
+
+
+
+.hover\:backdrop-contrast-0:hover{
+backdrop-filter: contrast(0) !important;
+}
+.hover\:backdrop-contrast-1:hover{
+backdrop-filter: contrast(0.2) !important;
+}
+.hover\:backdrop-contrast-2:hover{
+backdrop-filter: contrast(0.4) !important;
+}
+.hover\:backdrop-contrast-3:hover{
+backdrop-filter: contrast(0.6) !important;
+}
+.hover\:backdrop-contrast-4:hover{
+backdrop-filter: contrast(0.8) !important;
+}
+.hover\:backdrop-contrast-5:hover{
+backdrop-filter: contrast(1) !important;
+}
+.hover\:backdrop-contrast-6:hover{
+backdrop-filter: contrast(1.2) !important;
+}
+.hover\:backdrop-contrast-7:hover{
+backdrop-filter: contrast(1.4) !important;
+}
+.hover\:backdrop-contrast-8:hover{
+backdrop-filter: contrast(1.6) !important;
+}
+.hover\:backdrop-contrast-9:hover{
+backdrop-filter: contrast(1.8) !important;
+}
+.hover\:backdrop-contrast-10:hover{
+backdrop-filter: contrast(2) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-contrast-0{
+backdrop-filter: contrast(0) !important;
+}
+.sm\:backdrop-contrast-1{
+backdrop-filter: contrast(0.2) !important;
+}
+.sm\:backdrop-contrast-2{
+backdrop-filter: contrast(0.4) !important;
+}
+.sm\:backdrop-contrast-3{
+backdrop-filter: contrast(0.6) !important;
+}
+.sm\:backdrop-contrast-4{
+backdrop-filter: contrast(0.8) !important;
+}
+.sm\:backdrop-contrast-5{
+backdrop-filter: contrast(1) !important;
+}
+.sm\:backdrop-contrast-6{
+backdrop-filter: contrast(1.2) !important;
+}
+.sm\:backdrop-contrast-7{
+backdrop-filter: contrast(1.4) !important;
+}
+.sm\:backdrop-contrast-8{
+backdrop-filter: contrast(1.6) !important;
+}
+.sm\:backdrop-contrast-9{
+backdrop-filter: contrast(1.8) !important;
+}
+.sm\:backdrop-contrast-10{
+backdrop-filter: contrast(2) !important;
+}
+}
+
+@media(min-width:768px){
+.md\:backdrop-contrast-0{
+backdrop-filter: contrast(0) !important;
+}
+.md\:backdrop-contrast-1{
+backdrop-filter: contrast(0.2) !important;
+}
+.md\:backdrop-contrast-2{
+backdrop-filter: contrast(0.4) !important;
+}
+.md\:backdrop-contrast-3{
+backdrop-filter: contrast(0.6) !important;
+}
+.md\:backdrop-contrast-4{
+backdrop-filter: contrast(0.8) !important;
+}
+.md\:backdrop-contrast-5{
+backdrop-filter: contrast(1) !important;
+}
+.md\:backdrop-contrast-6{
+backdrop-filter: contrast(1.2) !important;
+}
+.md\:backdrop-contrast-7{
+backdrop-filter: contrast(1.4) !important;
+}
+.md\:backdrop-contrast-8{
+backdrop-filter: contrast(1.6) !important;
+}
+.md\:backdrop-contrast-9{
+backdrop-filter: contrast(1.8) !important;
+}
+.md\:backdrop-contrast-10{
+backdrop-filter: contrast(2) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:backdrop-contrast-0{
+backdrop-filter: contrast(0) !important;
+}
+.lg\:backdrop-contrast-1{
+backdrop-filter: contrast(0.2) !important;
+}
+.lg\:backdrop-contrast-2{
+backdrop-filter: contrast(0.4) !important;
+}
+.lg\:backdrop-contrast-3{
+backdrop-filter: contrast(0.6) !important;
+}
+.lg\:backdrop-contrast-4{
+backdrop-filter: contrast(0.8) !important;
+}
+.lg\:backdrop-contrast-5{
+backdrop-filter: contrast(1) !important;
+}
+.lg\:backdrop-contrast-6{
+backdrop-filter: contrast(1.2) !important;
+}
+.lg\:backdrop-contrast-7{
+backdrop-filter: contrast(1.4) !important;
+}
+.lg\:backdrop-contrast-8{
+backdrop-filter: contrast(1.6) !important;
+}
+.lg\:backdrop-contrast-9{
+backdrop-filter: contrast(1.8) !important;
+}
+.lg\:backdrop-contrast-10{
+backdrop-filter: contrast(2) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-contrast-0{
+backdrop-filter: contrast(0) !important;
+}
+.xl\:backdrop-contrast-1{
+backdrop-filter: contrast(0.2) !important;
+}
+.xl\:backdrop-contrast-2{
+backdrop-filter: contrast(0.4) !important;
+}
+.xl\:backdrop-contrast-3{
+backdrop-filter: contrast(0.6) !important;
+}
+.xl\:backdrop-contrast-4{
+backdrop-filter: contrast(0.8) !important;
+}
+.xl\:backdrop-contrast-5{
+backdrop-filter: contrast(1) !important;
+}
+.xl\:backdrop-contrast-6{
+backdrop-filter: contrast(1.2) !important;
+}
+.xl\:backdrop-contrast-7{
+backdrop-filter: contrast(1.4) !important;
+}
+.xl\:backdrop-contrast-8{
+backdrop-filter: contrast(1.6) !important;
+}
+.xl\:backdrop-contrast-9{
+backdrop-filter: contrast(1.8) !important;
+}
+.xl\:backdrop-contrast-10{
+backdrop-filter: contrast(2) !important;
+}
+}
+
+/* contrast ended */
+
+
+/* brightness */
+.backdrop-brightness-0{
+backdrop-filter: brightness(0) !important;
+}
+.backdrop-brightness-1{
+backdrop-filter: brightness(0.2) !important;
+}
+.backdrop-brightness-2{
+backdrop-filter: brightness(0.4) !important;
+}
+.backdrop-brightness-3{
+backdrop-filter: brightness(0.6) !important;
+}
+.backdrop-brightness-4{
+backdrop-filter: brightness(0.8) !important;
+}
+.backdrop-brightness-5{
+backdrop-filter: brightness(1) !important;
+}
+.backdrop-brightness-6{
+backdrop-filter: brightness(1.2) !important;
+}
+.backdrop-brightness-7{
+backdrop-filter: brightness(1.4) !important;
+}
+.backdrop-brightness-8{
+backdrop-filter: brightness(1.6) !important;
+}
+.backdrop-brightness-9{
+backdrop-filter: brightness(1.8) !important;
+}
+.backdrop-brightness-10{
+backdrop-filter: brightness(2) !important;
+}
+
+
+
+
+
+.hover\:backdrop-brightness-0:hover{
+backdrop-filter: brightness(0) !important;
+}
+.hover\:backdrop-brightness-1:hover{
+backdrop-filter: brightness(0.2) !important;
+}
+.hover\:backdrop-brightness-2:hover{
+backdrop-filter: brightness(0.4) !important;
+}
+.hover\:backdrop-brightness-3:hover{
+backdrop-filter: brightness(0.6) !important;
+}
+.hover\:backdrop-brightness-4:hover{
+backdrop-filter: brightness(0.8) !important;
+}
+.hover\:backdrop-brightness-5:hover{
+backdrop-filter: brightness(1) !important;
+}
+.hover\:backdrop-brightness-6:hover{
+backdrop-filter: brightness(1.2) !important;
+}
+.hover\:backdrop-brightness-7:hover{
+backdrop-filter: brightness(1.4) !important;
+}
+.hover\:backdrop-brightness-8:hover{
+backdrop-filter: brightness(1.6) !important;
+}
+.hover\:backdrop-brightness-9:hover{
+backdrop-filter: brightness(1.8) !important;
+}
+.hover\:backdrop-brightness-10:hover{
+backdrop-filter: brightness(2) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-brightness-0{
+backdrop-filter: brightness(0) !important;
+}
+.sm\:backdrop-brightness-1{
+backdrop-filter: brightness(0.2) !important;
+}
+.sm\:backdrop-brightness-2{
+backdrop-filter: brightness(0.4) !important;
+}
+.sm\:backdrop-brightness-3{
+backdrop-filter: brightness(0.6) !important;
+}
+.sm\:backdrop-brightness-4{
+backdrop-filter: brightness(0.8) !important;
+}
+.sm\:backdrop-brightness-5{
+backdrop-filter: brightness(1) !important;
+}
+.sm\:backdrop-brightness-6{
+backdrop-filter: brightness(1.2) !important;
+}
+.sm\:backdrop-brightness-7{
+backdrop-filter: brightness(1.4) !important;
+}
+.sm\:backdrop-brightness-8{
+backdrop-filter: brightness(1.6) !important;
+}
+.sm\:backdrop-brightness-9{
+backdrop-filter: brightness(1.8) !important;
+}
+.sm\:backdrop-brightness-10{
+backdrop-filter: brightness(2) !important;
+}
+}
+
+@media(min-width:768px){
+.md\:backdrop-brightness-0{
+backdrop-filter: brightness(0) !important;
+}
+.md\:backdrop-brightness-1{
+backdrop-filter: brightness(0.2) !important;
+}
+.md\:backdrop-brightness-2{
+backdrop-filter: brightness(0.4) !important;
+}
+.md\:backdrop-brightness-3{
+backdrop-filter: brightness(0.6) !important;
+}
+.md\:backdrop-brightness-4{
+backdrop-filter: brightness(0.8) !important;
+}
+.md\:backdrop-brightness-5{
+backdrop-filter: brightness(1) !important;
+}
+.md\:backdrop-brightness-6{
+backdrop-filter: brightness(1.2) !important;
+}
+.md\:backdrop-brightness-7{
+backdrop-filter: brightness(1.4) !important;
+}
+.md\:backdrop-brightness-8{
+backdrop-filter: brightness(1.6) !important;
+}
+.md\:backdrop-brightness-9{
+backdrop-filter: brightness(1.8) !important;
+}
+.md\:backdrop-brightness-10{
+backdrop-filter: brightness(2) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:backdrop-brightness-0{
+backdrop-filter: brightness(0) !important;
+}
+.lg\:backdrop-brightness-1{
+backdrop-filter: brightness(0.2) !important;
+}
+.lg\:backdrop-brightness-2{
+backdrop-filter: brightness(0.4) !important;
+}
+.lg\:backdrop-brightness-3{
+backdrop-filter: brightness(0.6) !important;
+}
+.lg\:backdrop-brightness-4{
+backdrop-filter: brightness(0.8) !important;
+}
+.lg\:backdrop-brightness-5{
+backdrop-filter: brightness(1) !important;
+}
+.lg\:backdrop-brightness-6{
+backdrop-filter: brightness(1.2) !important;
+}
+.lg\:backdrop-brightness-7{
+backdrop-filter: brightness(1.4) !important;
+}
+.lg\:backdrop-brightness-8{
+backdrop-filter: brightness(1.6) !important;
+}
+.lg\:backdrop-brightness-9{
+backdrop-filter: brightness(1.8) !important;
+}
+.lg\:backdrop-brightness-10{
+backdrop-filter: brightness(2) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-brightness-0{
+backdrop-filter: brightness(0) !important;
+}
+.xl\:backdrop-brightness-1{
+backdrop-filter: brightness(0.2) !important;
+}
+.xl\:backdrop-brightness-2{
+backdrop-filter: brightness(0.4) !important;
+}
+.xl\:backdrop-brightness-3{
+backdrop-filter: brightness(0.6) !important;
+}
+.xl\:backdrop-brightness-4{
+backdrop-filter: brightness(0.8) !important;
+}
+.xl\:backdrop-brightness-5{
+backdrop-filter: brightness(1) !important;
+}
+.xl\:backdrop-brightness-6{
+backdrop-filter: brightness(1.2) !important;
+}
+.xl\:backdrop-brightness-7{
+backdrop-filter: brightness(1.4) !important;
+}
+.xl\:backdrop-brightness-8{
+backdrop-filter: brightness(1.6) !important;
+}
+.xl\:backdrop-brightness-9{
+backdrop-filter: brightness(1.8) !important;
+}
+.xl\:backdrop-brightness-10{
+backdrop-filter: brightness(2) !important;
+}
+}
+
+/* brightness ended */
+
+
+/* grayscale */
+.backdrop-grayscale-0{
+backdrop-filter: grayscale(0%) !important;
+}
+.backdrop-grayscale-1{
+backdrop-filter: grayscale(10%) !important;
+}
+.backdrop-grayscale-2{
+backdrop-filter: grayscale(20%) !important;
+}
+.backdrop-grayscale-3{
+backdrop-filter: grayscale(30%) !important;
+}
+.backdrop-grayscale-4{
+backdrop-filter: grayscale(40%) !important;
+}
+.backdrop-grayscale-5{
+backdrop-filter: grayscale(50%) !important;
+}
+.backdrop-grayscale-6{
+backdrop-filter: grayscale(60%) !important;
+}
+.backdrop-grayscale-7{
+backdrop-filter: grayscale(70%) !important;
+}
+.backdrop-grayscale-8{
+backdrop-filter: grayscale(80%) !important;
+}
+.backdrop-grayscale-9{
+backdrop-filter: grayscale(90%) !important;
+}
+.backdrop-grayscale-10{
+backdrop-filter: grayscale(100%) !important;
+}
+
+
+
+.hover\:backdrop-grayscale-0:hover{
+backdrop-filter: grayscale(0%) !important;
+}
+.hover\:backdrop-grayscale-1:hover{
+backdrop-filter: grayscale(10%) !important;
+}
+.hover\:backdrop-grayscale-2:hover{
+backdrop-filter: grayscale(20%) !important;
+}
+.hover\:backdrop-grayscale-3:hover{
+backdrop-filter: grayscale(30%) !important;
+}
+.hover\:backdrop-grayscale-4:hover{
+backdrop-filter: grayscale(40%) !important;
+}
+.hover\:backdrop-grayscale-5:hover{
+backdrop-filter: grayscale(50%) !important;
+}
+.hover\:backdrop-grayscale-6:hover{
+backdrop-filter: grayscale(60%) !important;
+}
+.hover\:backdrop-grayscale-7:hover{
+backdrop-filter: grayscale(70%) !important;
+}
+.hover\:backdrop-grayscale-8:hover{
+backdrop-filter: grayscale(80%) !important;
+}
+.hover\:backdrop-grayscale-9:hover{
+backdrop-filter: grayscale(90%) !important;
+}
+.hover\:backdrop-grayscale-10:hover{
+backdrop-filter: grayscale(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-grayscale-0{
+backdrop-filter: grayscale(0%) !important;
+}
+.sm\:backdrop-grayscale-1{
+backdrop-filter: grayscale(10%) !important;
+}
+.sm\:backdrop-grayscale-2{
+backdrop-filter: grayscale(20%) !important;
+}
+.sm\:backdrop-grayscale-3{
+backdrop-filter: grayscale(30%) !important;
+}
+.sm\:backdrop-grayscale-4{
+backdrop-filter: grayscale(40%) !important;
+}
+.sm\:backdrop-grayscale-5{
+backdrop-filter: grayscale(50%) !important;
+}
+.sm\:backdrop-grayscale-6{
+backdrop-filter: grayscale(60%) !important;
+}
+.sm\:backdrop-grayscale-7{
+backdrop-filter: grayscale(70%) !important;
+}
+.sm\:backdrop-grayscale-8{
+backdrop-filter: grayscale(80%) !important;
+}
+.sm\:backdrop-grayscale-9{
+backdrop-filter: grayscale(90%) !important;
+}
+.sm\:backdrop-grayscale-10{
+backdrop-filter: grayscale(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:backdrop-grayscale-0{
+backdrop-filter: grayscale(0%) !important;
+}
+.md\:backdrop-grayscale-1{
+backdrop-filter: grayscale(10%) !important;
+}
+.md\:backdrop-grayscale-2{
+backdrop-filter: grayscale(20%) !important;
+}
+.md\:backdrop-grayscale-3{
+backdrop-filter: grayscale(30%) !important;
+}
+.md\:backdrop-grayscale-4{
+backdrop-filter: grayscale(40%) !important;
+}
+.md\:backdrop-grayscale-5{
+backdrop-filter: grayscale(50%) !important;
+}
+.md\:backdrop-grayscale-6{
+backdrop-filter: grayscale(60%) !important;
+}
+.md\:backdrop-grayscale-7{
+backdrop-filter: grayscale(70%) !important;
+}
+.md\:backdrop-grayscale-8{
+backdrop-filter: grayscale(80%) !important;
+}
+.md\:backdrop-grayscale-9{
+backdrop-filter: grayscale(90%) !important;
+}
+.md\:backdrop-grayscale-10{
+backdrop-filter: grayscale(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:backdrop-grayscale-0{
+backdrop-filter: grayscale(0%) !important;
+}
+.lg\:backdrop-grayscale-1{
+backdrop-filter: grayscale(10%) !important;
+}
+.lg\:backdrop-grayscale-2{
+backdrop-filter: grayscale(20%) !important;
+}
+.lg\:backdrop-grayscale-3{
+backdrop-filter: grayscale(30%) !important;
+}
+.lg\:backdrop-grayscale-4{
+backdrop-filter: grayscale(40%) !important;
+}
+.lg\:backdrop-grayscale-5{
+backdrop-filter: grayscale(50%) !important;
+}
+.lg\:backdrop-grayscale-6{
+backdrop-filter: grayscale(60%) !important;
+}
+.lg\:backdrop-grayscale-7{
+backdrop-filter: grayscale(70%) !important;
+}
+.lg\:backdrop-grayscale-8{
+backdrop-filter: grayscale(80%) !important;
+}
+.lg\:backdrop-grayscale-9{
+backdrop-filter: grayscale(90%) !important;
+}
+.lg\:backdrop-grayscale-10{
+backdrop-filter: grayscale(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-grayscale-0{
+backdrop-filter: grayscale(0%) !important;
+}
+.xl\:backdrop-grayscale-1{
+backdrop-filter: grayscale(10%) !important;
+}
+.xl\:backdrop-grayscale-2{
+backdrop-filter: grayscale(20%) !important;
+}
+.xl\:backdrop-grayscale-3{
+backdrop-filter: grayscale(30%) !important;
+}
+.xl\:backdrop-grayscale-4{
+backdrop-filter: grayscale(40%) !important;
+}
+.xl\:backdrop-grayscale-5{
+backdrop-filter: grayscale(50%) !important;
+}
+.xl\:backdrop-grayscale-6{
+backdrop-filter: grayscale(60%) !important;
+}
+.xl\:backdrop-grayscale-7{
+backdrop-filter: grayscale(70%) !important;
+}
+.xl\:backdrop-grayscale-8{
+backdrop-filter: grayscale(80%) !important;
+}
+.xl\:backdrop-grayscale-9{
+backdrop-filter: grayscale(90%) !important;
+}
+.xl\:backdrop-grayscale-10{
+backdrop-filter: grayscale(100%) !important;
+}				
+}
+
+/* grayscale ended */
+
+
+/* invert */
+.backdrop-invert-0{
+backdrop-filter: invert(0%) !important;
+}
+.backdrop-invert-1{
+backdrop-filter: invert(10%) !important;
+}
+.backdrop-invert-2{
+backdrop-filter: invert(20%) !important;
+}
+.backdrop-invert-3{
+backdrop-filter: invert(30%) !important;
+}
+.backdrop-invert-4{
+backdrop-filter: invert(40%) !important;
+}
+.backdrop-invert-5{
+backdrop-filter: invert(50%) !important;
+}
+.backdrop-invert-6{
+backdrop-filter: invert(60%) !important;
+}
+.backdrop-invert-7{
+backdrop-filter: invert(70%) !important;
+}
+.backdrop-invert-8{
+backdrop-filter: invert(80%) !important;
+}
+.backdrop-invert-9{
+backdrop-filter: invert(90%) !important;
+}
+.backdrop-invert-10{
+backdrop-filter: invert(100%) !important;
+}
+
+
+
+.hover\:backdrop-invert-0:hover{
+backdrop-filter: invert(0%) !important;
+}
+.hover\:backdrop-invert-1:hover{
+backdrop-filter: invert(10%) !important;
+}
+.hover\:backdrop-invert-2:hover{
+backdrop-filter: invert(20%) !important;
+}
+.hover\:backdrop-invert-3:hover{
+backdrop-filter: invert(30%) !important;
+}
+.hover\:backdrop-invert-4:hover{
+backdrop-filter: invert(40%) !important;
+}
+.hover\:backdrop-invert-5:hover{
+backdrop-filter: invert(50%) !important;
+}
+.hover\:backdrop-invert-6:hover{
+backdrop-filter: invert(60%) !important;
+}
+.hover\:backdrop-invert-7:hover{
+backdrop-filter: invert(70%) !important;
+}
+.hover\:backdrop-invert-8:hover{
+backdrop-filter: invert(80%) !important;
+}
+.hover\:backdrop-invert-9:hover{
+backdrop-filter: invert(90%) !important;
+}
+.hover\:backdrop-invert-10:hover{
+backdrop-filter: invert(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-invert-0{
+backdrop-filter: invert(0%) !important;
+}
+.sm\:backdrop-invert-1{
+backdrop-filter: invert(10%) !important;
+}
+.sm\:backdrop-invert-2{
+backdrop-filter: invert(20%) !important;
+}
+.sm\:backdrop-invert-3{
+backdrop-filter: invert(30%) !important;
+}
+.sm\:backdrop-invert-4{
+backdrop-filter: invert(40%) !important;
+}
+.sm\:backdrop-invert-5{
+backdrop-filter: invert(50%) !important;
+}
+.sm\:backdrop-invert-6{
+backdrop-filter: invert(60%) !important;
+}
+.sm\:backdrop-invert-7{
+backdrop-filter: invert(70%) !important;
+}
+.sm\:backdrop-invert-8{
+backdrop-filter: invert(80%) !important;
+}
+.sm\:backdrop-invert-9{
+backdrop-filter: invert(90%) !important;
+}
+.sm\:backdrop-invert-10{
+backdrop-filter: invert(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:backdrop-invert-0{
+backdrop-filter: invert(0%) !important;
+}
+.md\:backdrop-invert-1{
+backdrop-filter: invert(10%) !important;
+}
+.md\:backdrop-invert-2{
+backdrop-filter: invert(20%) !important;
+}
+.md\:backdrop-invert-3{
+backdrop-filter: invert(30%) !important;
+}
+.md\:backdrop-invert-4{
+backdrop-filter: invert(40%) !important;
+}
+.md\:backdrop-invert-5{
+backdrop-filter: invert(50%) !important;
+}
+.md\:backdrop-invert-6{
+backdrop-filter: invert(60%) !important;
+}
+.md\:backdrop-invert-7{
+backdrop-filter: invert(70%) !important;
+}
+.md\:backdrop-invert-8{
+backdrop-filter: invert(80%) !important;
+}
+.md\:backdrop-invert-9{
+backdrop-filter: invert(90%) !important;
+}
+.md\:backdrop-invert-10{
+backdrop-filter: invert(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:backdrop-invert-0{
+backdrop-filter: invert(0%) !important;
+}
+.lg\:backdrop-invert-1{
+backdrop-filter: invert(10%) !important;
+}
+.lg\:backdrop-invert-2{
+backdrop-filter: invert(20%) !important;
+}
+.lg\:backdrop-invert-3{
+backdrop-filter: invert(30%) !important;
+}
+.lg\:backdrop-invert-4{
+backdrop-filter: invert(40%) !important;
+}
+.lg\:backdrop-invert-5{
+backdrop-filter: invert(50%) !important;
+}
+.lg\:backdrop-invert-6{
+backdrop-filter: invert(60%) !important;
+}
+.lg\:backdrop-invert-7{
+backdrop-filter: invert(70%) !important;
+}
+.lg\:backdrop-invert-8{
+backdrop-filter: invert(80%) !important;
+}
+.lg\:backdrop-invert-9{
+backdrop-filter: invert(90%) !important;
+}
+.lg\:backdrop-invert-10{
+backdrop-filter: invert(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-invert-0{
+backdrop-filter: invert(0%) !important;
+}
+.xl\:backdrop-invert-1{
+backdrop-filter: invert(10%) !important;
+}
+.xl\:backdrop-invert-2{
+backdrop-filter: invert(20%) !important;
+}
+.xl\:backdrop-invert-3{
+backdrop-filter: invert(30%) !important;
+}
+.xl\:backdrop-invert-4{
+backdrop-filter: invert(40%) !important;
+}
+.xl\:backdrop-invert-5{
+backdrop-filter: invert(50%) !important;
+}
+.xl\:backdrop-invert-6{
+backdrop-filter: invert(60%) !important;
+}
+.xl\:backdrop-invert-7{
+backdrop-filter: invert(70%) !important;
+}
+.xl\:backdrop-invert-8{
+backdrop-filter: invert(80%) !important;
+}
+.xl\:backdrop-invert-9{
+backdrop-filter: invert(90%) !important;
+}
+.xl\:backdrop-invert-10{
+backdrop-filter: invert(100%) !important;
+}				
+}
+
+/* invert ended */
+
+/* hue-rotate */
+.backdrop-hue-rotate-0{
+backdrop-filter: hue-rotate(0) !important;
+}
+.backdrop-hue-rotate-1{
+backdrop-filter: hue-rotate(18deg);
+}
+.backdrop-hue-rotate-2{
+backdrop-filter: hue-rotate(36deg);
+}
+.backdrop-hue-rotate-3{
+backdrop-filter: hue-rotate(54deg);
+}
+.backdrop-hue-rotate-4{
+backdrop-filter: hue-rotate(72deg);
+}
+.backdrop-hue-rotate-5{
+backdrop-filter: hue-rotate(90deg);
+}
+.backdrop-hue-rotate-6{
+backdrop-filter: hue-rotate(108deg);
+}
+.backdrop-hue-rotate-7{
+backdrop-filter: hue-rotate(126deg);
+}
+.backdrop-hue-rotate-8{
+backdrop-filter: hue-rotate(144deg);
+}
+.backdrop-hue-rotate-9{
+backdrop-filter: hue-rotate(162deg);
+}
+.backdrop-hue-rotate-10{
+backdrop-filter: hue-rotate(180deg);
+}
+
+
+
+.hover\:backdrop-hue-rotate-0:hover{
+backdrop-filter: hue-rotate(0) !important;
+}
+.hover\:backdrop-hue-rotate-1:hover{
+backdrop-filter: hue-rotate(18deg);
+}
+.hover\:backdrop-hue-rotate-2:hover{
+backdrop-filter: hue-rotate(36deg);
+}
+.hover\:backdrop-hue-rotate-3:hover{
+backdrop-filter: hue-rotate(54deg);
+}
+.hover\:backdrop-hue-rotate-4:hover{
+backdrop-filter: hue-rotate(72deg);
+}
+.hover\:backdrop-hue-rotate-5:hover{
+backdrop-filter: hue-rotate(90deg);
+}
+.hover\:backdrop-hue-rotate-6:hover{
+backdrop-filter: hue-rotate(108deg);
+}
+.hover\:backdrop-hue-rotate-7:hover{
+backdrop-filter: hue-rotate(126deg);
+}
+.hover\:backdrop-hue-rotate-8:hover{
+backdrop-filter: hue-rotate(144deg);
+}
+.hover\:backdrop-hue-rotate-9:hover{
+backdrop-filter: hue-rotate(162deg);
+}
+.hover\:backdrop-hue-rotate-10:hover{
+backdrop-filter: hue-rotate(180deg);
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-hue-rotate-0{
+backdrop-filter: hue-rotate(0) !important;
+}
+.sm\:backdrop-hue-rotate-1{
+backdrop-filter: hue-rotate(18deg);
+}
+.sm\:backdrop-hue-rotate-2{
+backdrop-filter: hue-rotate(36deg);
+}
+.sm\:backdrop-hue-rotate-3{
+backdrop-filter: hue-rotate(54deg);
+}
+.sm\:backdrop-hue-rotate-4{
+backdrop-filter: hue-rotate(72deg);
+}
+.sm\:backdrop-hue-rotate-5{
+backdrop-filter: hue-rotate(90deg);
+}
+.sm\:backdrop-hue-rotate-6{
+backdrop-filter: hue-rotate(108deg);
+}
+.sm\:backdrop-hue-rotate-7{
+backdrop-filter: hue-rotate(126deg);
+}
+.sm\:backdrop-hue-rotate-8{
+backdrop-filter: hue-rotate(144deg);
+}
+.sm\:backdrop-hue-rotate-9{
+backdrop-filter: hue-rotate(162deg);
+}
+.sm\:backdrop-hue-rotate-10{
+backdrop-filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:768px){
+.md\:backdrop-hue-rotate-0{
+backdrop-filter: hue-rotate(0) !important;
+}
+.md\:backdrop-hue-rotate-1{
+backdrop-filter: hue-rotate(18deg);
+}
+.md\:backdrop-hue-rotate-2{
+backdrop-filter: hue-rotate(36deg);
+}
+.md\:backdrop-hue-rotate-3{
+backdrop-filter: hue-rotate(54deg);
+}
+.md\:backdrop-hue-rotate-4{
+backdrop-filter: hue-rotate(72deg);
+}
+.md\:backdrop-hue-rotate-5{
+backdrop-filter: hue-rotate(90deg);
+}
+.md\:backdrop-hue-rotate-6{
+backdrop-filter: hue-rotate(108deg);
+}
+.md\:backdrop-hue-rotate-7{
+backdrop-filter: hue-rotate(126deg);
+}
+.md\:backdrop-hue-rotate-8{
+backdrop-filter: hue-rotate(144deg);
+}
+.md\:backdrop-hue-rotate-9{
+backdrop-filter: hue-rotate(162deg);
+}
+.md\:backdrop-hue-rotate-10{
+backdrop-filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:backdrop-hue-rotate-0{
+backdrop-filter: hue-rotate(0) !important;
+}
+.lg\:backdrop-hue-rotate-1{
+backdrop-filter: hue-rotate(18deg);
+}
+.lg\:backdrop-hue-rotate-2{
+backdrop-filter: hue-rotate(36deg);
+}
+.lg\:backdrop-hue-rotate-3{
+backdrop-filter: hue-rotate(54deg);
+}
+.lg\:backdrop-hue-rotate-4{
+backdrop-filter: hue-rotate(72deg);
+}
+.lg\:backdrop-hue-rotate-5{
+backdrop-filter: hue-rotate(90deg);
+}
+.lg\:backdrop-hue-rotate-6{
+backdrop-filter: hue-rotate(108deg);
+}
+.lg\:backdrop-hue-rotate-7{
+backdrop-filter: hue-rotate(126deg);
+}
+.lg\:backdrop-hue-rotate-8{
+backdrop-filter: hue-rotate(144deg);
+}
+.lg\:backdrop-hue-rotate-9{
+backdrop-filter: hue-rotate(162deg);
+}
+.lg\:backdrop-hue-rotate-10{
+backdrop-filter: hue-rotate(180deg);
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:backdrop-hue-rotate-0{
+backdrop-filter: hue-rotate(0) !important;
+}
+.xl\:backdrop-hue-rotate-1{
+backdrop-filter: hue-rotate(18deg);
+}
+.xl\:backdrop-hue-rotate-2{
+backdrop-filter: hue-rotate(36deg);
+}
+.xl\:backdrop-hue-rotate-3{
+backdrop-filter: hue-rotate(54deg);
+}
+.xl\:backdrop-hue-rotate-4{
+backdrop-filter: hue-rotate(72deg);
+}
+.xl\:backdrop-hue-rotate-5{
+backdrop-filter: hue-rotate(90deg);
+}
+.xl\:backdrop-hue-rotate-6{
+backdrop-filter: hue-rotate(108deg);
+}
+.xl\:backdrop-hue-rotate-7{
+backdrop-filter: hue-rotate(126deg);
+}
+.xl\:backdrop-hue-rotate-8{
+backdrop-filter: hue-rotate(144deg);
+}
+.xl\:backdrop-hue-rotate-9{
+backdrop-filter: hue-rotate(162deg);
+}
+.xl\:backdrop-hue-rotate-10{
+backdrop-filter: hue-rotate(180deg);
+}				
+}
+
+
+/* hue-rotate ended */
+
+
+/* saturate */
+.backdrop-saturate-0{
+backdrop-filter: saturate(0) !important;
+}
+.backdrop-saturate-1{
+backdrop-filter: saturate(0.2) !important;
+}
+.backdrop-saturate-2{
+backdrop-filter: saturate(0.4) !important;
+}
+.backdrop-saturate-3{
+backdrop-filter: saturate(0.6) !important;
+}
+.backdrop-saturate-4{
+backdrop-filter: saturate(0.8) !important;
+}
+.backdrop-saturate-5{
+backdrop-filter: saturate(1) !important;
+}
+.backdrop-saturate-6{
+backdrop-filter: saturate(1.2) !important;
+}
+.backdrop-saturate-7{
+backdrop-filter: saturate(1.4) !important;
+}
+.backdrop-saturate-8{
+backdrop-filter: saturate(1.6) !important;
+}
+.backdrop-saturate-9{
+backdrop-filter: saturate(1.8) !important;
+}
+.backdrop-saturate-10{
+backdrop-filter: saturate(2) !important;
+}
+
+
+
+
+
+.hover\:backdrop-saturate-0:hover{
+backdrop-filter: saturate(0) !important;
+}
+.hover\:backdrop-saturate-1:hover{
+backdrop-filter: saturate(0.2) !important;
+}
+.hover\:backdrop-saturate-2:hover{
+backdrop-filter: saturate(0.4) !important;
+}
+.hover\:backdrop-saturate-3:hover{
+backdrop-filter: saturate(0.6) !important;
+}
+.hover\:backdrop-saturate-4:hover{
+backdrop-filter: saturate(0.8) !important;
+}
+.hover\:backdrop-saturate-5:hover{
+backdrop-filter: saturate(1) !important;
+}
+.hover\:backdrop-saturate-6:hover{
+backdrop-filter: saturate(1.2) !important;
+}
+.hover\:backdrop-saturate-7:hover{
+backdrop-filter: saturate(1.4) !important;
+}
+.hover\:backdrop-saturate-8:hover{
+backdrop-filter: saturate(1.6) !important;
+}
+.hover\:backdrop-saturate-9:hover{
+backdrop-filter: saturate(1.8) !important;
+}
+.hover\:backdrop-saturate-10:hover{
+backdrop-filter: saturate(2) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-saturate-0{
+backdrop-filter: saturate(0) !important;
+}
+.sm\:backdrop-saturate-1{
+backdrop-filter: saturate(0.2) !important;
+}
+.sm\:backdrop-saturate-2{
+backdrop-filter: saturate(0.4) !important;
+}
+.sm\:backdrop-saturate-3{
+backdrop-filter: saturate(0.6) !important;
+}
+.sm\:backdrop-saturate-4{
+backdrop-filter: saturate(0.8) !important;
+}
+.sm\:backdrop-saturate-5{
+backdrop-filter: saturate(1) !important;
+}
+.sm\:backdrop-saturate-6{
+backdrop-filter: saturate(1.2) !important;
+}
+.sm\:backdrop-saturate-7{
+backdrop-filter: saturate(1.4) !important;
+}
+.sm\:backdrop-saturate-8{
+backdrop-filter: saturate(1.6) !important;
+}
+.sm\:backdrop-saturate-9{
+backdrop-filter: saturate(1.8) !important;
+}
+.sm\:backdrop-saturate-10{
+backdrop-filter: saturate(2) !important;
+}
+}
+
+@media(min-width:768px){
+.md\:backdrop-saturate-0{
+backdrop-filter: saturate(0) !important;
+}
+.md\:backdrop-saturate-1{
+backdrop-filter: saturate(0.2) !important;
+}
+.md\:backdrop-saturate-2{
+backdrop-filter: saturate(0.4) !important;
+}
+.md\:backdrop-saturate-3{
+backdrop-filter: saturate(0.6) !important;
+}
+.md\:backdrop-saturate-4{
+backdrop-filter: saturate(0.8) !important;
+}
+.md\:backdrop-saturate-5{
+backdrop-filter: saturate(1) !important;
+}
+.md\:backdrop-saturate-6{
+backdrop-filter: saturate(1.2) !important;
+}
+.md\:backdrop-saturate-7{
+backdrop-filter: saturate(1.4) !important;
+}
+.md\:backdrop-saturate-8{
+backdrop-filter: saturate(1.6) !important;
+}
+.md\:backdrop-saturate-9{
+backdrop-filter: saturate(1.8) !important;
+}
+.md\:backdrop-saturate-10{
+backdrop-filter: saturate(2) !important;
+}
+}
+
+@media(min-width:992px){
+.lg\:backdrop-saturate-0{
+backdrop-filter: saturate(0) !important;
+}
+.lg\:backdrop-saturate-1{
+backdrop-filter: saturate(0.2) !important;
+}
+.lg\:backdrop-saturate-2{
+backdrop-filter: saturate(0.4) !important;
+}
+.lg\:backdrop-saturate-3{
+backdrop-filter: saturate(0.6) !important;
+}
+.lg\:backdrop-saturate-4{
+backdrop-filter: saturate(0.8) !important;
+}
+.lg\:backdrop-saturate-5{
+backdrop-filter: saturate(1) !important;
+}
+.lg\:backdrop-saturate-6{
+backdrop-filter: saturate(1.2) !important;
+}
+.lg\:backdrop-saturate-7{
+backdrop-filter: saturate(1.4) !important;
+}
+.lg\:backdrop-saturate-8{
+backdrop-filter: saturate(1.6) !important;
+}
+.lg\:backdrop-saturate-9{
+backdrop-filter: saturate(1.8) !important;
+}
+.lg\:backdrop-saturate-10{
+backdrop-filter: saturate(2) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-saturate-0{
+backdrop-filter: saturate(0) !important;
+}
+.xl\:backdrop-saturate-1{
+backdrop-filter: saturate(0.2) !important;
+}
+.xl\:backdrop-saturate-2{
+backdrop-filter: saturate(0.4) !important;
+}
+.xl\:backdrop-saturate-3{
+backdrop-filter: saturate(0.6) !important;
+}
+.xl\:backdrop-saturate-4{
+backdrop-filter: saturate(0.8) !important;
+}
+.xl\:backdrop-saturate-5{
+backdrop-filter: saturate(1) !important;
+}
+.xl\:backdrop-saturate-6{
+backdrop-filter: saturate(1.2) !important;
+}
+.xl\:backdrop-saturate-7{
+backdrop-filter: saturate(1.4) !important;
+}
+.xl\:backdrop-saturate-8{
+backdrop-filter: saturate(1.6) !important;
+}
+.xl\:backdrop-saturate-9{
+backdrop-filter: saturate(1.8) !important;
+}
+.xl\:backdrop-saturate-10{
+backdrop-filter: saturate(2) !important;
+}
+}
+
+/* saturate ended */
+
+
+/* sepia */
+.backdrop-sepia-0{
+backdrop-filter: sepia(0%) !important;
+}
+.backdrop-sepia-1{
+backdrop-filter: sepia(10%) !important;
+}
+.backdrop-sepia-2{
+backdrop-filter: sepia(20%) !important;
+}
+.backdrop-sepia-3{
+backdrop-filter: sepia(30%) !important;
+}
+.backdrop-sepia-4{
+backdrop-filter: sepia(40%) !important;
+}
+.backdrop-sepia-5{
+backdrop-filter: sepia(50%) !important;
+}
+.backdrop-sepia-6{
+backdrop-filter: sepia(60%) !important;
+}
+.backdrop-sepia-7{
+backdrop-filter: sepia(70%) !important;
+}
+.backdrop-sepia-8{
+backdrop-filter: sepia(80%) !important;
+}
+.backdrop-sepia-9{
+backdrop-filter: sepia(90%) !important;
+}
+.backdrop-sepia-10{
+backdrop-filter: sepia(100%) !important;
+}
+
+
+
+.hover\:backdrop-sepia-0:hover{
+backdrop-filter: sepia(0%) !important;
+}
+.hover\:backdrop-sepia-1:hover{
+backdrop-filter: sepia(10%) !important;
+}
+.hover\:backdrop-sepia-2:hover{
+backdrop-filter: sepia(20%) !important;
+}
+.hover\:backdrop-sepia-3:hover{
+backdrop-filter: sepia(30%) !important;
+}
+.hover\:backdrop-sepia-4:hover{
+backdrop-filter: sepia(40%) !important;
+}
+.hover\:backdrop-sepia-5:hover{
+backdrop-filter: sepia(50%) !important;
+}
+.hover\:backdrop-sepia-6:hover{
+backdrop-filter: sepia(60%) !important;
+}
+.hover\:backdrop-sepia-7:hover{
+backdrop-filter: sepia(70%) !important;
+}
+.hover\:backdrop-sepia-8:hover{
+backdrop-filter: sepia(80%) !important;
+}
+.hover\:backdrop-sepia-9:hover{
+backdrop-filter: sepia(90%) !important;
+}
+.hover\:backdrop-sepia-10:hover{
+backdrop-filter: sepia(100%) !important;
+}
+
+
+@media(min-width:576px){
+.sm\:backdrop-sepia-0{
+backdrop-filter: sepia(0%) !important;
+}
+.sm\:backdrop-sepia-1{
+backdrop-filter: sepia(10%) !important;
+}
+.sm\:backdrop-sepia-2{
+backdrop-filter: sepia(20%) !important;
+}
+.sm\:backdrop-sepia-3{
+backdrop-filter: sepia(30%) !important;
+}
+.sm\:backdrop-sepia-4{
+backdrop-filter: sepia(40%) !important;
+}
+.sm\:backdrop-sepia-5{
+backdrop-filter: sepia(50%) !important;
+}
+.sm\:backdrop-sepia-6{
+backdrop-filter: sepia(60%) !important;
+}
+.sm\:backdrop-sepia-7{
+backdrop-filter: sepia(70%) !important;
+}
+.sm\:backdrop-sepia-8{
+backdrop-filter: sepia(80%) !important;
+}
+.sm\:backdrop-sepia-9{
+backdrop-filter: sepia(90%) !important;
+}
+.sm\:backdrop-sepia-10{
+backdrop-filter: sepia(100%) !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:backdrop-sepia-0{
+backdrop-filter: sepia(0%) !important;
+}
+.md\:backdrop-sepia-1{
+backdrop-filter: sepia(10%) !important;
+}
+.md\:backdrop-sepia-2{
+backdrop-filter: sepia(20%) !important;
+}
+.md\:backdrop-sepia-3{
+backdrop-filter: sepia(30%) !important;
+}
+.md\:backdrop-sepia-4{
+backdrop-filter: sepia(40%) !important;
+}
+.md\:backdrop-sepia-5{
+backdrop-filter: sepia(50%) !important;
+}
+.md\:backdrop-sepia-6{
+backdrop-filter: sepia(60%) !important;
+}
+.md\:backdrop-sepia-7{
+backdrop-filter: sepia(70%) !important;
+}
+.md\:backdrop-sepia-8{
+backdrop-filter: sepia(80%) !important;
+}
+.md\:backdrop-sepia-9{
+backdrop-filter: sepia(90%) !important;
+}
+.md\:backdrop-sepia-10{
+backdrop-filter: sepia(100%) !important;
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:backdrop-sepia-0{
+backdrop-filter: sepia(0%) !important;
+}
+.lg\:backdrop-sepia-1{
+backdrop-filter: sepia(10%) !important;
+}
+.lg\:backdrop-sepia-2{
+backdrop-filter: sepia(20%) !important;
+}
+.lg\:backdrop-sepia-3{
+backdrop-filter: sepia(30%) !important;
+}
+.lg\:backdrop-sepia-4{
+backdrop-filter: sepia(40%) !important;
+}
+.lg\:backdrop-sepia-5{
+backdrop-filter: sepia(50%) !important;
+}
+.lg\:backdrop-sepia-6{
+backdrop-filter: sepia(60%) !important;
+}
+.lg\:backdrop-sepia-7{
+backdrop-filter: sepia(70%) !important;
+}
+.lg\:backdrop-sepia-8{
+backdrop-filter: sepia(80%) !important;
+}
+.lg\:backdrop-sepia-9{
+backdrop-filter: sepia(90%) !important;
+}
+.lg\:backdrop-sepia-10{
+backdrop-filter: sepia(100%) !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:backdrop-sepia-0{
+backdrop-filter: sepia(0%) !important;
+}
+.xl\:backdrop-sepia-1{
+backdrop-filter: sepia(10%) !important;
+}
+.xl\:backdrop-sepia-2{
+backdrop-filter: sepia(20%) !important;
+}
+.xl\:backdrop-sepia-3{
+backdrop-filter: sepia(30%) !important;
+}
+.xl\:backdrop-sepia-4{
+backdrop-filter: sepia(40%) !important;
+}
+.xl\:backdrop-sepia-5{
+backdrop-filter: sepia(50%) !important;
+}
+.xl\:backdrop-sepia-6{
+backdrop-filter: sepia(60%) !important;
+}
+.xl\:backdrop-sepia-7{
+backdrop-filter: sepia(70%) !important;
+}
+.xl\:backdrop-sepia-8{
+backdrop-filter: sepia(80%) !important;
+}
+.xl\:backdrop-sepia-9{
+backdrop-filter: sepia(90%) !important;
+}
+.xl\:backdrop-sepia-10{
+backdrop-filter: sepia(100%) !important;
+}				
+}
+
+/* sepia ended */
+
+
+/* All filters ended  ✌✌*/
