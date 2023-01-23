@@ -96,8 +96,6 @@ var box = document.getElementById("v_alert");
 var content = document.getElementById("v_alert_text");
 box.style.display ="flex";
 content.innerHTML = x;
-mainfunc();
-main_func.focus();
 setTimeout(function(){
 box.style.display ="none";
 }, 2000);
@@ -127,7 +125,7 @@ else{fsm();valert("Full Screen Mode : OFF")}
 
 
 
-/* checking if code has turtle */
+/* checking if code has turtle 
 setInterval(function getttt(){
 var x = acehtml.getSession().getValue();
 var fcr = document.getElementById("result-code");
@@ -141,7 +139,7 @@ fcr.style.display ="block";
 scr.style.display ="none";
 }
 },100);
-
+ */
 
 
 

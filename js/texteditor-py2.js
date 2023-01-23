@@ -2,7 +2,7 @@
 // to a pre element.
 function outf(text) { 
     var mypre = document.getElementById("result-code"); 
-    mypre.innerHTML = mypre.innerHTML + text; 
+    mypre.innerHTML = mypre.innerHTML + ">>> " + text + "\n"; 
 } 
 function builtinRead(x) {
     if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined)
@@ -19,7 +19,7 @@ function runit() {
    var html_div_one = acehtml.getSession().getValue();
    var prog = html_div_one; 
    var mypre = document.getElementById("result-code"); 
-   mypre.innerHTML = '>>> '; 
+   mypre.innerHTML = "";    
    Sk.canvas = "mycanvas";
    Sk.pre = "result-code";
    Sk.configure({output:outf, read:builtinRead}); 
@@ -50,4 +50,28 @@ var x = document.getElementById("result-error");
 x.style.display ="none";
 document.getElementById("result-div").classList.remove("error-blur");				
 document.getElementById("close-result").click();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sk.onAfterImport = function(library) { 
+var x = acehtml.getSession().getValue();
+var fcr = document.getElementById("result-code");
+var scr = document.getElementById("mycanvas");
+
+
+if(library =="turtle"){
+fcr.style.display ="none";
+scr.style.display ="block"; 
+}
 }

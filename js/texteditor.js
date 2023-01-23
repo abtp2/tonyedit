@@ -91,8 +91,8 @@ acecss.getSession().setMode("ace/mode/css");
 // for js
 var acejs = window.ace.edit("js_code");
 acejs.setOptions({
-enableBasicAutocompletion: false,
-enableLiveAutocompletion: false,
+enableBasicAutocompletion: true, 
+enableLiveAutocompletion: true,
 fontSize: "100%" 
 });
 acejs.getSession().setMode("ace/mode/javascript");
@@ -229,8 +229,6 @@ var box = document.getElementById("v_alert");
 var content = document.getElementById("v_alert_text");
 box.style.display ="flex";
 content.innerHTML = x;
-mainfunc();
-main_func.focus();
 setTimeout(function(){
 box.style.display ="none";
 }, 2000);
