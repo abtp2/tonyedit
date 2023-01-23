@@ -283,19 +283,21 @@ width: 100%;
 outline: none;
 border: none;
 height: calc(100vh - 60px);
-color: #000;
+color: #2b6dff;
 padding: 5px 8px;
 user-select: none !important;
 pointer-events: none;
 word-break: break-all;
 overflow: scroll;
 font-size: 16px;
+font-weight: 400;
 }
 #mycanvas{
 width: 100%;
+height: auto;
 outline: none;
 border: none;
-overflow: visible;
+overflow: scroll !important;
 user-select: none;
 word-break: break-all;
 }
