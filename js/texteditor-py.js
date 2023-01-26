@@ -58,7 +58,18 @@ main_func = acehtml;
 
 /* close result div */
 document.getElementById("close-result").onclick = function(){
+var fcr = document.getElementById("result-code");
+var scr = document.getElementById("mycanvas");
+var dcr = document.getElementById("result-code-div");
+
 document.getElementById("result-div").style.display ="none";				
+fcr.style.display ="block";
+scr.style.display ="none"; 
+dcr.style.display ="none"; 
+
+fcr.innerHTML ="";
+scr.innerHTML ="";
+dcr.innerHTML ="";
 }
 
 
@@ -67,12 +78,7 @@ document.getElementById("result-div").style.display ="none";
 
 
 
-/* compile function */
-document.getElementById("runcode").onclick = function(){ 
-runit();
-document.getElementById("result-div").style.display ="block"; 
-document.getElementById("savecode").click();
-}
+
 
 
 

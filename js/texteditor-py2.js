@@ -1,8 +1,13 @@
 // output functions are configurable.  This one just appends some text
 // to a pre element.
+var wiiw = window.innerWidth;
+var wiih = window.innerHeight - 60;
+
+
 function outf(text) { 
     var mypre = document.getElementById("result-code"); 
-    mypre.innerHTML = mypre.innerHTML + ">>> " + text + "\n"; 
+    var xx = mypre.innerHTML + ">>> " + text;
+    mypre.innerHTML = xx + "\n"; 
 } 
 function builtinRead(x) {
     if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined)
@@ -21,6 +26,8 @@ function runit() {
    var mypre = document.getElementById("result-code"); 
    mypre.innerHTML = "";    
    Sk.canvas = "mycanvas";
+   document.getElementById("mycanvas").width = wiiw;
+   document.getElementById("mycanvas").height = wiih;
    Sk.pre = "result-code";
    Sk.configure({output:outf, read:builtinRead}); 
    try {
@@ -32,6 +39,38 @@ function runit() {
        errorhideresult(errortext); 
    }
 } 
+
+
+
+Sk.domOutput = function(html){ 
+return $("#result-code-div").append(html).children().last();
+};
+
+
+
+Sk.externalLibraries = { 
+pygal :{ 
+path : 'js/pygal.js', 
+dependencies : 
+[ 
+'js/highcharts.js', 
+'js/highcharts-more.js' 
+], 
+loadDepsSynchronously: true 
+}};
+
+
+
+/*  
+Sk.availableWidth = wiiw; 
+Sk.availableHeight = wiih;
+ */
+
+
+
+
+
+
 
 
 
@@ -56,22 +95,78 @@ document.getElementById("close-result").click();
 
 
 
-
-
-
-
-
-
-
-
+function checklib(){
 Sk.onAfterImport = function(library) { 
+var fcr = document.getElementById("result-code");
+var scr = document.getElementById("mycanvas");
+var dcr = document.getElementById("result-code-div");
+
+
+switch(library) { 
+case 'pygal':
+fcr.style.display ="none";
+scr.style.display ="none"; 
+dcr.style.display ="block"; 
+break;
+
+case 'turtle':
+fcr.style.display ="none";
+scr.style.display ="block"; 
+dcr.style.display ="none"; 
+break;
+}
+}
+}
+
+
+
+
+
+
+
+
+/* compile function */
+document.getElementById("runcode").onclick = function(){ 
+checklib();
+runit();
+document.getElementById("result-div").style.display ="block"; 
+document.getElementById("savecode").click();
+}
+
+
+
+
+
+
+
+/* 
+
+Sk.onAfterImport = function(library){ 
 var x = acehtml.getSession().getValue();
 var fcr = document.getElementById("result-code");
 var scr = document.getElementById("mycanvas");
-
+var dcr = document.getElementById("result-code-div");
 
 if(library =="turtle"){
 fcr.style.display ="none";
 scr.style.display ="block"; 
+dcr.style.display ="none"; 
+}
+if(library =="pygal"){
+fcr.style.display ="none";
+scr.style.display ="none"; 
+dcr.style.display ="block"; 
+}
+if(library !="pygal" && library !="turtle"){
+fcr.style.display ="block";
+scr.style.display ="none"; 
+dcr.style.display ="none"; 
 }
 }
+ */
+
+
+
+
+
+

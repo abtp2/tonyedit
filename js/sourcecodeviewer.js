@@ -17,9 +17,6 @@ beautify.beautify(acehtml.session);
 else{
 alert("You are offline !! \nTo access the sourcecode you need a internet connection.")
 }
-
-
-
 }
 
 

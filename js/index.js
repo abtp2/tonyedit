@@ -330,3 +330,9 @@ url: 'https://tonyedit.netlify.app'
 
 
 
+/* detect back buttom press */
+history.pushState(null, null, location.href);
+window.onpopstate = function (){
+history.go(1);
+$("#set_div_nav i").click();
+};
