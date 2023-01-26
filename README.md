@@ -1,5 +1,7 @@
 # TonyEdit
+<kbd>
 <img src="https://abtp2.github.io/tonyedit/img/index-banner.png">
+</kbd>
 
 A modern editor where you can code html, css, js and python.
 It is built with Javascript.
