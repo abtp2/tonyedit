@@ -178,6 +178,69 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- hint div -->
+<div id="hint_div">
+
+
+
+<!-- html hint div -->
+<div class="code_hint_div html_hint_div">
+ <div id="hint_box1">
+ <button onclick="insertHint('import ', 7)" class="hint_but1">import</button>	
+ <button onclick="insertHint('print()', 6)" class="hint_but1">print</button>
+ <button onclick="insertHint('def ():', 4)" class="hint_but1">def</button>
+ <button onclick="insertHint('false', 5)" class="hint_but1">false</button>
+ <button onclick="insertHint('true', 4)" class="hint_but1">true</button>
+ <button onclick="insertHint('if :', 3)" class="hint_but1">if</button>
+ <button onclick="insertHint('elif :', 5)" class="hint_but1">elif</button>
+ <button onclick="insertHint('else:', 5)" class="hint_but1">else</button>
+ <button onclick="insertHint('break', 5)" class="hint_but1">break</button>
+ </div>  
+ 
+ <div id="hint_box2">
+ <button class="hint_but2" onclick="insertTab()"><b class="rc-icon">keyboard_tab</b></button>
+ <button onclick="insertHint(':', 1)" class="hint_but2">:</button>	
+ <button onclick="insertHint(';', 1)" class="hint_but2">;</button>	
+ <button onclick="insertHint('&', 1)" class="hint_but2">&</button>
+ <button onclick="insertHint('#', 1)" class="hint_but2">#</button>
+ <button onclick="insertHint('(', 1)" class="hint_but2">(</button>	
+ <button onclick="insertHint(')', 1)" class="hint_but2">)</button>
+ <button onclick="insertHint('[', 1)" class="hint_but2">[</button>
+ <button onclick="insertHint(']', 1)" class="hint_but2">]</button>
+ <button onclick="insertHint('{', 1)" class="hint_but2">{</button>
+ <button onclick="insertHint('}', 1)" class="hint_but2">}</button> 
+ <button onclick="insertHint('<', 1)" class="hint_but2"><</button>
+ <button onclick="insertHint('>', 1)" class="hint_but2">></button>
+ </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="js/ace.js"></script>
 <script src="ace/theme-github_dark.js"></script>
 <script src="ace/theme-twilight.js"></script>
@@ -194,5 +257,13 @@
 <script src="js/texteditor-py.js"></script>
 <script src="js/texteditor-py2.js"></script>
 <script src="js/texteditor2.js"></script>
+<script src="js/texteditor3.js"></script>
+<script>
+function insertTab(){
+mainfunc();
+main_func.insert("\t");
+main_func.focus();
+}
+</script>
 </body>
 </html>
