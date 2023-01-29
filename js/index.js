@@ -335,4 +335,25 @@ history.pushState(null, null, location.href);
 window.onpopstate = function (){
 history.go(1);
 $("#set_div_nav i").click();
+$("#chat-room").css("display", "none");
 };
+
+
+
+
+
+
+
+/* chat room */
+function chatopen(){
+var x = window.navigator.onLine;
+
+if(x == true){
+$("#chat-room").css("display", "block");
+}
+else{
+alert("Please check your internet connection \nTry again later");
+$("#chat-room").css("display", "none");
+}
+}
+
