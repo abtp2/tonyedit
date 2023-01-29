@@ -639,6 +639,9 @@ margin: 2rem auto;
 display: none;	
 }
 
+
+
+
 .swiffy-slider{
 margin: 0 auto;
 width: 100%;
@@ -709,4 +712,34 @@ width: 55%;
 
 
 
+
+
+
+
+
+
+
+
+
+/* chat room */
+#chat-room{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 90;
+background: #fff;
+background-image: url("../img/loader.svg");
+background-position: center center;
+background-repeat: no-repeat;
+display: none;
+filter: brightness(95%) saturate(90%);
+}
+#chat-room iframe{
+width: 100%;
+height: 100%;
+border: none;
+outline: none;
+}
 
