@@ -1,6 +1,6 @@
 # TonyEdit
 <kbd>
-<img src="https://abtp2.github.io/tonyedit/img/index-banner.png">
+<img src="https://cdn.jsdelivr.net/gh/abtp2/tonyedit/img/index-banner.png">
 </kbd><p></p>
 
 A modern editor where you can code html, css, js and python.
