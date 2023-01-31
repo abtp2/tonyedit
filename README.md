@@ -32,4 +32,4 @@ and more.......
 
 >**Python Editor**
 
-<kbd><img src="https://cdn.jsdelivr.net/gh/abtp2/tonyedit/img/index-banner-py.png"></kbd><p></p>
+<kbd><img src="https://github.com/abtp2/tonyedit/blob/main/img/index-banner-py.png"></kbd><p></p>
