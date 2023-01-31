@@ -23,3 +23,13 @@ and more.......
 
 >**Visit the Editor :**
 * https://tonyedit.netlify.app
+<br>
+
+>**HTML Editor**
+
+<kbd><img src="https://cdn.jsdelivr.net/gh/abtp2/tonyedit/img/index-banner-html.png"></kbd><p></p>
+
+
+>**Python Editor**
+
+<kbd><img src="https://cdn.jsdelivr.net/gh/abtp2/tonyedit/img/index-banner-py.png"></kbd><p></p>
