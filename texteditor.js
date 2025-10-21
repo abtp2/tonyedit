@@ -1,3 +1,5 @@
+
+
 window.onload = function(){
 var x = localStorage.getItem("html_code_inner");	
 var y = localStorage.getItem("css_code_inner");	
