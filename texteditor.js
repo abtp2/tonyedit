@@ -4,6 +4,8 @@ var y = localStorage.getItem("css_code_inner");
 var z = localStorage.getItem("js_code_inner");	
 document.getElementById("helper_toggle").click();
 
+
+  
 if(x !== null && y !== null && z !== null){
 acehtml.setValue(x ,1);	
 acecss.setValue(y ,1);	
