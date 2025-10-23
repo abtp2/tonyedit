@@ -17,7 +17,7 @@ It is built with Javascript.
 * Emmet support
 * Many in-built themes
 * Syntax highlighting
-* Voice controlling 😍
+* Voice controlling 
 and more.......
 <br>
 
